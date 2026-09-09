@@ -1,0 +1,14 @@
+{
+  "name": "Curio Files",
+  "short_name": "Curio Files",
+  "description": "True, faintly disgusting things from history, science and art. New file Monday, Wednesday, Saturday.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#101a1d",
+  "theme_color": "#101a1d",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
