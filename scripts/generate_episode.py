@@ -108,7 +108,7 @@ def call_claude(prior_facts):
 
     body = json.dumps({
         "model": CLAUDE_MODEL,
-        "max_tokens": 4000,
+        "max_tokens": 8000,
         "system": system_prompt,
         "messages": [{"role": "user", "content": user_prompt}],
     }).encode("utf-8")
@@ -144,6 +144,13 @@ def call_claude(prior_facts):
     try:
         data = json.loads(text)
     except json.JSONDecodeError:
+        stop_reason = payload.get("stop_reason", "unknown")
+        if stop_reason == "max_tokens":
+            print(
+                "Claude's response got cut off before finishing, it hit the max_tokens limit. "
+                "Raise max_tokens in call_claude and try again.",
+                file=sys.stderr,
+            )
         print("Could not parse Claude's response as JSON:\n", text, file=sys.stderr)
         sys.exit(1)
 
