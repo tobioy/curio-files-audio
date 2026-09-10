@@ -41,6 +41,7 @@ SHOW_TITLE = os.environ.get("SHOW_TITLE", "Curio Files")
 SHOW_AUTHOR = os.environ.get("SHOW_AUTHOR", "Curio Files")
 ONESIGNAL_APP_ID = os.environ.get("ONESIGNAL_APP_ID", "")
 ONESIGNAL_REST_API_KEY = os.environ.get("ONESIGNAL_REST_API_KEY", "")
+ONESIGNAL_SAFARI_WEB_ID = os.environ.get("ONESIGNAL_SAFARI_WEB_ID", "")
 
 GITHUB_REPOSITORY = os.environ.get("GITHUB_REPOSITORY", "")  # "owner/repo", set automatically by GitHub Actions
 
@@ -275,6 +276,10 @@ def rebuild_index(episodes, url_base):
 
     onesignal_snippet = ""
     if ONESIGNAL_APP_ID:
+        # safari_web_id is what OneSignal's own dashboard-generated snippet includes for Safari
+        # support specifically, without it Safari (including iOS home screen apps) may never
+        # actually register a working push subscription even though everything else runs fine.
+        safari_web_id_js = f', safari_web_id: "{ONESIGNAL_SAFARI_WEB_ID}"' if ONESIGNAL_SAFARI_WEB_ID else ""
         onesignal_snippet = f"""
 <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
 <script>
@@ -285,7 +290,7 @@ def rebuild_index(episodes, url_base):
   OneSignalDeferred.push(async function(OneSignal) {{
     var btn = document.getElementById("enablePushBtn");
     try {{
-      await OneSignal.init({{ appId: "{ONESIGNAL_APP_ID}", notifyButton: {{ enable: false }} }});
+      await OneSignal.init({{ appId: "{ONESIGNAL_APP_ID}"{safari_web_id_js}, notifyButton: {{ enable: false }} }});
     }} catch (e) {{
       if (btn) {{
         btn.textContent = "Notifications unavailable right now";
