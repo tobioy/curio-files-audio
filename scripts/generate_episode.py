@@ -10,7 +10,6 @@ Runs on a schedule via GitHub Actions (Monday, Wednesday, Saturday). Each run:
   3. Sends the narration script to ElevenLabs for real audio.
   4. Saves the mp3 under docs/audio/, updates docs/episodes.json, and rebuilds
      docs/feed.xml (a standard podcast RSS feed) and docs/index.html.
-  5. Sends a push notification through OneSignal announcing the new episode.
 
 This repo is the single source of truth for a day's content. A separate
 Claude scheduled task reads docs/episodes.json from here and mirrors each
@@ -282,6 +281,12 @@ def rebuild_index(episodes, url_base):
   window.OneSignalDeferred = window.OneSignalDeferred || [];
   OneSignalDeferred.push(async function(OneSignal) {{
     await OneSignal.init({{ appId: "{ONESIGNAL_APP_ID}", notifyButton: {{ enable: true }} }});
+    // On iPhone, the permission prompt only works once this page is opened from the
+    // home screen icon rather than a normal Safari tab, so only ask automatically then.
+    var isStandalone = window.matchMedia("(display-mode: standalone)").matches || window.navigator.standalone === true;
+    if (isStandalone && OneSignal.Notifications.permission !== true) {{
+      OneSignal.Notifications.requestPermission();
+    }}
   }});
 </script>"""
 
@@ -319,9 +324,12 @@ def main():
     os.makedirs(AUDIO_DIR, exist_ok=True)
     episodes = load_episodes()
     today = datetime.date.today().isoformat()
+    url_base = base_url()
 
     if any(e["date"] == today for e in episodes):
-        print(f"Episode for {today} already exists, skipping.")
+        print(f"Episode for {today} already exists, refreshing the page and feed only, not generating new content.")
+        rebuild_feed(episodes, url_base)
+        rebuild_index(episodes, url_base)
         return
 
     prior_facts = []
@@ -346,7 +354,6 @@ def main():
     })
     save_episodes(episodes)
 
-    url_base = base_url()
     rebuild_feed(episodes, url_base)
     rebuild_index(episodes, url_base)
     send_push("New Curio Files episode", written["label"] + ", quiz and audio are up now.")
