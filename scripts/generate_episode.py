@@ -278,27 +278,42 @@ def rebuild_index(episodes, url_base):
         onesignal_snippet = f"""
 <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
 <script>
+  // The button's visibility is handled purely by CSS (see .enablePush below), so it shows
+  // up even if this script is blocked or OneSignal fails to load, only the click behavior
+  // depends on OneSignal. That makes a silent loading failure visible instead of invisible.
   window.OneSignalDeferred = window.OneSignalDeferred || [];
   OneSignalDeferred.push(async function(OneSignal) {{
-    await OneSignal.init({{ appId: "{ONESIGNAL_APP_ID}", notifyButton: {{ enable: false }} }});
-    // iOS Safari silently ignores a permission request unless it happens inside an
-    // actual tap, so this only shows a real button to tap rather than asking on its own.
-    var isStandalone = window.matchMedia("(display-mode: standalone)").matches || window.navigator.standalone === true;
     var btn = document.getElementById("enablePushBtn");
-    if (isStandalone && OneSignal.Notifications.permission !== true && btn) {{
-      btn.hidden = false;
-      btn.addEventListener("click", async function() {{
+    try {{
+      await OneSignal.init({{ appId: "{ONESIGNAL_APP_ID}", notifyButton: {{ enable: false }} }});
+    }} catch (e) {{
+      if (btn) {{
+        btn.textContent = "Notifications unavailable right now";
         btn.disabled = true;
-        btn.textContent = "Requesting...";
-        await OneSignal.Notifications.requestPermission();
-        if (OneSignal.Notifications.permission === true) {{
-          btn.textContent = "Notifications on";
-        }} else {{
-          btn.disabled = false;
-          btn.textContent = "Turn on notifications for new episodes";
-        }}
-      }});
+      }}
+      console.error("OneSignal failed to initialize", e);
+      return;
     }}
+    if (!btn) return;
+    if (OneSignal.Notifications.permission === true) {{
+      btn.style.display = "none";
+      return;
+    }}
+    btn.addEventListener("click", async function() {{
+      btn.disabled = true;
+      btn.textContent = "Requesting...";
+      try {{
+        await OneSignal.Notifications.requestPermission();
+      }} catch (e) {{
+        console.error("requestPermission failed", e);
+      }}
+      if (OneSignal.Notifications.permission === true) {{
+        btn.textContent = "Notifications on";
+      }} else {{
+        btn.disabled = false;
+        btn.textContent = "Turn on notifications for new episodes";
+      }}
+    }});
   }});
 </script>"""
 
@@ -316,8 +331,10 @@ h1 {{ font-size: 24px; }}
 a {{ color: #d9a441; }}
 .note {{ font-size: 13px; color: #a7b6b3; }}
 .addhome {{ font-size: 13px; color: #cfc8b8; background: #17262b; border: 1px solid #2c4046; border-radius: 10px; padding: 14px 16px; margin: 16px 0; }}
-.enablePush {{ display: block; width: 100%; margin: 16px 0; padding: 14px 16px; font-size: 14px; font-weight: 600; font-family: inherit; color: #101a1d; background: #d9a441; border: none; border-radius: 10px; }}
-.enablePush[hidden] {{ display: none; }}
+.enablePush {{ display: none; width: 100%; margin: 16px 0; padding: 14px 16px; font-size: 14px; font-weight: 600; font-family: inherit; color: #101a1d; background: #d9a441; border: none; border-radius: 10px; }}
+@media (display-mode: standalone) {{
+  .enablePush {{ display: block; }}
+}}
 .ep {{ border-top: 1px solid #2c4046; padding: 24px 0; }}
 .ep h2 {{ margin-bottom: 12px; }}
 .ep audio {{ width: 100%; margin-bottom: 12px; }}
@@ -327,7 +344,14 @@ a {{ color: #d9a441; }}
 <h1>{escape_xml(SHOW_TITLE)}, raw feed</h1>
 <p class="note">This page is the audio backend. The quiz plus this same audio, in one place, lives in the Curio Files app. Subscribe here in any podcast app with <a href="feed.xml">{url_base}/feed.xml</a></p>
 <p class="addhome">On iPhone, notifications for new episodes only work once this page is added to your home screen. Safari share icon, then Add to Home Screen, then open it from there.</p>
-<button id="enablePushBtn" class="enablePush" hidden>Turn on notifications for new episodes</button>
+<button id="enablePushBtn" class="enablePush">Turn on notifications for new episodes</button>
+<script>
+  // Belt and braces alongside the CSS media query above, in case a given iOS version
+  // does not treat this as display-mode standalone even when launched from the home screen.
+  if (window.navigator.standalone === true) {{
+    document.getElementById("enablePushBtn").style.display = "block";
+  }}
+</script>
 {"".join(rows)}
 </body></html>
 """
