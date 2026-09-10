@@ -280,12 +280,24 @@ def rebuild_index(episodes, url_base):
 <script>
   window.OneSignalDeferred = window.OneSignalDeferred || [];
   OneSignalDeferred.push(async function(OneSignal) {{
-    await OneSignal.init({{ appId: "{ONESIGNAL_APP_ID}", notifyButton: {{ enable: true }} }});
-    // On iPhone, the permission prompt only works once this page is opened from the
-    // home screen icon rather than a normal Safari tab, so only ask automatically then.
+    await OneSignal.init({{ appId: "{ONESIGNAL_APP_ID}", notifyButton: {{ enable: false }} }});
+    // iOS Safari silently ignores a permission request unless it happens inside an
+    // actual tap, so this only shows a real button to tap rather than asking on its own.
     var isStandalone = window.matchMedia("(display-mode: standalone)").matches || window.navigator.standalone === true;
-    if (isStandalone && OneSignal.Notifications.permission !== true) {{
-      OneSignal.Notifications.requestPermission();
+    var btn = document.getElementById("enablePushBtn");
+    if (isStandalone && OneSignal.Notifications.permission !== true && btn) {{
+      btn.hidden = false;
+      btn.addEventListener("click", async function() {{
+        btn.disabled = true;
+        btn.textContent = "Requesting...";
+        await OneSignal.Notifications.requestPermission();
+        if (OneSignal.Notifications.permission === true) {{
+          btn.textContent = "Notifications on";
+        }} else {{
+          btn.disabled = false;
+          btn.textContent = "Turn on notifications for new episodes";
+        }}
+      }});
     }}
   }});
 </script>"""
@@ -304,6 +316,8 @@ h1 {{ font-size: 24px; }}
 a {{ color: #d9a441; }}
 .note {{ font-size: 13px; color: #a7b6b3; }}
 .addhome {{ font-size: 13px; color: #cfc8b8; background: #17262b; border: 1px solid #2c4046; border-radius: 10px; padding: 14px 16px; margin: 16px 0; }}
+.enablePush {{ display: block; width: 100%; margin: 16px 0; padding: 14px 16px; font-size: 14px; font-weight: 600; font-family: inherit; color: #101a1d; background: #d9a441; border: none; border-radius: 10px; }}
+.enablePush[hidden] {{ display: none; }}
 .ep {{ border-top: 1px solid #2c4046; padding: 24px 0; }}
 .ep h2 {{ margin-bottom: 12px; }}
 .ep audio {{ width: 100%; margin-bottom: 12px; }}
@@ -312,7 +326,8 @@ a {{ color: #d9a441; }}
 <body>
 <h1>{escape_xml(SHOW_TITLE)}, raw feed</h1>
 <p class="note">This page is the audio backend. The quiz plus this same audio, in one place, lives in the Curio Files app. Subscribe here in any podcast app with <a href="feed.xml">{url_base}/feed.xml</a></p>
-<p class="addhome">On iPhone, notifications for new episodes only work once this page is added to your home screen. Safari share icon, then Add to Home Screen, then open it from there once and allow notifications when asked.</p>
+<p class="addhome">On iPhone, notifications for new episodes only work once this page is added to your home screen. Safari share icon, then Add to Home Screen, then open it from there.</p>
+<button id="enablePushBtn" class="enablePush" hidden>Turn on notifications for new episodes</button>
 {"".join(rows)}
 </body></html>
 """
