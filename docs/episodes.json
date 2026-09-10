@@ -1,1 +1,76 @@
-[]
+[
+  {
+    "date": "2026-09-10",
+    "label": "Thursday, September 10",
+    "facts_used": [
+      "great_emu_war_1932",
+      "tardigrades_space_vacuum_2007",
+      "napoleon_rabbit_hunt_1807",
+      "mona_lisa_theft_1911"
+    ],
+    "script": "There is a very particular kind of embarrassment that only happens when something enormous, armed, and confident gets absolutely wrecked by something small, feathered, or squishy. History is stuffed with it, and once you start looking you cannot stop finding it.\n\nStart in the wheat country of Western Australia, November 1932. Farmers had spent a season watching flightless, six foot tall birds trample their crops into confetti, so the government sent actual soldiers, with actual Lewis machine guns, to solve the emu problem the way governments solve most problems. The emus had other plans. They scattered into small, fast moving squads the moment the shooting started, the guns jammed in the dust, and after several days and thousands of rounds spent, the operation was quietly abandoned. Newspapers at the time did not treat it as a joke, they treated it as a genuine military failure, because it was one. The emus went back to eating wheat. Nobody gave them a medal, but they earned one.\n\nFly forward exactly seventy five years and swap the desert for the actual vacuum of space. In 2007 the European Space Agency strapped a payload of tardigrades, water bears the size of a grain of sand, onto a satellite and launched them into orbit with no protection at all. No suit, no capsule, just raw exposure to solar radiation and the total emptiness that kills a human in about fifteen seconds. The tardigrades shriveled themselves into a dried out survival state called a tun, sat there for ten days getting cooked by cosmic rays, then came home, rehydrated, and started laying eggs like nothing had happened. Researchers led by Ingemar Jonsson published the results and casually confirmed that the toughest animal on Earth might also be the toughest animal off it.\n\nRewind now a full century further back, to a manicured hunting ground outside Paris in 1807. Napoleon, fresh off a military triumph, asked his chief of staff Berthier to arrange a nice relaxing rabbit hunt for the top brass. Berthier, wanting to guarantee a good show, ordered up several hundred rabbits rather than trusting the local wild population. The problem was the supplier delivered farm raised rabbits, tame ones, thoroughly used to seeing a human and expecting breakfast. The moment the cages opened, the rabbits did not scatter into the woods, they sprinted straight at the hunting party, climbed Napoleon's legs, and swarmed his carriage in a fluffy, hungry, unstoppable tide. The man who had rearranged the map of Europe was chased off a field by bunnies looking for lunch.\n\nNow step inside the Louvre, August 1911. A museum handyman named Vincenzo Peruggia had spent his shifts working near a certain famous portrait behind glass, and one slow Monday he simply hid in a closet overnight, lifted the painting off the wall the next morning, tucked it under his coat, and walked out the staff entrance. The Mona Lisa was gone for two years, and its absence did more for its reputation than four centuries on the wall ever had. Newspapers ran the story daily, tourists lined up to stare at the empty hooks, and when the painting turned up in Florence, its return was treated like a celebrity homecoming. Before the theft, it was one respected portrait among many. After it, it was the most famous painting on the planet, thanks entirely to a guy with a coat and a bad plan.\n\nFour different problems, four different centuries, and the same lesson refusing to sink in. Underestimate the small, the tame, the microscopic, or the overlooked, and it will eventually make a fool out of whatever thinks it is in charge. The emus, the water bears, the rabbits, and one stolen painting all somehow agree on that.\n\nNew file Monday, Wednesday, Saturday.",
+    "cases": [
+      {
+        "no": "CF-001",
+        "tag": "History",
+        "q": "In 1932, the Australian military was deployed with machine guns against an enemy that ultimately won. Who, or what, was the enemy?",
+        "options": [
+          "A flock of emus",
+          "A herd of feral camels",
+          "A swarm of locusts",
+          "A mob of kangaroos"
+        ],
+        "correct": 0,
+        "revealTitle": "Case notes",
+        "revealText": "In November 1932, soldiers armed with Lewis machine guns were sent to cull emus destroying Western Australian wheat crops. The birds scattered too fast, the guns jammed in the dust, and after thousands of rounds fired the operation was called off. It is remembered as the Great Emu War, and the emus, functionally, won.",
+        "source": "The Argus, 1932 newspaper archives, and Australian War Memorial records"
+      },
+      {
+        "no": "CF-002",
+        "tag": "Science",
+        "q": "Which tiny animal survived direct exposure to the vacuum and radiation of outer space during a 2007 European Space Agency experiment?",
+        "options": [
+          "Tardigrade",
+          "Fruit fly",
+          "Brine shrimp",
+          "Nematode worm"
+        ],
+        "correct": 0,
+        "revealTitle": "Case notes",
+        "revealText": "Water bears, called tardigrades, were strapped to a satellite and launched into orbit, then exposed directly to the vacuum of space plus solar and cosmic radiation for ten days. Most survived by drying themselves into a near dead husk called a tun and later rehydrated normally. Published in Current Biology, 2008, led by researcher Ingemar Jonsson.",
+        "source": "Current Biology, Jonsson et al, 2008"
+      },
+      {
+        "no": "CF-003",
+        "tag": "History",
+        "q": "In 1807, Napoleon organized a grand rabbit hunt that went disastrously wrong because the rabbits did what instead of fleeing?",
+        "options": [
+          "Charged at Napoleon and his men",
+          "Dug underground and vanished",
+          "Attacked the hunting dogs",
+          "Ran into a nearby village"
+        ],
+        "correct": 0,
+        "revealTitle": "Case notes",
+        "revealText": "Chief of staff Berthier supplied what he thought were wild rabbits, but they were actually farm raised bunnies used to being fed by humans. Once released, the mob mistook the hunting party for dinner and swarmed Napoleon's legs and carriage, forcing him to retreat.",
+        "source": "Memoirs of Baron Fain, cited in David Chandler's The Campaigns of Napoleon"
+      },
+      {
+        "no": "CF-004",
+        "tag": "Art",
+        "q": "What event in 1911 turned the Mona Lisa from a respected painting into the most famous artwork in the world?",
+        "options": [
+          "It was stolen from the Louvre",
+          "It was auctioned for a record price",
+          "It toured the United States",
+          "It was damaged by an acid attack"
+        ],
+        "correct": 0,
+        "revealTitle": "Case notes",
+        "revealText": "Louvre handyman Vincenzo Peruggia hid overnight in a closet, then walked out with the painting under his coat the next morning. It vanished for two years, made international headlines daily, and when it was recovered in Florence the frenzy had already cemented it as the most famous painting on Earth.",
+        "source": "Louvre official archives, and The Crimes of Paris by Dolnick"
+      }
+    ],
+    "bytes": 4544096
+  }
+]

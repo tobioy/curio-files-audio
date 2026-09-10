@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Curio Files</title>
+    <link>https://tobioy.github.io/curio-files-audio/</link>
+    <language>en-us</language>
+    <description>True, faintly disgusting things from history, science and art. New file Monday, Wednesday, Saturday.</description>
+    <itunes:author>Curio Files</itunes:author>
+    <itunes:explicit>false</itunes:explicit>
+    <item>
+      <title>Thursday, September 10</title>
+      <description>There is a very particular kind of embarrassment that only happens when something enormous, armed, and confident gets absolutely wrecked by something small, feathered, or squishy. History is stuffed with it, and once you start looking you cannot stop finding it.
+
+Start in the wheat country of Western Australia, November 1932. Farmers had spent a season watching flightless, six foot tall birds tram...</description>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
+      <enclosure url="https://tobioy.github.io/curio-files-audio/audio/2026-09-10.mp3" length="4544096" type="audio/mpeg" />
+      <guid isPermaLink="false">2026-09-10</guid>
+    </item>
+  </channel>
+</rss>
