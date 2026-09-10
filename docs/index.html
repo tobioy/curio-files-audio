@@ -11,6 +11,12 @@
   window.OneSignalDeferred = window.OneSignalDeferred || [];
   OneSignalDeferred.push(async function(OneSignal) {
     await OneSignal.init({ appId: "3db07926-3699-4765-8c71-a5af452573e4", notifyButton: { enable: true } });
+    // On iPhone, the permission prompt only works once this page is opened from the
+    // home screen icon rather than a normal Safari tab, so only ask automatically then.
+    var isStandalone = window.matchMedia("(display-mode: standalone)").matches || window.navigator.standalone === true;
+    if (isStandalone && OneSignal.Notifications.permission !== true) {
+      OneSignal.Notifications.requestPermission();
+    }
   });
 </script>
 <style>
