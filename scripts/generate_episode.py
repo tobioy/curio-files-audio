@@ -130,7 +130,15 @@ def call_claude(prior_facts):
         print("Claude API call failed:", e.read().decode("utf-8"), file=sys.stderr)
         sys.exit(1)
 
-    text = payload["content"][0]["text"].strip()
+    text = None
+    for block in payload.get("content", []):
+        if block.get("type") == "text" and block.get("text"):
+            text = block["text"].strip()
+            break
+    if text is None:
+        print("Claude's response did not contain a text block, full reply below.", file=sys.stderr)
+        print(json.dumps(payload, indent=2), file=sys.stderr)
+        sys.exit(1)
     text = re.sub(r"^```(json)?", "", text.strip())
     text = re.sub(r"```$", "", text.strip())
     try:
