@@ -15,7 +15,7 @@
   OneSignalDeferred.push(async function(OneSignal) {
     var btn = document.getElementById("enablePushBtn");
     try {
-      await OneSignal.init({ appId: "3db07926-3699-4765-8c71-a5af452573e4", notifyButton: { enable: false } });
+      await OneSignal.init({ appId: "3db07926-3699-4765-8c71-a5af452573e4", safari_web_id: "web.onesignal.auto.3a869b75-1942-4792-8237-9de8041a4c17", notifyButton: { enable: false } });
     } catch (e) {
       if (btn) {
         btn.textContent = "Notifications unavailable right now";
