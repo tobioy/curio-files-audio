@@ -72,5 +72,79 @@
       }
     ],
     "bytes": 4544096
+  },
+  {
+    "date": "2026-09-12",
+    "label": "Saturday, September 12",
+    "facts_used": [
+      "great_stink_london_1858",
+      "beaumont_stomach_experiments",
+      "mummy_brown_pigment",
+      "curie_radioactive_notebooks"
+    ],
+    "script": "Picture London in July of 1858, when the Thames stopped being a river and started being a punishment. Decades of raw sewage had baked in the summer heat until the smell rolled off the water like a physical wall. Members of Parliament, sitting right on the riverbank, soaked their curtains in chloride of lime and still gagged through debates. Newspapers called it the Great Stink, which undersells it, because this was a smell so committed it basically wrote its own legislation. Within weeks the government fast tracked funding for engineer Joseph Bazalgette to build the sewer network that still runs under London today. Sometimes progress needs a push, and sometimes that push is several hundred tons of Victorian poop refusing to be ignored.\n\nAround the same century, a very different kind of opening was teaching doctors what happens inside a human body. In 1822 a young fur trader named Alexis St Martin took a shotgun blast to the side at close range and, against all odds, survived. What he was left with was a hole into his own stomach that never fully sealed. Army surgeon William Beaumont saw an opportunity nobody had ever had before, a living window into digestion, and he took it, for over a decade, tying bits of food to string and lowering them into St Martin's stomach to watch what the body did with them. It sounds like something out of a fever dream, but it produced the first real science of gastric digestion, published in 1833, and it worked because one man's terrible injury became another man's laboratory.\n\nMeanwhile, painters had their own uncomfortable secret sitting in tubes on their shelves. Mummy Brown was a rich, warm pigment beloved by artists for centuries, prized for glazing shadows and skin tones. The catch was in the name. It was made, quite literally, by grinding up embalmed Egyptian mummies, mixed with bitumen and resin to make a paste any painter could squeeze onto a palette. Pre Raphaelite painter Edward Burne Jones used it for years before finding out what was actually in it. Once he knew, he couldn't unknow it, so he marched into his garden and buried the tube with something close to a proper funeral, giving a stranger's remains the dignity his art supplies never had.\n\nAnd then there's Marie Curie, who spent years handling radium and polonium with her bare hands, in an era before anyone understood what that would cost her. She died of the exposure, but her legacy kept glowing long after, quite literally. Her lab notebooks, her furniture, even a cookbook she used, still register on a Geiger counter more than a hundred years later. They're kept today in lead lined boxes at the National Library of France, and if you want to read Curie's own handwriting, you have to sign a waiver and put on protective gear first. Her genius outlived her, and so, strangely, did the danger.\n\nWhat connects a stinking river, a hole in a man's side, a painter's guilty pigment and a radioactive notebook is the same very human habit, holding onto things that are too dangerous, too gross or too important to just throw away. We built cities on top of our worst smells, built science on top of a wound, built art on top of the dead, and built history on top of a woman's own body giving everything to understanding matter itself. Curiosity has never been polite, and it's rarely been clean, but it's always been how we learn. New file Monday, Wednesday, Saturday.",
+    "cases": [
+      {
+        "no": "CF-001",
+        "tag": "History",
+        "q": "In 1858, what finally convinced the British Parliament to fund a real sewer system for London?",
+        "options": [
+          "A cholera outbreak among MPs",
+          "The stench of raw sewage in the Thames baking in summer heat",
+          "A flood that destroyed the House of Commons library",
+          "A public design contest"
+        ],
+        "correct": 1,
+        "revealTitle": "Case notes",
+        "revealText": "In summer 1858 the Thames stank so badly that Parliament soaked its curtains in chloride of lime and nearly abandoned the chamber. Engineer Joseph Bazalgette got emergency funding almost overnight to build the sewer system London still relies on today.",
+        "source": "Museum of London archival records"
+      },
+      {
+        "no": "CF-002",
+        "tag": "Science",
+        "q": "What unusual injury let 19th century surgeon William Beaumont directly observe human digestion for the first time?",
+        "options": [
+          "A birth defect",
+          "A gunshot wound that left a permanent opening into the stomach",
+          "An early x-ray device",
+          "A voluntary surgical experiment"
+        ],
+        "correct": 1,
+        "revealTitle": "Case notes",
+        "revealText": "Fur trader Alexis St Martin survived a shotgun blast in 1822 that never fully sealed, leaving a direct window into his stomach. Beaumont spent over a decade lowering food on strings into the opening, founding the modern science of digestion.",
+        "source": "William Beaumont, Experiments and Observations on the Gastric Juice and the Physiology of Digestion, 1833"
+      },
+      {
+        "no": "CF-003",
+        "tag": "Art",
+        "q": "What was the horrifying secret ingredient in the 19th century paint pigment called Mummy Brown?",
+        "options": [
+          "Crushed beetles",
+          "Ground up embalmed Egyptian mummies",
+          "Spoiled milk solids",
+          "Volcanic ash"
+        ],
+        "correct": 1,
+        "revealTitle": "Case notes",
+        "revealText": "Mummy Brown really was made by grinding embalmed Egyptian mummies with resin and bitumen, and it was a staple pigment for painters including the Pre Raphaelites. When Edward Burne Jones learned what was in his paint tube, he buried it in his garden with a small funeral.",
+        "source": "Philip McCouat, The Life and Death of Mummy Brown, Journal of Art in Society"
+      },
+      {
+        "no": "CF-004",
+        "tag": "Science, History",
+        "q": "Why do visitors have to sign a waiver and wear protective gear to read Marie Curie's personal notebooks today?",
+        "options": [
+          "The paper is extremely fragile",
+          "The notebooks are still radioactive over a century later",
+          "They contain government classified material",
+          "They are kept in a bank vault requiring insurance"
+        ],
+        "correct": 1,
+        "revealTitle": "Case notes",
+        "revealText": "Marie Curie handled radium and polonium so extensively that her lab notebooks and even a personal cookbook remain radioactive today. They are stored in lead lined boxes at the National Library of France, and anyone wanting to see them must sign a liability waiver first.",
+        "source": "Bibliotheque nationale de France archival records, American Institute of Physics"
+      }
+    ],
+    "bytes": 4246927
   }
 ]
