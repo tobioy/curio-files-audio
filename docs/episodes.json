@@ -146,5 +146,79 @@
       }
     ],
     "bytes": 4246927
+  },
+  {
+    "date": "2026-09-14",
+    "label": "Monday, September 14",
+    "facts_used": [
+      "dancing_plague_1518_strasbourg",
+      "exploding_whale_oregon_1970",
+      "caravaggio_fugitive_murderer",
+      "olympic_marathon_1904_strychnine"
+    ],
+    "script": "Every good disaster starts with somebody deciding a bad idea is actually a great one. Strasbourg, July 1518, a woman named Frau Troffea steps into the street and starts dancing. Not fun dancing. Not wedding dancing. The kind of dancing where your feet bleed through your shoes and you keep going anyway. Within days the neighbors join her, not because it looks fun but because whatever this is, it spreads. City records put the number past a hundred, some accounts push it toward four hundred, all of them jerking and spinning in the summer heat while officials scratched their heads. The town physicians diagnosed hot blood and prescribed the exact wrong cure, more dancing, hired musicians, a stage, the works. People reportedly dropped dead from strokes and exhaustion mid step while a paid band kept the rhythm going. Nobody hit the brakes because nobody understood there were brakes to hit.\n\nFast forward to 1970, coastal Oregon, and a sperm whale the size of a school bus washes up dead and rotting on the beach at Florence. The Oregon Highway Division, tasked with cleanup, decides the fix is dynamite, half a ton of it, packed against the carcass with the cheerful logic that scavenger birds would happily eat the smaller pieces left behind. A crowd gathers to watch. The blast goes off and instead of tidy whale confetti, chunks of blubber the size of couches rain from the sky, one of them crushing a car parked a quarter mile away. The birds, it turns out, never got their snack, they fled the second the fuse was lit. Nobody died, which honestly feels like a technicality.\n\nAround the same era on the other side of the timeline, in 1606, a much more deliberate kind of chaos was unfolding in Rome. Caravaggio, the most talented and least stable painter of his generation, kills a man named Ranuccio Tomassoni in a street fight, possibly over a bet, possibly over a woman, nobody fully agrees. With a death sentence hanging over him he runs, first to Naples, then Malta, then Sicily, painting some of the most violent, shadow drenched masterpieces in Western art while actively being a wanted man. The brushwork gets darker as the manhunt tightens. He dies at 38 under circumstances still argued about today, a genius who never once considered that maybe running from your problems and also being extremely famous were not compatible strategies.\n\nAnd then there is Thomas Hicks, marathon runner, 1904 Olympics, St Louis, in brutal heat with dust roads and almost no water stations because organizers thought dehydration built character. Hicks starts fading around mile twenty, so his handlers do what any responsible team would do, they inject him with strychnine sulfate and hand him a shot of brandy. Twice. Strychnine, a rat poison, in small doses acts as a stimulant, and at the time there were no rules against it because nobody had thought to write any. Hicks crosses the finish line hallucinating, barely conscious, needing two men to hold him upright, and still wins gold.\n\nFour different centuries, four different kinds of people convinced that going further was always the answer, more dancing, more dynamite, more running, more risk. Sometimes the body keeps its own accounting no matter what the crowd or the officials or the trainers believe, and sometimes it takes a whale exploding over a parking lot to prove the point. New file Monday, Wednesday, Saturday.",
+    "cases": [
+      {
+        "no": "CF-001",
+        "tag": "History",
+        "q": "In July 1518, what happened to hundreds of people in Strasbourg that physicians blamed on hot blood?",
+        "options": [
+          "They fell into unexplained comas",
+          "They danced uncontrollably for days, some until they died",
+          "They developed identical rashes overnight",
+          "They lost their voices simultaneously"
+        ],
+        "correct": 1,
+        "revealTitle": "Case notes",
+        "revealText": "In July 1518 a woman named Frau Troffea started dancing in a Strasbourg street and could not stop. Within weeks city records counted well over a hundred people doing the same, some collapsing from exhaustion or stroke. Physicians prescribed more dancing as the cure, which made everything worse.",
+        "source": "John Waller, A Time to Dance, a Time to Die"
+      },
+      {
+        "no": "CF-002",
+        "tag": "Science",
+        "q": "In 1970, Oregon highway engineers tried to dispose of a beached whale using which method that went spectacularly wrong?",
+        "options": [
+          "Burying it under sand",
+          "Towing it back out to sea",
+          "Half a ton of dynamite",
+          "Setting it on fire"
+        ],
+        "correct": 2,
+        "revealTitle": "Case notes",
+        "revealText": "When a dead sperm whale washed ashore at Florence, Oregon, officials packed it with dynamite expecting scavenger sized pieces to remain. Instead huge chunks of blubber rained on the crowd and crushed a parked car a quarter mile away. Nobody died, but the footage became legendary long before anything went viral.",
+        "source": "The Register-Guard, 1970 Associated Press coverage"
+      },
+      {
+        "no": "CF-003",
+        "tag": "Art, combination",
+        "q": "Which Baroque painter killed a man in a Rome street brawl in 1606 and spent his final years as a fugitive?",
+        "options": [
+          "Bernini",
+          "Titian",
+          "Caravaggio",
+          "Artemisia Gentileschi"
+        ],
+        "correct": 2,
+        "revealTitle": "Case notes",
+        "revealText": "Caravaggio killed Ranuccio Tomassoni in a 1606 brawl and fled Rome with a death sentence over his head. He kept producing violent, shadow heavy masterpieces while on the run through Naples, Malta, and Sicily. He died at 38, still wanted, under circumstances nobody has fully settled.",
+        "source": "Andrew Graham-Dixon, Caravaggio, A Life Sacred and Profane"
+      },
+      {
+        "no": "CF-004",
+        "tag": "History, combination",
+        "q": "What substance combo helped Thomas Hicks win the 1904 Olympic marathon despite nearly collapsing from it?",
+        "options": [
+          "Opium and milk",
+          "Cocaine and wine",
+          "Strychnine and brandy",
+          "Arsenic and tea"
+        ],
+        "correct": 2,
+        "revealTitle": "Case notes",
+        "revealText": "Thomas Hicks was dosed twice with strychnine sulfate and brandy by his handlers during the brutal 1904 St Louis marathon, a legal move since anti doping rules did not exist yet. He crossed the finish line hallucinating and unable to stand on his own. He still took home the gold.",
+        "source": "David Davis, Showdown at Shepherd's Bush"
+      }
+    ],
+    "bytes": 4203041
   }
 ]
