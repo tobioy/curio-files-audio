@@ -220,5 +220,79 @@
       }
     ],
     "bytes": 4203041
+  },
+  {
+    "date": "2026-09-16",
+    "label": "Wednesday, September 16",
+    "facts_used": [
+      "boston_molasses_flood_1919",
+      "immortal_jellyfish_turritopsis",
+      "michelangelo_last_judgment_revenge",
+      "antarctica_blood_falls"
+    ],
+    "script": "Every good disaster starts the same way, something gets bottled up until it can't be anymore. Boston, January 1919, the North End is stacked with tenements and a steel tank fifty feet tall, holding two point three million gallons of molasses meant for munitions and rum. It's an unseasonably warm afternoon and the tank has been groaning for years, rivets popping, kids swiping drips of molasses through the seams for a free snack. Then it just lets go. A wave taller than a two story house tears down Commercial Street at highway speed, ripping buildings off their foundations, drowning horses standing up, killing twenty one people in a flood that moves too fast to outrun and too thick to swim in. Cleanup crews used salt water and sand for months, and old timers swore for decades after that on a hot day, you could still smell it in the harbor.\n\nAntarctica keeps its pressure differently, in the dark, for a lot longer. Under Taylor Glacier there's a pocket of brine that's been sealed away for more than a million years, so salty it stays liquid inside solid ice, so iron rich it looks like tomato soup. When it finally finds a crack and dribbles out onto the glacier's face, the iron meets oxygen for the first time in a million years and rusts on contact, right there in the open air, staining the ice a horror movie red. Explorers found it in 1911 and had no idea what they were looking at. It took until 2017 and a team dragging radar equipment across the ice to actually trace the buried plumbing and prove the water had been down there since before humans existed.\n\nSomething similar, weirdly, happens inside a jellyfish smaller than your fingernail. Turritopsis dohrnii gets old, gets hurt, gets stressed by starvation or a change in water temperature, and instead of dying like a normal animal, its adult cells start walking backward. Muscle cells turn into nerve cells, tentacles retract, the whole creature collapses down into the blob shaped polyp stage it started life as, a biological reset button most animals don't get to press twice. It's not immortality exactly, plenty die to predators or bad luck, but the aging clock itself just refuses to stay wound forward. Scientists have watched it happen under a microscope, over and over, since the early nineties, and nobody has fully cracked how the cells know the way back.\n\nMichelangelo held his pressure a different way, on purpose, in fresco. Painting The Last Judgment on the Sistine Chapel wall in his sixties, he got an earful from Biagio da Cesena, the pope's master of ceremonies, who thought all that nudity belonged in a tavern, not a chapel. Michelangelo said nothing, kept painting, and quietly slipped Biagio into the scene as Minos, judge of the underworld, complete with donkey ears and a snake sinking its teeth into his crotch. Biagio complained to the pope. The pope reportedly said his jurisdiction didn't extend to hell, so the portrait stayed, and five hundred years later tourists still walk past a Renaissance grudge painted directly onto the ceiling of one of the holiest rooms on earth.\n\nA tank, a glacier, a jellyfish, a fresco, none of them built to hold what they were holding forever. Molasses breaks its rivets, brine finds its crack, a jellyfish rewinds its own clock, and one insulted painter turns a complaint into eternal punishment. Pressure always finds a way out, it just picks its moment. New file Monday, Wednesday, Saturday.",
+    "cases": [
+      {
+        "no": "CF-001",
+        "tag": "History",
+        "q": "What sticky disaster tore through Boston's North End in January 1919, killing 21 people?",
+        "options": [
+          "A burst tank unleashing a giant wave of molasses",
+          "A collapsed sugar refinery",
+          "A runaway train full of maple syrup",
+          "An explosion at a candy factory"
+        ],
+        "correct": 0,
+        "revealTitle": "Case notes",
+        "revealText": "A two point three million gallon molasses storage tank burst on Commercial Street, sending a wave reportedly moving around 35 miles per hour through the neighborhood. It killed 21 people and injured about 150, and cleanup took months with sand and salt water.",
+        "source": "Smithsonian Magazine, coverage of the Great Molasses Flood of 1919"
+      },
+      {
+        "no": "CF-002",
+        "tag": "Science",
+        "q": "Which tiny sea creature can reverse its own aging by turning its adult cells back into an earlier baby stage?",
+        "options": [
+          "The immortal jellyfish, Turritopsis dohrnii",
+          "The Portuguese man o' war",
+          "The comb jelly",
+          "The moon jellyfish"
+        ],
+        "correct": 0,
+        "revealTitle": "Case notes",
+        "revealText": "When stressed, injured, or starving, Turritopsis dohrnii can undergo transdifferentiation, converting mature cells back into the polyp stage it began life as, essentially resetting its biological clock. Researchers have observed the process repeatedly under lab conditions since the 1990s.",
+        "source": "Scientific American, \"Can a Jellyfish Unlock the Secret of Immortality\""
+      },
+      {
+        "no": "CF-003",
+        "tag": "Art",
+        "q": "Which Renaissance artist took revenge on a papal critic by painting him into hell with donkey ears and a snake biting his crotch?",
+        "options": [
+          "Michelangelo",
+          "Raphael",
+          "Botticelli",
+          "Titian"
+        ],
+        "correct": 0,
+        "revealTitle": "Case notes",
+        "revealText": "In The Last Judgment on the Sistine Chapel wall, Michelangelo painted Vatican official Biagio da Cesena as Minos, judge of the underworld, after Biagio complained the fresco's nudity was obscene. The insult stayed on the wall, reportedly because the pope joked his authority did not reach into hell.",
+        "source": "Giorgio Vasari, Lives of the Artists"
+      },
+      {
+        "no": "CF-004",
+        "tag": "Science",
+        "q": "What causes Antarctica's Blood Falls to ooze bright red liquid out of a glacier?",
+        "options": [
+          "Iron rich ancient brine that rusts the instant it hits air",
+          "Underground volcanic magma",
+          "A red algae bloom",
+          "Leaking radioactive minerals"
+        ],
+        "correct": 0,
+        "revealTitle": "Case notes",
+        "revealText": "Blood Falls is fed by salty, iron rich brine trapped beneath Taylor Glacier for over a million years, staying liquid because of its salt content even inside the ice. When it seeps out and meets oxygen, the iron rusts instantly, dyeing the ice red, a mystery first noted in 1911 and mapped with radar in a 2017 study.",
+        "source": "Journal of Glaciology, Mikucki et al., with National Geographic coverage"
+      }
+    ],
+    "bytes": 4298754
   }
 ]
