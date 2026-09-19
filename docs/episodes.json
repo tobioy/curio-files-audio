@@ -294,5 +294,79 @@
       }
     ],
     "bytes": 4298754
+  },
+  {
+    "date": "2026-09-19",
+    "label": "Saturday, September 19",
+    "facts_used": [
+      "cadaver_synod_897",
+      "niepce_first_photograph_1826",
+      "night_watch_trimmed_1715",
+      "boiling_river_peru"
+    ],
+    "script": "Time is a liar, and nowhere does it lie harder than in the four scenes we're digging up today.\n\nStart in Rome, January 897. Pope Formosus has been dead for nine months, buried, decomposing, doing what corpses do best. His successor's successor's successor, a fellow named Stephen VI, decides that's not stopping anything, hauls the body out of its tomb, dresses it in full papal vestments, props it on a throne in the Basilica, and puts it on trial. A living deacon crouches behind the corpse to answer for it, because corpses are famously bad witnesses. The verdict, guilty, obviously. Stephen has three of the dead pope's fingers hacked off, the ones used for blessings, strips the vestments, and pitches the whole rotting bundle into the Tiber. A mob eventually fishes Formosus out, reburies him properly, and turns on Stephen, who ends up strangled in prison months later. History remembers it as the Cadaver Synod, because apparently even the dead couldn't dodge Roman bureaucracy.\n\nNow jump nearly a thousand years and drag the sun into it. Nicephore Niepce, tinkering in his French backyard in 1826, wants to fix an image using light and a pewter plate coated in bitumen. No shutter speed to speak of, so he leaves the plate exposed for roughly eight hours. The sun crawls across the sky during the shoot, and both sides of the courtyard end up lit in the finished image, because the light source itself moved while the picture was being taken. It's blurry, ghostly, barely readable as a rooftop and a wall, and it is the oldest surviving photograph on Earth, sitting today at the University of Texas. One moment, stretched across a whole working day, is the founding myth of every snapshot since.\n\nPhotographs freeze time, paintings apparently do not. In 1715, Amsterdam's city fathers wanted Rembrandt's enormous group portrait, the one we call The Night Watch, hung between two doors in the Town Hall. The painting was too wide. Nobody consulted Rembrandt, who'd been dead for decades, so somebody just took a knife to the canvas, slicing strips off all four edges, most brutally the left side, where two entire figures vanished into scrap. We only know what was lost because a lesser painter, Gerrit Lundens, had made a smaller copy beforehand, and in 2021 the Rijksmuseum used it to digitally rebuild the missing edges. An afternoon with a blade undid what took Rembrandt a year to compose, and it took machine learning three centuries later to even guess at the damage.\n\nThen there's the river that skips time entirely. In the Peruvian Amazon runs Shanay Timpishka, the Boiling River, studied seriously by geoscientist Andres Ruzo after his grandfather told him stories about it. It isn't volcanic, there's no crater nearby, it's heated by geothermal fluid pushing up through fault lines, and stretches of it hit close to 200 degrees Fahrenheit. Small animals that slip in don't drown, they cook, sometimes visibly, in minutes. What normally takes a stovetop and a recipe happens here by accident, on a jungle floor, to anything unlucky enough to fall in.\n\nA dead man tried as if alive, a single moment stretched into a workday, a masterpiece shrunk in an afternoon, a river that turns hours of cooking into minutes. Time keeps getting bent by people, and occasionally by geology, and it never asks permission first. That's the through line, if you're looking for one, everything in this file either took far too long or happened far too fast, and nobody involved seemed bothered by the difference.\n\nNew file Monday, Wednesday, Saturday.",
+    "cases": [
+      {
+        "no": "CF-001",
+        "tag": "History",
+        "q": "In 897 AD, Pope Stephen VI dressed a corpse in papal vestments, propped it on a throne, and put it on trial. Whose corpse was it?",
+        "options": [
+          "His predecessor, Pope Formosus",
+          "A wax effigy of Charlemagne",
+          "A convicted heretic monk",
+          "The Byzantine emperor's ambassador"
+        ],
+        "correct": 0,
+        "revealTitle": "Case notes",
+        "revealText": "Pope Formosus, dead nine months, was exhumed and tried at the so called Cadaver Synod. Found guilty, his blessing fingers were cut off and the body dumped in the Tiber, though a mob later fished it out and reburied it properly.",
+        "source": "Eamon Duffy, Saints and Sinners: A History of the Popes"
+      },
+      {
+        "no": "CF-002",
+        "tag": "Science",
+        "q": "Nicephore Niepce's 1826 photograph, considered the oldest surviving image made with a camera, required an exposure time of about how long?",
+        "options": [
+          "1/60th of a second",
+          "About 8 hours",
+          "3 minutes",
+          "24 hours"
+        ],
+        "correct": 1,
+        "revealTitle": "Case notes",
+        "revealText": "The roughly 8 hour exposure let the sun cross the whole sky mid shot, lighting both sides of the courtyard in the same frame. The pewter plate, View from the Window at Le Gras, is preserved at the University of Texas.",
+        "source": "Harry Ransom Center, University of Texas at Austin"
+      },
+      {
+        "no": "CF-003",
+        "tag": "Art",
+        "q": "Rembrandt's The Night Watch was physically trimmed in 1715 to squeeze it between two doors. What did the cut permanently remove?",
+        "options": [
+          "Strips from all four edges, including two figures on the left",
+          "The painter's signature",
+          "A hidden self portrait",
+          "The top third showing a bell tower"
+        ],
+        "correct": 0,
+        "revealTitle": "Case notes",
+        "revealText": "Amsterdam officials sliced the canvas down to fit the Town Hall, losing two figures off the left edge for good. In 2021 the Rijksmuseum used a smaller 17th century copy by Gerrit Lundens to digitally reconstruct the missing pieces.",
+        "source": "Rijksmuseum, Operation Night Watch research project"
+      },
+      {
+        "no": "CF-004",
+        "tag": "Science",
+        "q": "Peru's Shanay Timpishka river, studied by geoscientist Andres Ruzo, is nicknamed the Boiling River because it can do what to animals that fall in?",
+        "options": [
+          "Cook them, reaching temperatures near 200 degrees Fahrenheit",
+          "Freeze them instantly with cold springs",
+          "Dissolve them with high acidity",
+          "Electrocute them with natural currents"
+        ],
+        "correct": 0,
+        "revealTitle": "Case notes",
+        "revealText": "The river isn't volcanic, it's heated by geothermal fluid rising through deep faults, no crater required. Small animals that slip in are effectively cooked, sometimes within minutes.",
+        "source": "National Geographic, feature on Andres Ruzo's Boiling River research"
+      }
+    ],
+    "bytes": 4436262
   }
 ]
