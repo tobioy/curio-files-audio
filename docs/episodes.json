@@ -442,5 +442,79 @@
       }
     ],
     "bytes": 4520272
+  },
+  {
+    "date": "2026-09-23",
+    "label": "Wednesday, September 23",
+    "facts_used": [
+      "radium_girls_lip_pointing",
+      "corpse_flower_carrion_scent",
+      "dali_uncashed_checks",
+      "skinner_project_pigeon"
+    ],
+    "script": "Every good con starts with a small, believable lie, and 1920s New Jersey had a beauty. Girls barely out of school sat at long tables in the U.S. Radium Corporation, painting watch dials with glow in the dark paint made from actual radium. Their bosses taught them a trick to keep the brush tip fine, lip, dip, paint. Put the bristles in your mouth, dip in the radium paste, paint the numbers, repeat, hundreds of times a shift. The company told them it was harmless. The company also kept lead aprons and tongs for the chemists down the hall who handled the same stuff. The girls glowed faintly in the dark walking home, which felt magical right up until their jaws started rotting and their bones turned to sponge. It took years and a landmark lawsuit before anyone official agreed that swallowing radioactive paint might not be great.\n\nNature runs its own con, and it is somehow worse. Deep in a greenhouse, or occasionally a botanical garden's most hyped weekend event, the corpse flower blooms once every several years and immediately starts lying to insects. It heats its own core to nearly human body temperature and releases a chemical cocktail heavy on dimethyl trisulfide, the same compound your fridge produces when the leftovers finally give up. Carrion beetles and flesh flies show up expecting a nice dead animal to lay eggs in. Instead they find a very tall, very smug plant that has tricked them into carrying its pollen for free. The flower gets what it wants, the bugs get nothing, and thousands of humans line up to smell rotting meat on purpose because someone put a webcam on it.\n\nSalvador Dali ran a con that was almost sweet by comparison. The man loved a free lunch, so when the bill came he'd write a check, sure, technically real, legally cashable, and then cover it in sketches and his signature flourish. His logic was simple and correct, most people would rather frame a doodled Dali original than walk it to the bank. Restaurants across Spain and France apparently agreed, tucking uncashed checks into drawers and frames instead of deposit slips. It's a magic trick that works because it flatters the mark, you're not being cheated, you're being given art. Dali ate well his whole life on the strength of that one insight.\n\nThen there's B.F. Skinner, who looked at all this human self deception and decided the real answer was pigeons. During World War Two he built a nose cone for a guided missile and put a live pigeon inside it, trained through operant conditioning to peck at a moving target projected on a screen. Peck left, the bomb steers left. Peck right, same deal. It worked in testing. The pigeons stayed remarkably calm and accurate for animals riding inside a bomb. The military ultimately shelved Project Pigeon, reportedly because it was hard to take seriously a weapons system that ran on birdseed and instinct, even a functioning one.\n\nLine these up and you get the same shape over and over, someone or something convincing a target that a lie is worth acting on, whether that target is a teenage factory worker, a hungry beetle, a restaurant cashier, or a missile guidance committee. The radium girls paid the highest price for believing it. The beetles just got played. Dali made a career out of it. Skinner just wanted to know if a pigeon could be trusted more than a machine, and for a while, it could. New file Monday, Wednesday, Saturday.",
+    "cases": [
+      {
+        "no": "CF-001",
+        "tag": "History",
+        "q": "In the 1920s, radium dial painters were taught to shape their paintbrush tips using what technique that later proved fatal?",
+        "options": [
+          "Dipping the brush in water first",
+          "Wiping the bristles on a cloth",
+          "Putting the bristles in their mouths to form a point",
+          "Snapping the tip against the table"
+        ],
+        "correct": 2,
+        "revealTitle": "Case notes",
+        "revealText": "Workers at U.S. Radium Corporation used 'lip, dip, paint' to keep a fine brush point, ingesting radium with every stroke. Many later developed radium jaw, anemia, and bone tumors, and their lawsuit became a landmark in U.S. workplace safety law.",
+        "source": "Kate Moore, The Radium Girls"
+      },
+      {
+        "no": "CF-002",
+        "tag": "Science",
+        "q": "The corpse flower's rotting meat stench exists to attract which pollinators?",
+        "options": [
+          "Honeybees",
+          "Carrion beetles and flesh flies",
+          "Monarch butterflies",
+          "Fruit bats"
+        ],
+        "correct": 1,
+        "revealTitle": "Case notes",
+        "revealText": "Amorphophallus titanum releases dimethyl trisulfide and other decay compounds while heating itself, mimicking a fresh carcass to lure beetles and flies hunting a place to breed. The insects get nothing for their trouble, the plant gets pollinated.",
+        "source": "Chicago Botanic Garden"
+      },
+      {
+        "no": "CF-003",
+        "tag": "Art",
+        "q": "Salvador Dali sometimes paid restaurant bills with checks that he had...",
+        "options": [
+          "Signed twice for security",
+          "Covered in sketches so people wouldn't cash them",
+          "Written in invisible ink",
+          "Folded into tiny origami shapes"
+        ],
+        "correct": 1,
+        "revealTitle": "Case notes",
+        "revealText": "Dali figured, correctly, that most recipients would rather frame a doodled Dali check than deposit it. Biographers confirm restaurants across Spain and France kept his art instead of cashing his money.",
+        "source": "Ian Gibson, The Shameful Life of Salvador Dali"
+      },
+      {
+        "no": "CF-004",
+        "tag": "History and Science",
+        "q": "During WWII, psychologist B.F. Skinner trained pigeons for Project Pigeon to do what?",
+        "options": [
+          "Carry small explosives to targets",
+          "Peck at a target image on a screen to help steer a guided missile",
+          "Deliver coded intelligence messages",
+          "Detect enemy submarines by sound"
+        ],
+        "correct": 1,
+        "revealTitle": "Case notes",
+        "revealText": "Skinner placed conditioned pigeons in a missile's nose cone, wired so their pecks at a moving target adjusted the bomb's course, and it worked reliably in tests. The military shelved it anyway, reportedly finding a bird-guided bomb too strange to trust.",
+        "source": "B.F. Skinner, Pigeons in a Pelican, American Psychologist, 1960"
+      }
+    ],
+    "bytes": 4103985
   }
 ]
