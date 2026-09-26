@@ -516,5 +516,79 @@
       }
     ],
     "bytes": 4103985
+  },
+  {
+    "date": "2026-09-26",
+    "label": "Saturday, September 26",
+    "facts_used": [
+      "emperor_norton_san_francisco_1859",
+      "axolotl_limb_regeneration",
+      "the_scream_munch_theft_1994",
+      "trinitite_atomic_glass_1945"
+    ],
+    "script": "San Francisco, 1859. A failed rice speculator named Joshua Norton walks into a newspaper office and hands over a proclamation. He is no longer a bankrupt businessman. He is, effective immediately, Emperor of these United States. The city could have laughed him into the bay. Instead it played along for twenty one years, printing his own currency, seating him free at theaters, saluting him on the street, because sometimes a broke man reinventing himself with enough conviction is more entertaining than the truth. Norton never held real power, but he held something better, a city's affection, and he kept it until the day he dropped dead on a street corner and thirty thousand people showed up to grieve a man who ruled nothing at all.\n\nReinvention like that usually needs a story. Some creatures just need a few weeks. Cut off an axolotl's leg and it does not scar over and call it a day, it grows the leg back, bone, muscle, nerve, skin, all of it, seamless, as if the wound never happened. Push further and researchers have watched them regrow chunks of spinal cord and heart tissue too, which is the kind of biological trick that makes human medicine look like it is still using stone tools. An axolotl does not perform an identity, it simply refuses to accept damage as permanent, and labs studying that stubborn cellular optimism are hunting for whatever switch we lost somewhere back in our own evolutionary story.\n\nEdvard Munch understood damage better than most painters, and it is fitting that his most famous work has been kidnapped twice. In 1994, while the world's attention was pinned on the Lillehammer Winter Olympics, thieves used a ladder to break into Oslo's National Gallery, lifted The Scream off the wall in under a minute, and left a note thanking the museum for its lousy security. A decade later, a different version got taken at gunpoint from the Munch Museum in broad daylight. Both times the painting came back, battered but intact, proof that even a portrait of pure existential dread can survive theft, ransom, and a couple of very bad days without losing its face.\n\nNothing on this list transforms quite as violently as a patch of New Mexico desert did on July 16, 1945. When the Trinity test detonated the world's first atomic bomb, the fireball was hot enough to melt the sandy ground itself, and as it cooled, that sand fused into thin sheets of pale green glass scattered across the blast site. Scientists named it trinitite, and for a while people pocketed chunks of it as souvenirs before anyone fully clocked that it was mildly radioactive. It is illegal to remove from the site today, but old samples still circulate among collectors, a literal fossil of the moment the twentieth century changed shape.\n\nPut a con artist emperor, a self healing salamander, a stolen scream, and a sheet of atomic glass side by side and you get the same lesson wearing four different costumes, that reinvention is rarely gentle and never fully asked for permission. Norton rebuilt himself out of pure nerve, the axolotl rebuilds itself out of raw biology, the painting got rebuilt by museum conservators after violence, and the desert got rebuilt by physics at the worst possible temperature. Transformation does not care whether it is inspiring or terrifying, it just happens, and afterward something new is standing there, scarred or not, insisting on being looked at.\n\nNew file Monday, Wednesday, Saturday.",
+    "cases": [
+      {
+        "no": "CF-001",
+        "tag": "History",
+        "q": "What did failed businessman Joshua Norton declare himself in an 1859 proclamation in San Francisco?",
+        "options": [
+          "Emperor of the United States",
+          "King of the Pacific Coast",
+          "President for Life of California",
+          "Duke of San Francisco Bay"
+        ],
+        "correct": 0,
+        "revealTitle": "Case notes",
+        "revealText": "Joshua Norton lost his fortune, then declared himself Emperor Norton I of the United States. San Francisco humored him for two decades, printing his currency and seating him free at theaters, and thirty thousand mourners turned out for his funeral in 1880.",
+        "source": "San Francisco newspapers, 1859 proclamation record"
+      },
+      {
+        "no": "CF-002",
+        "tag": "Science",
+        "q": "Which body parts can axolotls regrow with no scar tissue?",
+        "options": [
+          "Limbs, spinal cord, and heart tissue",
+          "Only their tail tips",
+          "Only their eyelids",
+          "Only their whiskers"
+        ],
+        "correct": 0,
+        "revealTitle": "Case notes",
+        "revealText": "Axolotls can regenerate amputated limbs completely, plus damaged spinal cord and heart tissue, without forming scars. Their regenerative cells are heavily studied by researchers hoping to unlock similar healing in humans.",
+        "source": "Northeastern University regeneration research, Monaghan Lab publications"
+      },
+      {
+        "no": "CF-003",
+        "tag": "Art",
+        "q": "In what year was a version of Edvard Munch's The Scream stolen during the Winter Olympics?",
+        "options": [
+          "1994",
+          "1984",
+          "2004",
+          "1972"
+        ],
+        "correct": 0,
+        "revealTitle": "Case notes",
+        "revealText": "In February 1994, thieves used a ladder to steal The Scream from Oslo's National Gallery while the world watched the Lillehammer Olympics, leaving a mocking note about the museum's security. The painting was recovered undamaged months later.",
+        "source": "BBC News, National Gallery Oslo records"
+      },
+      {
+        "no": "CF-004",
+        "tag": "History and Science",
+        "q": "What is the glassy green mineral formed when the Trinity atomic bomb test fused desert sand in 1945?",
+        "options": [
+          "Trinitite",
+          "Fulgurite",
+          "Obsidian",
+          "Tektite"
+        ],
+        "correct": 0,
+        "revealTitle": "Case notes",
+        "revealText": "The Trinity test's fireball melted the New Mexico desert floor into thin sheets of pale green glass now called trinitite. It is mildly radioactive and illegal to remove from the site today, though old souvenir chunks still exist.",
+        "source": "Los Alamos National Laboratory historical archives"
+      }
+    ],
+    "bytes": 4210564
   }
 ]
