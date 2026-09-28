@@ -590,5 +590,79 @@
       }
     ],
     "bytes": 4210564
+  },
+  {
+    "date": "2026-09-28",
+    "label": "Monday, September 28",
+    "facts_used": [
+      "victorian_mummy_unwrapping_parties",
+      "sea_cucumber_organ_eviction",
+      "van_gogh_ear_1888",
+      "platypus_venomous_spurs"
+    ],
+    "script": "London in the 1830s smelled of tallow candles and unwashed wool, and if you wanted a real night out, you didn't go to the opera, you went to see a dead Egyptian get undressed. Thomas Pettigrew, a surgeon who liked his science with a side of showbiz, would rent a hall, prop a three thousand year old body on a table, and start peeling. Tickets sold out. Ladies fainted, gentlemen took notes, and somewhere in the crowd a linen wrapping that once protected someone's ancestor ended up as a party favor. It was called Egyptomania, and Pettigrew rode it all the way to a nickname, Mummy Pettigrew, a man who made his fortune convincing polite society that grave robbing, dressed up in candlelight and lecture notes, counted as culture.\n\nBodies being sacrificed for spectacle is, it turns out, not just a human habit. Drop down to the ocean floor and you'll find sea cucumbers running their own horror show, minus the ticket price. Corner one and it doesn't flee, because it can't, it's basically a slow moving sock full of water. Instead it does something no self respecting animal should be able to do twice, it shoots its own guts, intestines, sometimes entire organs, straight out through its rear end, aiming the sticky mess at whatever's hunting it. The predator gets a mouthful of tangled tubules, the sea cucumber gets away with no stomach, and somehow, weeks later, grows the whole set back. It's the world's grossest magic trick, and it costs the performer everything it has, on purpose, every single time.\n\nVincent van Gogh understood something about giving your body away too, though nobody handed him a ticket for it. Arles, December 1888, the mistral wind howling, a furious argument with Paul Gauguin still ringing in the studio. That night Van Gogh took a razor to his own ear, wrapped the piece in newspaper, and walked it through the streets to a brothel, where he handed it to a young woman named Gabrielle, who worked there cleaning up after everyone else's messes. She fainted. He was found the next morning half dead in his bed, and the ear, or what was left of it, never made it into any of his paintings, though his letters to his brother Theo tried, in their strange stumbling way, to explain a mind that had simply run out of road for a while. It took over a century, and the dogged research of a historian named Bernadette Murphy, to even learn Gabrielle's name.\n\nAnd then there's the platypus, which never asked to be strange and somehow ended up the strangest mammal on the continent. It has a duck's bill, a beaver's tail, lays eggs like a chicken, and, if you're a male and it's breeding season, carries a weapon most people don't see coming until it's too late. Spurs, tucked on the ankles, wired straight to venom glands, built for duking it out with rival males over territory and mates. Get spurred, and the pain doesn't behave like ordinary pain, it swells and lingers for days or weeks, resistant to most painkillers, as though the platypus wanted to make absolutely sure you remembered the encounter.\n\nLine them up, the unwrapped mummy, the eviscerated sea cucumber, the wrapped up ear, the venomous ankle, and you get a rough sketch of what bodies actually do under pressure. They get sold as entertainment, they get sacrificed on purpose, they get surrendered in grief, they get weaponized in silence. None of it is polite. All of it is true. New file Monday, Wednesday, Saturday.",
+    "cases": [
+      {
+        "no": "CF-001",
+        "tag": "History",
+        "q": "In 1830s London, surgeon Thomas Pettigrew charged admission for what shocking form of party entertainment?",
+        "options": [
+          "Unwrapping Egyptian mummies before a live audience",
+          "Staged rapier duels",
+          "Public tooth pulling exhibitions",
+          "Electrocuting corpses on stage"
+        ],
+        "correct": 0,
+        "revealTitle": "Case notes",
+        "revealText": "Pettigrew, nicknamed Mummy Pettigrew, rented halls to publicly unwrap Egyptian mummies for paying crowds during the height of Victorian Egyptomania. It made him famous, funded his career, and turned ancient remains into a night of theater.",
+        "source": "Heather Pringle, The Mummy Congress"
+      },
+      {
+        "no": "CF-002",
+        "tag": "Science",
+        "q": "When threatened, some sea cucumbers defend themselves by doing what?",
+        "options": [
+          "Shooting out their own internal organs through their anus",
+          "Inflating like a balloon",
+          "Squirting ink at predators",
+          "Detaching and regrowing their skin"
+        ],
+        "correct": 0,
+        "revealTitle": "Case notes",
+        "revealText": "Certain sea cucumber species expel sticky tubules and even entire organs, including intestines, through their anus to entangle predators. They then regenerate the lost organs within weeks, essentially disemboweling themselves on purpose to survive.",
+        "source": "Smithsonian Ocean, Sea Cucumbers"
+      },
+      {
+        "no": "CF-003",
+        "tag": "Art, combination",
+        "q": "After a breakdown in Arles in December 1888, Vincent van Gogh sliced off part of his ear and did what with it?",
+        "options": [
+          "Mailed it to his brother Theo",
+          "Wrapped it and gave it to a woman at a brothel",
+          "Buried it in his garden",
+          "Used it as a paintbrush"
+        ],
+        "correct": 1,
+        "revealTitle": "Case notes",
+        "revealText": "Van Gogh wrapped the severed piece of ear and delivered it to Gabrielle Berlatier, a cleaning worker at a local brothel, who fainted upon receiving it. Historian Bernadette Murphy identified Gabrielle by name only in the 2010s, over a century after the incident.",
+        "source": "Bernadette Murphy, Van Gogh's Ear: The True Story"
+      },
+      {
+        "no": "CF-004",
+        "tag": "Science",
+        "q": "The platypus, one of the few venomous mammals, delivers its venom through what body part?",
+        "options": [
+          "A bite",
+          "Spurs on its hind legs, males only",
+          "Spines on its back",
+          "Its bill"
+        ],
+        "correct": 1,
+        "revealTitle": "Case notes",
+        "revealText": "Male platypuses carry venomous spurs on their hind ankles, connected to glands used mainly against rival males during breeding season. In humans, the venom causes intense, long lasting pain that standard painkillers barely touch.",
+        "source": "Australian Museum, Platypus fact sheet"
+      }
+    ],
+    "bytes": 4180053
   }
 ]
