@@ -664,5 +664,79 @@
       }
     ],
     "bytes": 4180053
+  },
+  {
+    "date": "2026-09-30",
+    "label": "Wednesday, September 30",
+    "facts_used": [
+      "siege_of_caffa_1346",
+      "bombardier_beetle_chemical_spray",
+      "rembrandt_anatomy_lesson_dr_tulp",
+      "hagfish_slime_defense"
+    ],
+    "script": "In 1346 outside the stone walls of Caffa, a Genoese trading post on the Black Sea, the besieging Mongol army ran out of patience and arrows, so they started launching the dead instead. Soldiers dying of a horrific new plague, skin blackening, buboes swelling, were loaded onto catapults and hurled over the ramparts like the world's worst care package. The chronicler Gabriele de Mussi, writing not long after, swore the trick worked, that the stench and horror alone were enough, though modern epidemiologists suspect it was less about aim and more about psychological terror, since fleas, not flying corpses, were the plague's real delivery system. Either way, the Genoese traders who survived the siege sailed home in a hurry, and some historians think their ships carried more than cargo, helping nudge the Black Death onto European shores. Nobody plans a pandemic on purpose usually, but Caffa is the closest history gets to someone trying.\n\nThree hundred years later, in a sunlit Amsterdam guild hall, a body was on a table again, this time by legal appointment rather than siege engine. Surgeon Nicolaes Tulp had the right, by charter, to dissect one executed criminal a year in front of an audience, and in 1632 that criminal was a thief named Aris Kindt, and the audience included a young painter named Rembrandt van Rijn. The finished painting, The Anatomy Lesson of Dr. Nicolaes Tulp, made Rembrandt's reputation, all those solemn Dutch faces leaning in around one splayed forearm. Except, and this took a while for anyone to notice, the muscles on that forearm are wrong, painted out of anatomical sequence, as if Rembrandt sketched fast, worked from memory, or simply cared more about composition than tendons. Four centuries of viewers assumed accuracy because the scene looked so clinical. Turns out even a masterpiece can flunk gross anatomy.\n\nMeanwhile, nature had already solved the problem of turning a body into a weapon without waiting for humans to catch up. The bombardier beetle keeps two chemicals stored separately inside its own abdomen, hydroquinone in one chamber, hydrogen peroxide in another, harmless apart, catastrophic together. When a beetle feels threatened, it lets the two mix in a reaction chamber lined with its own enzymes, and the resulting blast comes out close to boiling, fired in rapid audible pulses the beetle can aim with genuine precision, swiveling its rear end like a tiny chemical turret. Entomologist Thomas Eisner spent decades getting bitten, sprayed, and occasionally singed proving this wasn't exaggeration, just an insect that evolved its own internal munitions factory.\n\nAnd then there's the hagfish, which skips chemistry for volume. Provoke one and it releases mucus that expands almost instantly into a mass of slime many times its own size, enough to clog the gills of anything trying to eat it. In 2017 a truck full of hagfish, destined for the seafood trade, crashed on a coastal Oregon highway, and the cargo did exactly what hagfish do when frightened, releasing enough slime to coat the road and several cars, shutting down traffic while crews hosed it off. The fish, mostly fine. The highway, a crime scene of mucus.\n\nFour bodies, four defenses. One weaponized in death by siege engineers, one studied in death by a painter chasing fame, two still alive and using their own chemistry and slime to survive. History keeps proving the same thing, that biology was doing special effects long before anyone built a camera or a catapult. New file Monday, Wednesday, Saturday.",
+    "cases": [
+      {
+        "no": "CF-001",
+        "tag": "History",
+        "q": "What did the besieging Mongol army catapult over the walls of Caffa in 1346?",
+        "options": [
+          "Plague corpses",
+          "Burning tar",
+          "Poisoned arrows",
+          "Rotten fish"
+        ],
+        "correct": 0,
+        "revealTitle": "Case notes",
+        "revealText": "Mongol forces catapulted the bodies of plague victims into the besieged Genoese trading post of Caffa in 1346, one of history's earliest documented biological warfare attempts. Fleeing sailors are thought to have later helped carry the plague toward Europe, feeding the start of the Black Death.",
+        "source": "Mark Wheelis, Biological Warfare at the 1346 Siege of Caffa, Emerging Infectious Diseases, 2002"
+      },
+      {
+        "no": "CF-002",
+        "tag": "Science",
+        "q": "How hot can the defensive chemical spray of a bombardier beetle get?",
+        "options": [
+          "Nearly boiling, around 100 degrees Celsius",
+          "Lukewarm, about body temperature",
+          "Freezing cold",
+          "Barely above room temperature"
+        ],
+        "correct": 0,
+        "revealTitle": "Case notes",
+        "revealText": "Bombardier beetles mix hydroquinones and hydrogen peroxide in an internal chamber, triggering a reaction that heats the spray near 100 degrees Celsius. It fires in rapid pulsing bursts the beetle can aim with real precision at predators.",
+        "source": "Thomas Eisner, Cornell University, research summarized in Eisner's For Love of Insects"
+      },
+      {
+        "no": "CF-003",
+        "tag": "Art",
+        "q": "What anatomical error did Rembrandt reportedly make in The Anatomy Lesson of Dr. Nicolaes Tulp?",
+        "options": [
+          "He painted the dissected muscles out of the correct order",
+          "He painted the wrong hand entirely",
+          "He gave the corpse six fingers",
+          "He painted the hand upside down"
+        ],
+        "correct": 0,
+        "revealTitle": "Case notes",
+        "revealText": "Rembrandt's 1632 painting shows surgeon Nicolaes Tulp dissecting executed criminal Aris Kindt's forearm, but the muscle order depicted does not match how a real dissection would actually proceed. The mistake went largely unnoticed for centuries because the scene looked so convincingly clinical.",
+        "source": "William Schupbach, The Paradox of Rembrandt's Anatomy of Dr. Tulp, Wellcome Institute monograph"
+      },
+      {
+        "no": "CF-004",
+        "tag": "Science",
+        "q": "What happened after a truck carrying hagfish crashed on an Oregon highway in 2017?",
+        "options": [
+          "The hagfish released huge amounts of slime, coating the road and cars",
+          "The fish escaped and swam into a nearby river",
+          "The truck caught fire from the cargo",
+          "Nothing unusual happened to the road"
+        ],
+        "correct": 0,
+        "revealTitle": "Case notes",
+        "revealText": "When threatened, hagfish erupt with mucus that expands almost instantly into a huge volume of slime meant to clog a predator's gills. After the 2017 truck spill on US-101 in Oregon, that defense mechanism covered the highway and several cars, forcing crews to shut down traffic and hose it off.",
+        "source": "Oregon Department of Transportation incident reports, covered by The Oregonian, with hagfish slime research by Douglas Fudge, Chapman University"
+      }
+    ],
+    "bytes": 4505226
   }
 ]
