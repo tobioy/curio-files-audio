@@ -738,5 +738,79 @@
       }
     ],
     "bytes": 4505226
+  },
+  {
+    "date": "2026-10-03",
+    "label": "Saturday, October 3",
+    "facts_used": [
+      "vasa_warship_sinking_1628",
+      "pistol_shrimp_sonoluminescence",
+      "vermeer_ultramarine_pigment_cost",
+      "tunguska_event_1908"
+    ],
+    "script": "Some stories are about things that go too far, too fast, and this is one of those days. Start in Stockholm harbor, 1628, where King Gustav II Adolf has just commissioned the fanciest warship Sweden has ever built. Two full gun decks. Gilded carvings crawling up the hull like a wedding cake designed by a general. The problem is nobody checked the math. The ship is top heavy, under ballasted, and proud as hell, and when a gust of wind hits her less than a nautical mile into her maiden voyage, she just lies down in the water and sinks, cannons and all, in front of the entire crowd that came to watch her sail off to war. She sits in cold Baltic mud for three hundred and thirty three years, so well preserved by the lack of oxygen and shipworms that when they raise her in 1961 she comes up looking almost ready to try again. Ambition, it turns out, floats right up until it doesn't.\n\nMeanwhile in warm shallow water somewhere far from Sweden, a shrimp the size of your thumb is quietly running a temperature experiment that would make a physicist nervous. The pistol shrimp snaps one oversized claw shut so fast it isn't really hitting anything, it's punching a bubble into existence in the water, and when that bubble collapses it does something strange, it flashes with light and briefly runs almost as hot as the surface of the sun. Not forever, not even for long, just a flicker, a tiny underwater sun blinking into being to stun a fish dinner. No one believed this until someone actually measured it. Turns out you don't need to be big to overreach, you just need the right kind of violence packed into a very small space.\n\nOver in Delft, Johannes Vermeer has his own version of overreach, and it's made of rock. He wants a blue that doesn't look like paint, he wants light itself, so he grinds up lapis lazuli hauled across deserts from mines in Afghanistan, and that blue costs more per ounce than gold. Most painters save it for a holy robe or a king's cloak, somewhere it'll be noticed. Vermeer puts it in shadows. In folds of fabric nobody's looking at. In backgrounds that could've been any cheap blue and nobody the wiser. He paints with money he doesn't have, dies in debt, and leaves behind a handful of paintings that still glow like they're lit from inside. Some people overreach with ships, some with chemistry, Vermeer overreached with a rock that cost more than his own house.\n\nAnd then there's the sky itself, overreaching on everyone's behalf. June 1908, over the Siberian wilderness near the Tunguska River, something explodes with the force of ten to fifteen megatons, and nobody sees what it was because nobody's there. Eighty million trees fall flat, pointed outward from the blast like a bomb went off except there's no bomb, no crater, no wreckage, just scorched silence and reindeer herders describing the sky catching fire. It takes nearly twenty years before Leonid Kulik hikes out there to find a forest laid down in rings around nothing at all, the scar of something that burned itself up in the air before it ever touched ground.\n\nA ship too proud for its own ballast, a shrimp claw too fast for its own bubble, a painter too stubborn for his own wallet, a rock from space too violent to even leave a crater. Four different ways of finding out exactly how far is too far, usually the hard way. New file Monday, Wednesday, Saturday.",
+    "cases": [
+      {
+        "no": "CF-001",
+        "tag": "History",
+        "q": "In 1628, which warship capsized and sank in Stockholm harbor less than a nautical mile into its maiden voyage after a gust of wind caught it?",
+        "options": [
+          "The Vasa",
+          "The Mary Rose",
+          "The Bismarck",
+          "The Golden Hind"
+        ],
+        "correct": 0,
+        "revealTitle": "Case notes",
+        "revealText": "The Vasa, built on orders of King Gustav II Adolf, rolled over and sank about 1300 meters from the dock in 1628, top heavy with two full gun decks and not nearly enough ballast. It sat preserved in cold Baltic mud for 333 years until it was raised almost intact in 1961.",
+        "source": "Vasa Museum, Stockholm"
+      },
+      {
+        "no": "CF-002",
+        "tag": "Science",
+        "q": "Which creature's claw snap creates a collapsing bubble that briefly reaches temperatures nearly as hot as the surface of the sun?",
+        "options": [
+          "Pistol shrimp",
+          "Mantis shrimp",
+          "Cuttlefish",
+          "Electric eel"
+        ],
+        "correct": 0,
+        "revealTitle": "Case notes",
+        "revealText": "The pistol shrimp snaps its oversized claw shut so fast it creates a cavitating bubble, and the bubble's collapse briefly hits around 4700 degrees Celsius, close to the sun's surface temperature. The resulting shockwave and flash of light, called sonoluminescence, are enough to stun or kill small prey.",
+        "source": "Science, Lohse et al., 2001"
+      },
+      {
+        "no": "CF-003",
+        "tag": "Art",
+        "q": "Johannes Vermeer was known for using which pigment, ground from lapis lazuli imported from Afghanistan, which cost more per ounce than gold?",
+        "options": [
+          "Ultramarine",
+          "Vermilion",
+          "Lead white",
+          "Prussian blue"
+        ],
+        "correct": 0,
+        "revealTitle": "Case notes",
+        "revealText": "Vermeer used genuine ultramarine, made from ground lapis lazuli mined in Afghanistan, which cost more ounce for ounce than gold. He used it even in shadows and background fabric where cheaper blues would've done fine, a habit that helped sink him into debt.",
+        "source": "Mauritshuis, Girl with a Pearl Earring conservation research"
+      },
+      {
+        "no": "CF-004",
+        "tag": "History and Science",
+        "q": "In 1908, an explosion over Siberia flattened an estimated 80 million trees across 830 square miles but left no impact crater. What is this event called?",
+        "options": [
+          "Tunguska event",
+          "Chelyabinsk meteor",
+          "Barringer crater impact",
+          "Carrington event"
+        ],
+        "correct": 0,
+        "revealTitle": "Case notes",
+        "revealText": "The 1908 Tunguska blast flattened roughly 80 million trees across 830 square miles with an estimated force of 10 to 15 megatons, almost certainly an airburst from a meteor or comet fragment that detonated before reaching the ground. The first scientific expedition, led by Leonid Kulik, didn't reach the site until 1927.",
+        "source": "NASA, Tunguska event historical records"
+      }
+    ],
+    "bytes": 4312964
   }
 ]
