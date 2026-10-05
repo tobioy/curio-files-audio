@@ -812,5 +812,79 @@
       }
     ],
     "bytes": 4312964
+  },
+  {
+    "date": "2026-10-05",
+    "label": "Monday, October 5",
+    "facts_used": [
+      "phossy_jaw_matchgirls_strike_1888",
+      "tardigrade_space_survival_2007",
+      "rothko_seagram_murals_rejection",
+      "tsar_bomba_1961"
+    ],
+    "script": "There is a certain kind of story that only makes sense once you accept that humans and the universe both have a weakness for going way too far. Take London in 1888. Inside the Bryant and May match factory, teenage girls dipped matchsticks into white phosphorus all day, breathing fumes that crept into their jawbones and rotted them from the inside out. The condition got a nickname, phossy jaw, and in its worst stage a victim's jaw would actually glow faintly green in a dark room, which is the kind of detail that sounds invented until you read the medical journals. The girls organized anyway, walked out, and won, forcing the company to improve conditions, proving that sometimes the people closest to the poison are the first to say enough.\n\nNow leave the factory floor and go all the way up, past the atmosphere, into the vacuum of space, because in 2007 the European Space Agency decided to find out just how much a living creature could survive. They loaded a satellite with tardigrades, those stubby eight legged micro animals sometimes called water bears, and shot them into orbit with zero protection. No air, no pressure, cosmic radiation pouring in unfiltered. The tardigrades dried themselves into a kind of suspended animation, rode it out for ten days, came back to Earth, rehydrated, and some of them went on to reproduce completely normally, as if being flung into the void were a minor inconvenience rather than an extinction event. It is one thing to survive a bad commute. It is another to survive deep space with no life support and come home ready to start a family.\n\nBack on solid ground, in New York, a different kind of survival instinct was at work, except this one involved money instead of radiation. Mark Rothko took a huge commission to paint murals for the Four Seasons restaurant inside the brand new Seagram Building, a room built for people who wanted to eat very expensive steak while surrounded by serious art. Rothko worked on the panels for months, deep maroon and black fields meant to feel almost suffocating, and then he actually went and ate there. He hated it. He decided the whole atmosphere of rich diners glancing at paintings between courses was exactly the wrong home for the work, so he returned the money and kept the paintings himself. Years later many of them ended up gifted to the Tate in London, which means a dining room built for exclusivity lost its centerpiece because the artist thought better of it at the last possible moment.\n\nAnd then there is the opposite kind of restraint, which is almost none at all. In October of 1961 the Soviet Union detonated a hydrogen bomb over the remote Arctic islands of Novaya Zemlya that was so large it is still the most powerful explosive device ever set off by human beings. Tsar Bomba's fireball alone was visible for hundreds of miles, its shockwave circled the entire planet three times, and the mushroom cloud rose roughly sixty four kilometers into the sky, so tall it pushed into the stratosphere. It was, by most accounts, more powerful than was ever practically useful, a demonstration built mainly to prove it could be done.\n\nFour very different kinds of too far, a glowing jawbone, a water bear shrugging off the vacuum of space, a painter refusing his own fortune, and a bomb nobody could ever actually use. Extremes tend to teach us where the real edges are. New file Monday, Wednesday, Saturday.",
+    "cases": [
+      {
+        "no": "CF-001",
+        "tag": "History",
+        "q": "What horrifying workplace disease afflicted London matchgirls in the 1880s due to white phosphorus exposure?",
+        "options": [
+          "Phossy jaw",
+          "Black lung",
+          "Mad hatter disease",
+          "Mercury poisoning"
+        ],
+        "correct": 0,
+        "revealTitle": "Case notes",
+        "revealText": "Bryant and May factory workers inhaled white phosphorus fumes daily, causing jawbone decay so severe it could glow faintly in the dark. The 1888 matchgirls strike forced the company to improve conditions and became a landmark moment in British labor history.",
+        "source": "Louise Raw, Striking a Light, The Bryant and May Matchwomen and their Place in History"
+      },
+      {
+        "no": "CF-002",
+        "tag": "Science",
+        "q": "Which microscopic animal survived full exposure to the vacuum of space during a 2007 European Space Agency experiment?",
+        "options": [
+          "Rotifer",
+          "Tardigrade",
+          "Nematode",
+          "Brine shrimp"
+        ],
+        "correct": 1,
+        "revealTitle": "Case notes",
+        "revealText": "The ESA's TARDIS experiment sent tardigrades into orbit with zero protection from vacuum or cosmic radiation. They dried into a dormant state, survived ten days exposed, then rehydrated and reproduced normally back on Earth.",
+        "source": "European Space Agency, Tardigrades in Space, TARDIS mission report"
+      },
+      {
+        "no": "CF-003",
+        "tag": "Art",
+        "q": "Which artist accepted a lucrative commission for murals in a swanky New York restaurant, then had a change of heart and gave the money back?",
+        "options": [
+          "Jackson Pollock",
+          "Barnett Newman",
+          "Mark Rothko",
+          "Willem de Kooning"
+        ],
+        "correct": 2,
+        "revealTitle": "Case notes",
+        "revealText": "Rothko painted a series for the Four Seasons restaurant in the Seagram Building, but after dining there decided the room's exclusivity clashed with the work's purpose. He returned the fee, kept the canvases, and many later went to the Tate.",
+        "source": "Tate, Rothko's Seagram Murals collection notes"
+      },
+      {
+        "no": "CF-004",
+        "tag": "History",
+        "q": "What was the largest nuclear weapon ever detonated, tested by the Soviet Union in 1961?",
+        "options": [
+          "Castle Bravo",
+          "Little Boy",
+          "Ivy Mike",
+          "Tsar Bomba"
+        ],
+        "correct": 3,
+        "revealTitle": "Case notes",
+        "revealText": "Tsar Bomba was detonated over Novaya Zemlya and remains the most powerful explosive device ever set off by humans. Its shockwave circled the globe three times and the mushroom cloud reached roughly sixty four kilometers high.",
+        "source": "U.S. Department of Energy and Atomic Heritage Foundation historical records on Tsar Bomba"
+      }
+    ],
+    "bytes": 4210564
   }
 ]
