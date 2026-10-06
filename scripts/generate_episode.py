@@ -282,6 +282,11 @@ def rebuild_index(episodes, url_base):
         # support specifically, without it Safari (including iOS home screen apps) may never
         # actually register a working push subscription even though everything else runs fine.
         safari_web_id_js = f', safari_web_id: "{ONESIGNAL_SAFARI_WEB_ID}"' if ONESIGNAL_SAFARI_WEB_ID else ""
+        # GitHub Pages serves this app from a subfolder (/<repo>/), but OneSignal looks for its
+        # service worker at the site root by default. Point it at the worker in this folder and
+        # scope it to the folder, otherwise no push subscription is ever created.
+        repo_path = "/" + GITHUB_REPOSITORY.split("/", 1)[1] + "/" if "/" in GITHUB_REPOSITORY else "/curio-files-audio/"
+        sw_js = f', serviceWorkerPath: "{repo_path.lstrip("/")}OneSignalSDKWorker.js", serviceWorkerParam: {{ scope: "{repo_path}" }}'
         onesignal_snippet = f"""
 <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
 <script>
@@ -292,7 +297,7 @@ def rebuild_index(episodes, url_base):
   OneSignalDeferred.push(async function(OneSignal) {{
     var btn = document.getElementById("enablePushBtn");
     try {{
-      await OneSignal.init({{ appId: "{ONESIGNAL_APP_ID}"{safari_web_id_js}, notifyButton: {{ enable: false }} }});
+      await OneSignal.init({{ appId: "{ONESIGNAL_APP_ID}"{safari_web_id_js}, notifyButton: {{ enable: false }}{sw_js} }});
     }} catch (e) {{
       if (btn) {{
         btn.textContent = "Notifications unavailable right now";
