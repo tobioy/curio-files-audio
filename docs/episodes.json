@@ -886,5 +886,79 @@
       }
     ],
     "bytes": 4210564
+  },
+  {
+    "date": "2026-10-06",
+    "label": "Tuesday, October 6",
+    "facts_used": [
+      "great_emu_war_1932",
+      "mantis_shrimp_cavitation_punch",
+      "mona_lisa_theft_1911_peruggia",
+      "great_stink_london_1858"
+    ],
+    "script": "In 1932 the government of Australia looked at a few thousand birds and decided the appropriate response was war. Western Australian wheat farmers were losing their crops to emus wandering in from the outback, so the Royal Australian Artillery sent Major Gwynydd Meredith and two Lewis machine guns to sort it out. The emus, it turned out, do not form neat lines for a firing squad. They scattered, zigzagged, split into small deniable squads, and generally behaved like an enemy with better tactics than the actual army. After a week of jammed guns, wasted ammunition, and a body count so low it was embarrassing, the soldiers were recalled. Newspapers at the time openly called it a loss. The emus never surrendered, mostly because nobody ever figured out who to negotiate with.\n\nIf you want to see a creature that actually earns its reputation as a tiny war machine, skip the emu and look at the peacock mantis shrimp. Its front claw snaps shut faster than a .22 caliber bullet leaves the barrel, so fast that the water in front of it can't keep up and briefly turns to vapor. When that little pocket of vapor collapses, it flashes with heat that researchers have measured as approaching the temperature of the sun's surface, for a fraction of a millisecond, in a shrimp, in your aquarium, if you're foolish enough to keep one in glass it can crack. Nobody declared war on the mantis shrimp. Nobody needed to. It came pre-armed.\n\nHumans don't always need firepower to cause a national crisis either. Sometimes all it takes is nerve and a mop closet. In August of 1911, Vincenzo Peruggia, a handyman who had helped build protective glass cases for the Louvre, hid overnight inside the museum, lifted the Mona Lisa off the wall the next morning, tucked her under his smock, and walked out the front door during opening hours. The painting was so quietly famous at the time that it took the Louvre over a day to notice it was gone. Peruggia kept it in a trunk under his bed in Paris and then in Florence for more than two years, apparently convinced he was repatriating stolen Italian art, before he tried to sell it to a gallery and got arrested instead. The theft did more for the painting's fame than four centuries of hanging quietly ever had.\n\nAnd sometimes the crisis isn't a bird, a shrimp, or a thief, it's a smell. By the summer of 1858, London's sewage had been pouring untreated into the Thames for so long that the river directly beneath the Houses of Parliament turned into an open drain baking in unusually hot weather. Members of Parliament hung curtains soaked in chloride of lime over the windows and reportedly still couldn't stay in session. The press called it the Great Stink, and for once a government moved fast, approving funding within eighteen days for engineer Joseph Bazalgette's new sewer network, the same system that still carries London's waste today. It took a smell Parliament couldn't escape to build infrastructure nobody wanted to pay for.\n\nBirds that wouldn't line up, a bubble that briefly outheats the sun, a handyman who walked a masterpiece out the front door, a smell strong enough to move legislation. None of these things asked permission to become historic. They just got loud, or hot, or rank, or bold enough that the people in charge had no choice but to notice. New file Monday, Wednesday, Saturday.",
+    "cases": [
+      {
+        "no": "CF-001",
+        "tag": "History",
+        "q": "In 1932, the Australian military was deployed with machine guns against what rampaging menace in Western Australia?",
+        "options": [
+          "Wild camels",
+          "Emus",
+          "Cane toads",
+          "Dingoes"
+        ],
+        "correct": 1,
+        "revealTitle": "Case notes",
+        "revealText": "Soldiers under Major Gwynydd Meredith were sent to cull emus destroying wheat crops, but the birds scattered and outran the gunners. After a week of jammed guns and almost no kills, the army withdrew and papers openly declared it a loss for the humans.",
+        "source": "Australian War Memorial"
+      },
+      {
+        "no": "CF-002",
+        "tag": "Science",
+        "q": "The peacock mantis shrimp's claw strike is so fast it creates a flash of heat approaching the temperature of what?",
+        "options": [
+          "Boiling water",
+          "Molten lava",
+          "The sun's surface",
+          "Dry ice"
+        ],
+        "correct": 2,
+        "revealTitle": "Case notes",
+        "revealText": "The shrimp's punch outpaces a .22 bullet and creates a collapsing cavitation bubble that briefly flashes with heat near the sun's surface temperature. The phenomenon is called sonoluminescence and it's strong enough to crack aquarium glass.",
+        "source": "University of California, Berkeley research (published in Science)"
+      },
+      {
+        "no": "CF-003",
+        "tag": "Art",
+        "q": "In 1911 the Mona Lisa vanished from the Louvre, stolen by whom?",
+        "options": [
+          "A rival French painter",
+          "A Louvre handyman named Vincenzo Peruggia",
+          "A Russian aristocrat",
+          "A disgruntled night guard"
+        ],
+        "correct": 1,
+        "revealTitle": "Case notes",
+        "revealText": "Vincenzo Peruggia, who had worked on the painting's protective case, hid in a closet overnight and walked out with the Mona Lisa under his smock. It took over two years and a sting in Florence before he and the painting were caught.",
+        "source": "Smithsonian Magazine"
+      },
+      {
+        "no": "CF-004",
+        "tag": "History and Science",
+        "q": "What 1858 London crisis grew so unbearable that Parliament hung lime-soaked curtains over its windows?",
+        "options": [
+          "The Great Stink",
+          "A cholera outbreak",
+          "The Great Fog",
+          "A sewage explosion"
+        ],
+        "correct": 0,
+        "revealTitle": "Case notes",
+        "revealText": "Raw sewage baking in the Thames during a hot summer made the air around Parliament unbearable, a crisis dubbed the Great Stink. It pushed lawmakers to fund Joseph Bazalgette's new sewer system within eighteen days, infrastructure London still uses today.",
+        "source": "UK Parliament historical archives"
+      }
+    ],
+    "bytes": 4015795
   }
 ]
