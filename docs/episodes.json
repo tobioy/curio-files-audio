@@ -960,5 +960,79 @@
       }
     ],
     "bytes": 4015795
+  },
+  {
+    "date": "2026-10-07",
+    "label": "Wednesday, October 7",
+    "facts_used": [
+      "dancing_plague_strasbourg_1518",
+      "wombat_cube_poop",
+      "van_meegeren_vermeer_forgery",
+      "blue_whale_heartbeat_2019"
+    ],
+    "script": "Strasbourg, July 1518. A woman named Frau Troffea steps into the street and starts to dance. Not a jig, not a celebration, just dancing, feet slamming the cobblestones, and she does not stop. A day passes. Then another. Within a month something like four hundred people have joined her, dancing through the summer heat with no music, no reason, some of them reportedly dying of heart attacks and strokes and sheer exhaustion while the city fathers, baffled, hire actual musicians and build a wooden stage, thinking the cure for dancing is more dancing. Historian John Waller later makes the case that this wasn't witchcraft or poisoned rye, it was stress so enormous, famine and disease pressing down on a population already primed to believe in dancing curses, that minds simply broke and bodies followed. The dancing plague of Strasbourg is one of history's strangest proofs that the body, under enough pressure, will do things nobody, including the person doing them, can explain.\n\nBodies do strange things under pressure in quieter ways too. Four hundred years later a different team of scientists straps electrodes onto a blue whale in Monterey Bay, trying to answer a question nobody had ever actually measured, what does the largest heart on the planet do while its owner is hundreds of feet underwater. The Stanford researchers, led by Jeremy Goldbogen, get their answer and it is almost absurd. At the bottom of a deep dive, the whale's heart slows to about two beats a minute, barely ticking over, conserving everything, while at the surface, gulping air and chasing krill, it rockets up past thirty beats a minute, flirting with what the whale's own enormous heart can physically survive. It is an organ built at the very edge of what's possible, a pump the size of a small car running on the narrowest of margins, and we only found out because somebody was patient enough to stick a sensor on a wild animal with a suction cup and wait.\n\nMeanwhile, in a quieter corner of the animal kingdom, Georgia Tech researchers are trying to solve a much sillier mystery, why wombat poop comes out in cubes. Nature does not make many cube shaped anythings, let alone droppings, but there they are, stacked neatly on logs and rocks across the Australian bush like tiny scented warning signs. Patricia Yang's team finds the answer isn't a square shaped exit, it's the intestine itself, stretchy in some sections and stiff in others, molding the waste into corners and flat faces before it ever reaches daylight. The wombats stack the cubes deliberately, because flat sides don't roll off a log, which means the strangeness has a purpose, territory marking that works specifically because of the shape. It won an Ig Nobel Prize, which feels correct.\n\nAnd then there's Han van Meegeren, a Dutch painter nobody much cared about until he decided to become, secretly, a very good dead Dutch painter instead. He forges Vermeers so convincing that experts certify them, and one ends up in the private collection of Hermann Göring himself. When the war ends and the painting is traced back to him, van Meegeren is arrested not for forgery but for treason, for selling a Dutch national treasure to the enemy, a crime that could hang him. His defense is almost too strange to invent, he announces the painting is a fake, that he painted it, that he is in fact a liar and a fraud, and to prove it he repaints a Vermeer forgery live in front of the court. It works. Forgery is the lesser crime, and it saves his life.\n\nFour very different bodies of evidence, a dancing town, a slowing heart, a stacking wombat, a painter proving his own dishonesty to escape a noose, and all of them share the same quiet punchline, that the real world, examined closely enough, is stranger than anything we'd bother making up. New file Monday, Wednesday, Saturday.",
+    "cases": [
+      {
+        "no": "CF-001",
+        "tag": "History",
+        "q": "In July 1518 in Strasbourg, a woman named Frau Troffea triggered a bizarre outbreak when she started doing what, with hundreds joining her over the following weeks?",
+        "options": [
+          "Dancing uncontrollably",
+          "Singing without stopping",
+          "Running until collapse",
+          "Sleepwalking into the river"
+        ],
+        "correct": 0,
+        "revealTitle": "Case notes",
+        "revealText": "Frau Troffea began dancing in the street and couldn't stop, and within a month roughly four hundred Strasbourg residents had joined her in what's now called the dancing plague of 1518. City officials, baffled, hired musicians and built a stage to help dancers burn through it faster. Historian John Waller argues it was mass stress induced psychogenic illness, and several dancers reportedly died of exhaustion or heart failure.",
+        "source": "John Waller, A Time to Dance, a Time to Die"
+      },
+      {
+        "no": "CF-002",
+        "tag": "Science",
+        "q": "Georgia Tech researchers discovered wombats produce famously cube shaped droppings, and found the shape forms where in the animal?",
+        "options": [
+          "In the final stretch of the intestine",
+          "Inside a special stomach pouch",
+          "As the droppings dry in open air",
+          "From cube shaped teeth cutting the food"
+        ],
+        "correct": 0,
+        "revealTitle": "Case notes",
+        "revealText": "Patricia Yang's team found wombat intestines have alternating stretchy and stiff sections that mold waste into cubes before it exits, making wombats the only known animal to do this. They stack the cubes on logs and rocks as scent markers, and flat sides stop them rolling away. The study won an Ig Nobel Prize in 2019.",
+        "source": "Yang et al., Soft Matter, and the 2019 Ig Nobel Prize"
+      },
+      {
+        "no": "CF-003",
+        "tag": "Art",
+        "q": "Dutch painter Han van Meegeren became infamous at his own 1947 trial for what act?",
+        "options": [
+          "Forging Vermeer paintings and selling one to Hermann Goring",
+          "Stealing the real Girl with a Pearl Earring",
+          "Smuggling Rembrandts out of occupied Holland",
+          "Burning his own paintings to fake their rarity"
+        ],
+        "correct": 0,
+        "revealTitle": "Case notes",
+        "revealText": "Van Meegeren forged Vermeers including Christ and the Adulteress and sold one to Nazi official Hermann Goring during the occupation. Charged after the war with treason for selling a national treasure to the enemy, he confessed to forgery instead and proved it by repainting a fake Vermeer live in court. He was convicted of the lesser crime of forgery and avoided execution.",
+        "source": "Jonathan Lopez, The Man Who Made Vermeers"
+      },
+      {
+        "no": "CF-004",
+        "tag": "Science",
+        "q": "In 2019, Stanford researchers recorded a wild blue whale's heart rate during a deep dive and found it dropped to as low as what?",
+        "options": [
+          "About 2 beats per minute",
+          "About 20 beats per minute",
+          "About 60 beats per minute",
+          "About 0.5 beats per minute"
+        ],
+        "correct": 0,
+        "revealTitle": "Case notes",
+        "revealText": "Using a suction cup tag with electrodes, Jeremy Goldbogen's Stanford team recorded the first ever heartbeat data from a wild blue whale, finding it slowed to roughly two beats per minute at the bottom of deep dives. At the surface it spiked to 30 to 37 beats per minute, pushing the whale's massive heart near its physiological limit. The findings were published in PNAS in 2019.",
+        "source": "Goldbogen et al., Proceedings of the National Academy of Sciences, 2019"
+      }
+    ],
+    "bytes": 4665722
   }
 ]
