@@ -1034,5 +1034,79 @@
       }
     ],
     "bytes": 4665722
+  },
+  {
+    "date": "2026-10-10",
+    "label": "Saturday, October 10",
+    "facts_used": [
+      "boston_molasses_flood_1919",
+      "immortal_jellyfish_turritopsis_dohrnii",
+      "michelangelo_pieta_signature",
+      "antarctica_blood_falls"
+    ],
+    "script": "Boston, January 1919, unseasonably warm for January, which matters because warm weather makes molasses angrier than you'd think. A cast iron tank five stories tall, stuffed with over two million gallons of molasses meant for rum and munitions, had been groaning and leaking for years, workers used to scoop the drips into buckets and take them home as free syrup, nobody fixed the rivets. Then on January 15th the tank ripped open with a sound like machine gun fire and a wave of molasses, fifteen feet tall, forty miles an hour, came down the street faster than people could run. It crushed buildings, picked up a train, drowned horses standing in their stalls, and killed twenty one people, some of them not found for days because the molasses hardened like amber around them. Boston Harbor reportedly ran brown until summer. That's what happens when you ignore a leak and call it dessert.\n\nWhich brings us, strangely, to the one creature on Earth that never has to deal with a structural failure because it never fully commits to dying. Turritopsis dohrnii, a jellyfish roughly the size of your pinky nail, has worked out that growing old is optional. When it's injured, sick, or just exhausted from being a jellyfish, it doesn't die, it collapses its entire adult body back down into a blob of cells, resettles on the sea floor, and regrows itself as a baby polyp, starting the whole life cycle over from scratch. Biologists call this transdifferentiation, which is science for cheating. In theory it can do this forever, which is why marine biologists have nicknamed it the immortal jellyfish, and why at least one Japanese researcher has spent decades trying to keep colonies of them alive just to watch them refuse to stop existing.\n\nMichelangelo had his own relationship with refusing to let something go unfinished, specifically his own credit. When he finished the Pieta in 1499, a marble Mary cradling a dead Christ so smooth it looks like fabric you could wrinkle with your thumb, he was twenty four and unknown outside Rome. He overheard a group of tourists admiring it and crediting it to a rival sculptor from Lombardy. Michelangelo, by his own later account to Vasari, was so furious he snuck back into the chapel that night with a chisel and a lamp and carved his own name directly onto the sash crossing Mary's chest, in Latin, essentially signing the work like an angry teenager tagging a locker. It remains the only piece he ever signed in his entire career, and he reportedly regretted the outburst almost immediately, vowing never to let his ego get the better of his marble again.\n\nThen there's Antarctica, quietly bleeding. At the mouth of Taylor Glacier in the dry valleys, a stream of water the color of a crime scene oozes out and stains the ice. It's been doing this for over a century, first spotted in 1911 and assumed to be red algae, which is a very polite guess for something that looks like a crack in the planet's skin. The real answer is iron, a reservoir of ancient super salty water trapped under the glacier for roughly two million years, so iron rich it rusts on contact with oxygen the moment it hits open air, the same chemistry that turns a bike left in the rain orange. Inside that brine, scientists found microbes that have been surviving in the dark, in the cold, in zero oxygen, since before humans existed.\n\nA leaking tank, a jellyfish that refuses to stay dead, a sculptor's midnight confession, and a glacier quietly bleeding rust for two million years. Nothing here stayed contained, buried, or finished the way it was supposed to, which is usually a sign the story's more interesting than the lid on top of it.\n\nNew file Monday, Wednesday, Saturday.",
+    "cases": [
+      {
+        "no": "CF-001",
+        "tag": "History",
+        "q": "In January 1919, a burst storage tank in Boston's North End unleashed a deadly wave of what sticky substance, killing 21 people?",
+        "options": [
+          "Molasses",
+          "Maple syrup",
+          "Tar",
+          "Honey"
+        ],
+        "correct": 0,
+        "revealTitle": "Case notes",
+        "revealText": "A leaky, poorly maintained tank holding over two million gallons of molasses burst, sending a fifteen foot wave moving forty miles an hour through the streets. It killed 21 people and injured 150, and locals claimed you could smell molasses on hot summer days for decades after.",
+        "source": "Smithsonian Magazine, The Great Molasses Flood of 1919"
+      },
+      {
+        "no": "CF-002",
+        "tag": "Science",
+        "q": "Which creature can revert its adult body back into an earlier polyp stage, resetting its life cycle instead of dying of old age?",
+        "options": [
+          "Hydra",
+          "Turritopsis dohrnii, the immortal jellyfish",
+          "Sea anemone",
+          "Coral polyp colony"
+        ],
+        "correct": 1,
+        "revealTitle": "Case notes",
+        "revealText": "Turritopsis dohrnii collapses its mature cells and reorganizes them into a juvenile polyp, essentially starting over from infancy, a process called transdifferentiation. This earned it the nickname the immortal jellyfish, though predators and disease still get it plenty.",
+        "source": "Nature, research on Turritopsis dohrnii cellular transdifferentiation"
+      },
+      {
+        "no": "CF-003",
+        "tag": "Art",
+        "q": "Michelangelo's Pieta is the only sculpture he ever signed, after overhearing viewers credit it to a rival artist. Where did he carve his name?",
+        "options": [
+          "Christ's foot",
+          "The base of the statue",
+          "The sash across Mary's chest",
+          "The back of Mary's robe"
+        ],
+        "correct": 2,
+        "revealTitle": "Case notes",
+        "revealText": "According to Giorgio Vasari, a young Michelangelo snuck back into the chapel at night and chiseled his name into the sash crossing Mary's chest after hearing the work misattributed. He never signed another sculpture again, apparently embarrassed by the outburst.",
+        "source": "Giorgio Vasari, Lives of the Artists"
+      },
+      {
+        "no": "CF-004",
+        "tag": "Science",
+        "q": "What causes Antarctica's Blood Falls to pour blood red water from the edge of Taylor Glacier?",
+        "options": [
+          "Red algae blooms",
+          "Volcanic sulfur deposits",
+          "Iron rich brine that rusts on contact with air",
+          "Dye from ancient mineral sediment"
+        ],
+        "correct": 2,
+        "revealTitle": "Case notes",
+        "revealText": "An ancient, super salty, iron rich lake trapped under the glacier for roughly two million years seeps out and oxidizes, or rusts, the instant it touches oxygen, turning it red. The brine also hosts microbes that have survived in total darkness without oxygen for that entire span.",
+        "source": "Journal of Glaciology, research by Jill Mikucki et al."
+      }
+    ],
+    "bytes": 4589235
   }
 ]
