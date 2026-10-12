@@ -1108,5 +1108,79 @@
       }
     ],
     "bytes": 4589235
+  },
+  {
+    "date": "2026-10-12",
+    "label": "Monday, October 12",
+    "facts_used": [
+      "cadaver_synod_pope_formosus_897",
+      "narwhal_tusk_sensory_organ",
+      "caravaggio_goliath_self_portrait",
+      "opossum_thanatosis_involuntary"
+    ],
+    "script": "Rome, January 897. The basilica smells like wax and something worse, because the guest of honor has been dead for nine months. Pope Formosus died quietly in bed, which should have been the end of it, but his successor Stephen the Sixth has other plans. He has the corpse dug up, dressed in full papal robes, and propped on a throne for trial. A nervous deacon stands behind the chair and answers questions on the dead man's behalf, because apparently even a rotting pope deserves due process. The verdict comes back guilty. Formosus gets his blessing fingers hacked off and his body pitched into the Tiber, a river that at this point has seen everything and is tired. It is the strangest trial in papal history, and it only works because everyone in that room agrees to pretend a corpse can confess.\n\nFast forward about seven hundred years and a different kind of corpse is doing the confessing, this time on canvas. Caravaggio is a wanted man, fresh off killing someone in a brawl, hiding out and painting for his life. He picks up his brush and paints David holding the severed head of Goliath, bug eyed, slack jawed, dripping. Then he does something nobody asked for. He paints his own face onto that head. It is a confession and a plea rolled into one gruesome package, sent off to a cardinal who happens to have the power to pardon him. The painting is basically Caravaggio saying, here is what I deserve, please don't actually do it. The pardon was reportedly on its way. He died before it arrived, so the severed head got the last word.\n\nMeanwhile, up in the Arctic, a creature has been quietly carrying around a nine foot secret that took scientists centuries to clock. The narwhal tusk looks like a unicorn prop, all spiral and swagger, and for generations people assumed it was a jousting weapon or a status symbol for impressing other narwhals. Turns out it is a tooth, a single left canine that drills straight through the animal's upper lip, and it is packed with up to ten million nerve endings wired directly to the brain. It is not a sword, it is a straw with feelings, able to sense tiny shifts in salt and temperature in the water around it. The flashiest thing about the narwhal was never for show, it was for listening.\n\nAnd then there is the opossum, which has figured out the cheapest trick in the animal kingdom, except it never actually decided to do it. Corner one and its body simply shuts the lights off without asking permission. It collapses, stiffens, bares its teeth, drools, and leaks a genuinely foul smelling fluid from its back end, all without the opossum choosing a single part of it. It is not playing dead, it is having an involuntary fainting fit dressed up as a survival strategy, and it can take hours to come back online. Nature gave this animal a panic button wired straight to catatonia, no consent required.\n\nPut it all together and you get a parade of bodies telling stories they never agreed to tell. A corpse interrogated as if it could still lie. A fugitive's face smuggled inside a monster's severed head. A tusk mistaken for a weapon when it was really an ear. A possum staging a death scene its own brain wrote without consulting it. Bodies, it turns out, are terrible at keeping secrets, dead or alive, painted or swimming, whether they meant to confess or not.\n\nNew file Monday, Wednesday, Saturday.",
+    "cases": [
+      {
+        "no": "CF-001",
+        "tag": "History",
+        "q": "In January 897 AD, Pope Stephen VI put the corpse of which predecessor on trial, dressed in papal robes?",
+        "options": [
+          "Pope Formosus",
+          "Pope Gregory the Great",
+          "Pope Leo the Third",
+          "Pope Nicholas the First"
+        ],
+        "correct": 0,
+        "revealTitle": "Case notes",
+        "revealText": "Stephen VI exhumed Formosus nine months after his death, sat the robed corpse on a throne, and tried him for perjury while a deacon answered on his behalf. Formosus was found guilty, had his blessing fingers cut off, and was dumped in the Tiber. Historians call it the Cadaver Synod, and it is exactly as grim as it sounds.",
+        "source": "Smithsonian Magazine, The Cadaver Synod"
+      },
+      {
+        "no": "CF-002",
+        "tag": "Science",
+        "q": "What have researchers discovered the narwhal's spiral tusk actually is?",
+        "options": [
+          "A modified rib bone",
+          "A sensory organ packed with nerve endings",
+          "A calcium buildup from diet alone",
+          "A purely decorative mating display"
+        ],
+        "correct": 1,
+        "revealTitle": "Case notes",
+        "revealText": "Dental researcher Martin Nweeia found the tusk is actually an exposed left canine tooth with up to ten million nerve endings wired to the brain. It senses tiny shifts in salinity and temperature in the surrounding water. So the Arctic unicorn horn is basically a nine foot taste straw.",
+        "source": "National Geographic, Mystery of the Narwhal's Tusk"
+      },
+      {
+        "no": "CF-003",
+        "tag": "Art",
+        "q": "In David with the Head of Goliath, whose face did Caravaggio reportedly paint onto the severed head?",
+        "options": [
+          "His rival's face",
+          "A random model's face",
+          "His own face",
+          "His patron Cardinal Borghese's face"
+        ],
+        "correct": 2,
+        "revealTitle": "Case notes",
+        "revealText": "Caravaggio, a fugitive wanted for murder, painted the gruesome severed head of Goliath with his own likeness. Art historians read it as a plea for pardon sent to the cardinal who could grant him clemency. The pardon was reportedly on its way when he died.",
+        "source": "Galleria Borghese, curatorial notes on David with the Head of Goliath"
+      },
+      {
+        "no": "CF-004",
+        "tag": "Science",
+        "q": "When an opossum appears to play dead, what is actually happening?",
+        "options": [
+          "A learned performance taught by its mother",
+          "A voluntary trick to lure predators closer",
+          "An involuntary catatonic collapse it cannot control",
+          "A side effect of an unusually slow metabolism"
+        ],
+        "correct": 2,
+        "revealTitle": "Case notes",
+        "revealText": "Opossums do not choose to play dead, their bodies do it for them. Extreme stress triggers an involuntary coma-like collapse with a stiff curled body, bared teeth, drooling, and foul smelling fluid from the anal glands, lasting up to several hours.",
+        "source": "Journal of Mammalogy, studies on Didelphis virginiana thanatosis"
+      }
+    ],
+    "bytes": 4110672
   }
 ]
