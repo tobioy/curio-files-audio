@@ -1182,5 +1182,79 @@
       }
     ],
     "bytes": 4110672
+  },
+  {
+    "date": "2026-10-14",
+    "label": "Wednesday, October 14",
+    "facts_used": [
+      "napoleon_rabbit_hunt_1807",
+      "electric_eel_leap_shock",
+      "octopus_blue_blood_hemocyanin",
+      "bosch_garden_earthly_delights_butt_music"
+    ],
+    "script": "Picture a man who has conquered half of Europe, standing in a field, waiting for something small and fluffy to run away from him. That man is Napoleon Bonaparte, the year is 1807, and the something small is about to ruin his whole afternoon. His chief of staff had arranged a grand rabbit hunt to celebrate a treaty, and to make sure there would be plenty of rabbits, he ordered thousands of them from local farms. The trouble is, farmed rabbits are not wild rabbits. They are tame, they are hungry, and they have learned that when a crowd of humans shows up, food is usually involved. So when the cages opened and the beaters shouted, the rabbits did not scatter into the woods like a proper quarry. They turned around and ran straight at the hunting party, climbing boots, swarming coattails, treating the Emperor of the French like a vending machine that had finally arrived. Napoleon's own officers had to beat them back with sticks while he retreated to his carriage, which the rabbits then tried to climb as well. An empire that could not be stopped by Austrian cannons was briefly stopped by bunnies.\n\nNature keeps a file on this kind of reversal, the moment something soft turns out to be dangerous. Take the electric eel, which is not actually an eel but might as well carry a badge that says do not touch. For a long time people wondered why these animals sometimes thrash halfway out of the water when something threatens them, rearing up like a furious hose. A biologist named Kenneth Catania figured out the trick by, essentially, letting an eel shock his own arm repeatedly for science. The answer is that water spreads an electric charge out in every direction, wasting most of the jolt. But if the eel presses its chin directly against the threat, flesh to flesh, the entire voltage goes straight into the target with nowhere else to go. It is less an accident of anatomy and more a targeting system, built by evolution to turn a mild inconvenience into a very bad decision.\n\nDown in the cold dark of the ocean, there is a creature running on an entirely different operating system. Octopus blood is blue, not as a poetic flourish but as basic chemistry. Instead of the iron-based hemoglobin that makes human blood red, octopuses use a copper-based molecule called hemocyanin to carry oxygen. It is a worse oxygen carrier than hemoglobin in most conditions, but in cold, low oxygen water it actually holds up better, which is exactly the kind of water octopuses tend to live in. Three hearts pump this pale blue fluid around a body that has no bones to speak of, which is its own kind of quiet rebellion against how animals are supposed to be built.\n\nAnd then there is Hieronymus Bosch, five centuries ago, hiding a joke in plain sight inside one of the strangest paintings ever made. In the hell panel of The Garden of Earthly Delights, a damned soul lies crushed beneath an enormous harp, and across his bare backside Bosch painted an actual string of musical notes. For five hundred years this was just a weird detail. Then in 2014 a music student actually transcribed the notation and played it, and the internet promptly nicknamed it butt music from hell, a title Bosch could never have predicted and absolutely would have enjoyed.\n\nA swarm of farmed rabbits, a fish that aims its own electricity, blood that runs blue instead of red, a painted backside turned into sheet music. None of it was supposed to be funny or strange when it started, it just turned out that bodies, animal or human, rarely behave the way we expect once you actually look closely. New file Monday, Wednesday, Saturday.",
+    "cases": [
+      {
+        "no": "CF-001",
+        "tag": "History",
+        "q": "In 1807, Napoleon Bonaparte organized a leisurely rabbit hunt that went disastrously wrong when the rabbits did what instead of fleeing?",
+        "options": [
+          "They attacked and swarmed the hunting party",
+          "They dug tunnels under the hunting grounds overnight",
+          "They refused to leave their transport cages",
+          "They were devoured by hawks before the hunt began"
+        ],
+        "correct": 0,
+        "revealTitle": "Case notes",
+        "revealText": "The rabbits were farmed animals bred tame for food, so instead of scattering at the sight of humans they rushed toward them expecting dinner. Napoleon and his officers were swarmed and had to retreat, climbing into carriages the rabbits then tried to storm. The account comes from the memoirs of Baron Thiebault, who was present.",
+        "source": "Baron Paul Thiebault, Memoirs"
+      },
+      {
+        "no": "CF-002",
+        "tag": "Science",
+        "q": "Electric eels sometimes leap partway out of the water when threatened because doing so...",
+        "options": [
+          "Lets them breathe air directly",
+          "Concentrates their electric shock directly into the threat",
+          "Helps them spot predators from above",
+          "Cools down their internal organs"
+        ],
+        "correct": 1,
+        "revealTitle": "Case notes",
+        "revealText": "Biologist Kenneth Catania showed that water disperses an eel's charge, but pressing its chin against a target sends the full voltage straight into the threat with no escape route. This behavior explains old reports of eels seemingly leaping to attack horses. He confirmed it by letting an eel shock his own arm.",
+        "source": "Kenneth Catania, PNAS, 2016"
+      },
+      {
+        "no": "CF-003",
+        "tag": "Science",
+        "q": "Octopus blood is blue because it uses which molecule to carry oxygen instead of iron-rich hemoglobin?",
+        "options": [
+          "Copper-based hemocyanin",
+          "Zinc-based hemerythrin",
+          "Cobalt-based cobalamin",
+          "Silver-based argyrin"
+        ],
+        "correct": 0,
+        "revealTitle": "Case notes",
+        "revealText": "Hemocyanin turns blue when it binds oxygen and performs better than hemoglobin in cold, low oxygen seawater. That chemistry, along with three separate hearts, keeps octopuses running in deep, chilly environments where mammal blood would struggle.",
+        "source": "Smithsonian Ocean, marine biology reference"
+      },
+      {
+        "no": "CF-004",
+        "tag": "Art",
+        "q": "In Hieronymus Bosch's painting The Garden of Earthly Delights, one damned sinner in the hell panel has what painted on his buttocks?",
+        "options": [
+          "A musical score",
+          "A tax receipt",
+          "A royal wax seal",
+          "A chessboard pattern"
+        ],
+        "correct": 0,
+        "revealTitle": "Case notes",
+        "revealText": "A man crushed under a giant harp has an actual string of musical notation inked across his rear end. In 2014 a music student transcribed and performed the notes, and the internet nicknamed it butt music from hell.",
+        "source": "NPR reporting, original transcription via the Discarding Images blog"
+      }
+    ],
+    "bytes": 4456323
   }
 ]
