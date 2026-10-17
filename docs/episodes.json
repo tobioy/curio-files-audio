@@ -1256,5 +1256,79 @@
       }
     ],
     "bytes": 4456323
+  },
+  {
+    "date": "2026-10-17",
+    "label": "Tuesday, October 17",
+    "facts_used": [
+      "battle_of_karansebes_1788",
+      "hippo_red_sweat_sunscreen",
+      "artemisia_gentileschi_thumbscrew_trial_1612",
+      "wood_frog_freeze_survival"
+    ],
+    "script": "There is a particular kind of chaos that only happens when a body, or an army, decides to protect itself and gets it catastrophically wrong, and tonight's file is full of it. Start in the Romanian countryside in 1788, where the Austrian army is camped near a town called Karansebes, hunting Ottoman forces that are nowhere nearby. Some cavalry scouts cross a river, find a band of Roma traders selling schnapps, and strike a deal. Infantry show up wanting a share, the cavalry refuse, someone shoves someone, a shot goes off. In the dark, a tired army that has been marching for days hears gunfire and a shout that sounds like Turci, Turci, the Turks, the Turks. Nobody checks. Thousands of exhausted men start firing at shapes in the fog, which turn out to be each other, and the panic spreads for miles before anyone realizes the enemy was never there. The actual Ottomans arrive two days later to find a battlefield the Austrians had already wrecked themselves. An army is a kind of organism, and organisms under threat do not always reason, they just react, which is a problem this file keeps circling back to.\n\nBodies have better instincts, usually, though they are stranger than you'd think. A hippo wallowing in a muddy river looks like it is bleeding from every pore, oozing a thick reddish fluid that early naturalists genuinely described as blood sweat. It is not blood. It is a pair of pigments the hippo's skin glands manufacture on purpose, one red, one orange, that start out colorless and oxidize into this gory-looking slick the moment they hit air. It works as sunscreen for an animal that spends its days baking half-submerged under equatorial sun with almost no hair to protect it, and it also fights off bacteria and fungus, which matters a great deal for a creature that gets into fights that leave deep open wounds. The hippo is not injured. The hippo built its own medicine cabinet into its skin and wears it as war paint.\n\nArtemisia Gentileschi did not have the luxury of a body that could manufacture its own defense. In 1612 she testified in a Roman court that the painter Agostino Tassi had raped her, and because Roman law at the time demanded proof that a witness was not lying, the court ordered a device called the sibille applied to her fingers, cords tightened around each digit and pulled slowly by a judicial official while she spoke. She was a working painter whose hands were her trade, her hands were the things that had made Judith Slaying Holofernes, and the court tightened cords around those same fingers while she repeated, true, true, it is true, over and over as the pain increased. She kept her story straight through the entire procedure. Tassi was eventually convicted and barely punished, Artemisia kept painting for another four decades, and the transcript survives in Rome's state archives, a legal document built on the idea that agony is a truth serum.\n\nAnd then there's the wood frog, sitting in leaf litter through a North American winter, doing something that makes freezing to death look optional. Its heart stops. Its breathing stops. Up to two-thirds of the water in its body turns to literal ice. Just before that happens, its liver floods its blood with glucose, a natural antifreeze that protects its cells from being shredded by ice crystals while the rest of it goes solid as a rock. It sits there through the cold months essentially dead by any normal measure, then thaws in spring, and the heart, on its own, restarts.\n\nFour very different systems, an army, a hide, a hand, a frog, each one rigged with its own emergency plan, some of them brilliant, one of them a disaster, all of them real. New file Monday, Wednesday, Saturday.",
+    "cases": [
+      {
+        "no": "CF-001",
+        "tag": "History",
+        "q": "In 1788, the Austrian army suffered a chaotic self-inflicted disaster near Karansebes caused by what?",
+        "options": [
+          "An actual surprise Ottoman ambush",
+          "A dispute over schnapps that spiraled into soldiers firing on each other in the dark",
+          "A gunpowder magazine explosion",
+          "A sudden river flood that scattered the camp"
+        ],
+        "correct": 1,
+        "revealTitle": "Case notes",
+        "revealText": "Cavalry and infantry squabbled over a drink deal, a shot rang out, and a tired army convinced itself the Turks had arrived. Thousands of Austrian soldiers spent the night shooting at their own side before the panic finally burned out. The real Ottoman army showed up two days later to a battlefield Austria had already trashed by itself.",
+        "source": "Encyclopaedia Britannica, Battle of Karansebes entry"
+      },
+      {
+        "no": "CF-002",
+        "tag": "Science",
+        "q": "The reddish liquid hippos ooze from their skin, often called blood sweat, is actually what?",
+        "options": [
+          "Blood leaking through thin skin",
+          "A pigment secretion that works as sunscreen and antiseptic",
+          "Algae that grows naturally on hippo hide",
+          "Residue from the muddy water they wallow in"
+        ],
+        "correct": 1,
+        "revealTitle": "Case notes",
+        "revealText": "The fluid is colorless until it hits air and oxidizes into a red and orange pigment mix that blocks UV light and fights bacteria. It lets hippos sunbathe for hours with almost no hair and still fend off infection in their frequent open wounds.",
+        "source": "Nature, Kimiko Hashimoto et al., 2004 study on hippopotamus sweat pigments"
+      },
+      {
+        "no": "CF-003",
+        "tag": "Art, History",
+        "q": "During her 1612 rape trial, painter Artemisia Gentileschi was tortured with what to test the truth of her testimony?",
+        "options": [
+          "The rack",
+          "Thumbscrews tightened by cord around her fingers",
+          "Branding",
+          "Water torture"
+        ],
+        "correct": 1,
+        "revealTitle": "Case notes",
+        "revealText": "Roman court procedure at the time used pain as a credibility test, so officials tightened cords around the fingers of a working painter while she testified against Agostino Tassi. She kept her account consistent throughout, he was convicted and barely punished, and she kept painting for decades after.",
+        "source": "Mary D. Garrard, Artemisia Gentileschi, The Image of the Female Hero in Italian Baroque Art"
+      },
+      {
+        "no": "CF-004",
+        "tag": "Science",
+        "q": "The North American wood frog survives winter by doing what?",
+        "options": [
+          "Migrating south before frost sets in",
+          "Burrowing deep enough to stay below the frost line",
+          "Producing natural antifreeze and letting most of its body freeze solid, then thawing alive in spring",
+          "Hibernating fully submerged underwater"
+        ],
+        "correct": 2,
+        "revealTitle": "Case notes",
+        "revealText": "The frog's liver dumps glucose into its blood as a cryoprotectant right before its heart and breathing stop and up to two thirds of its body water turns to ice. It spends winter essentially frozen solid, then thaws in spring and restarts its own heart.",
+        "source": "Journal of Experimental Biology, Kenneth Storey, Carleton University, wood frog freeze tolerance research"
+      }
+    ],
+    "bytes": 4633956
   }
 ]
