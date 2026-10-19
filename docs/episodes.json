@@ -1330,5 +1330,79 @@
       }
     ],
     "bytes": 4633956
+  },
+  {
+    "date": "2026-10-19",
+    "label": "Monday, October 19",
+    "facts_used": [
+      "radium_girls_dial_painters",
+      "glass_frog_liver_blood_transparency",
+      "munch_scream_pigment_fading",
+      "corpse_flower_titan_arum_thermogenesis"
+    ],
+    "script": "Picture a factory floor in New Jersey, sometime around 1917. Rows of young women lean over watch faces under electric light, paintbrushes glowing a soft ghostly green between their fingers. The paint is radium, mixed in to make dials readable in the dark, and the trick to a fine line is simple, the company tells them, just touch the brush to your lips to bring it to a point. Lip, dip, paint. It tastes like nothing. It feels, if anything, glamorous, these are the girls whose teeth catch candlelight at dances, whose faces seem to glow faintly on the walk home. Nobody explains that the body mistakes radium for calcium and tucks it quietly into bone, where it sits for years, grinding away jaws and hips from the inside, long before anyone in a lab coat connects the dead women to the dial painting job they loved.\n\nFour thousand miles south, and roughly a century later, a much smaller creature is hiding a different kind of secret. A glass frog dozes on the underside of a rainforest leaf in Costa Rica, and if you shine a light through it you can see the leaf's veins right behind its skin, because its organs have gone almost see through. Scientists watching with sensitive imaging noticed something strange happen the moment the frog falls asleep, nearly all of its circulating red blood cells vanish from view, packed away and crammed into the liver, which somehow tucks itself behind a mirror-like lining to hide them. Wake the frog up and the blood floods back out, the body goes faintly red again, the disguise drops. It is one of the only known animals that turns its own blood supply into a hiding spot on purpose, nightly, like pulling a blanket over a secret.\n\nMeanwhile, on a gallery wall in Oslo, a much louder secret has been quietly unfolding for over a century. Edvard Munch's The Scream, that swirling orange sky behind a howling figure, has been slowly losing its nerve. Conservators noticed flaking and a dull whitish bloom creeping across the once vivid cadmium yellow, and when scientists finally scanned flecks of the paint with high powered X-rays, they found the cadmium sulfide pigment reacting with stray chloride, breaking down into a paler compound that simply cannot hold the same color. Moisture and gallery lighting speed the process along. The painting that gave the world its most famous image of pure panic is, very literally, fading in slow motion, a chemical reaction playing out in public for over a hundred years.\n\nAnd then there is the one creature on this list that hides nothing at all, it just lies about what it's hiding. The titan arum, better known as the corpse flower, blooms maybe once every several years, and when it finally does, it heats its central spike up to nearly human body temperature, the better to carry its smell further into the night air. That smell is rotting meat, and it works exactly as intended, carrion beetles and flesh flies come swarming in expecting a corpse to lay eggs on, and leave covered in pollen instead. Botanic gardens livestream the whole event, and thousands of people line up for hours just to get a whiff of something designed, with real biological effort, to smell like death.\n\nA glow that was actually poison, blood hidden to fake invisibility, a masterpiece quietly rotting under its own paint, a flower working overtime to smell like a corpse. None of them are what they first appear, and that, really, is the whole trick of looking closely at anything. New file Monday, Wednesday, Saturday.",
+    "cases": [
+      {
+        "no": "CF-001",
+        "tag": "History",
+        "q": "In the 1920s, the Radium Girls painted watch dials with glowing radium paint and were trained to do what with their brushes to keep a fine point?",
+        "options": [
+          "Dip them in water between strokes",
+          "Point them with their lips",
+          "Dry them on a cloth",
+          "Snap the bristles straight"
+        ],
+        "correct": 1,
+        "revealTitle": "Case notes",
+        "revealText": "The lip, dip, paint method was taught on the factory floor to keep brush tips sharp for tiny dials. Radium behaves like calcium in the body and settled into jawbones and hips for years before the poisoning was understood, leading to one of the first major U.S. occupational health lawsuits.",
+        "source": "Kate Moore, The Radium Girls"
+      },
+      {
+        "no": "CF-002",
+        "tag": "Science",
+        "q": "Glass frogs achieve near invisibility while sleeping by doing what with their blood?",
+        "options": [
+          "Draining it into their feet",
+          "Packing red blood cells into their liver",
+          "Stopping their heart temporarily",
+          "Turning the blood clear chemically"
+        ],
+        "correct": 1,
+        "revealTitle": "Case notes",
+        "revealText": "Researchers imaging sleeping glass frogs found nearly all circulating red blood cells vanish from view, hidden in the liver behind a reflective lining. The frog turns visibly red again within minutes of waking as blood flow resumes.",
+        "source": "Jesse Delia et al., Science journal, 2022"
+      },
+      {
+        "no": "CF-003",
+        "tag": "Art",
+        "q": "X-ray scans revealed the yellow pigment in Edvard Munch's The Scream is fading due to a reaction between cadmium sulfide and what?",
+        "options": [
+          "Direct sunlight alone",
+          "Chloride compounds",
+          "The linseed oil binder",
+          "Humid gallery air by itself"
+        ],
+        "correct": 1,
+        "revealTitle": "Case notes",
+        "revealText": "Conservation scientists scanning paint flecks with synchrotron X-rays found cadmium sulfide reacting with stray chloride to form a paler, unstable compound. Light and moisture speed the breakdown, slowly dulling the painting's famous sky.",
+        "source": "Letizia Monico et al., Analytical Chemistry journal, 2016"
+      },
+      {
+        "no": "CF-004",
+        "tag": "Science",
+        "q": "The corpse flower heats its spadix to near human body temperature mainly to help it do what?",
+        "options": [
+          "Attract carrion beetles and flies with a stronger smell",
+          "Melt frost around its base",
+          "Cook its own seeds for faster growth",
+          "Scare off grazing animals"
+        ],
+        "correct": 0,
+        "revealTitle": "Case notes",
+        "revealText": "Warming the spike helps carry the flower's rotting meat smell further into the night air, drawing carrion beetles and flesh flies expecting a corpse to lay eggs on. They leave dusted in pollen instead, and botanic gardens still draw crowds whenever one blooms.",
+        "source": "Kew Gardens, Titan Arum records"
+      }
+    ],
+    "bytes": 4376075
   }
 ]
