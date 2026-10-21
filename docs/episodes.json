@@ -1404,5 +1404,79 @@
       }
     ],
     "bytes": 4376075
+  },
+  {
+    "date": "2026-10-21",
+    "label": "Wednesday, October 21",
+    "facts_used": [
+      "defenestration_of_prague_1618",
+      "platypus_venomous_spur",
+      "michelangelo_sistine_chapel_standing_myth",
+      "axolotl_limb_regeneration"
+    ],
+    "script": "There is a very specific kind of Tuesday where you get thrown out a castle window and somehow that is not the worst part of your week. That was Prague, May 1618. Two Catholic regents and their secretary got hauled to a high window of the castle by angry Protestant nobles and pitched out, seventy feet down, onto the rocks below. Except it wasn't rocks. The castle moat had become, over the years, an unglamorous dumping ground, and the men landed in a deep soft heap of actual filth. Catholic writers later insisted angels caught them. Protestant writers insisted it was just a very good pile of manure. Nobody disputes that all three stood up, brushed themselves off, and went on to live, while the stunt itself detonated the Thirty Years War, a conflict that would eventually kill something like a third of Central Europe. Sometimes the body survives the fall and the politics never do.\n\nSurvival against absurd odds seems to be the theme of the week, so let's go to the platypus, an animal that already looks like a committee argument. The males carry a hidden weapon, a sharp spur on each hind ankle wired into a venom gland, mostly deployed on rival males during breeding season in vicious wrestling matches nobody sees. Get spurred yourself and you won't die, but you will wish you had, because the venom triggers pain so relentless that standard painkillers, even morphine, barely dent it, and the swelling can linger for months. Evolution built a mammal that lays eggs, glows under UV light, and also carries a built in torture device, apparently just to see if it could.\n\nUp on a Roman ceiling four centuries earlier, a furious sculptor was doing his own version of defying physics. Everyone repeats the image of Michelangelo flat on his back for four years painting the Sistine Chapel, but he actually engineered his own scaffolding, a raised platform that let him stand upright and arch backward to reach the vault, closer to a very slow, very agonizing gymnastics routine than a nap. It didn't spare him. Paint rained into his eyes, his neck locked into a permanent kink, and he wrote a grumbling poem about how his beard pointed at heaven and his brush dripped a mosaic onto his face. He survived the ceiling. His spine apparently sent a strongly worded complaint for the rest of his life.\n\nAnd then there's the axolotl, the one creature in this lineup that treats catastrophic injury as a scheduling inconvenience. Lose a leg, it grows back, bone, muscle, nerve, no scar. Damage the spinal cord, it reknits. Even portions of the heart and brain can be rebuilt, which is not a trick any vertebrate is supposed to have, let alone one that looks perpetually surprised and smiling. Scientists keep poking axolotls, gently, hoping to reverse engineer whatever genetic manual they're reading from, because a species that shrugs off dismemberment is basically carrying the cheat codes to regenerative medicine around in a tank at a university lab.\n\nPut it together and you get a strange lineup of things that got broken and simply declined to stay that way. Men thrown from a window, a mammal armed with pain nobody can switch off, a painter wrecked by his own masterpiece, and a salamander that rebuilds itself like nothing happened. History and biology keep proving that bodies are more stubborn than the forces trying to end them, even when the forces are gravity, venom, ceilings, or just bad luck. New file Monday, Wednesday, Saturday.",
+    "cases": [
+      {
+        "no": "CF-001",
+        "tag": "History",
+        "q": "In 1618, three men were thrown from a high window in Prague Castle, an event that helped spark a major war. What reportedly saved their lives on landing?",
+        "options": [
+          "A deep pile of manure in the moat",
+          "A hay cart passing below",
+          "A snowbank",
+          "The river Vltava"
+        ],
+        "correct": 0,
+        "revealTitle": "Case notes",
+        "revealText": "The Second Defenestration of Prague sent two Catholic regents and a secretary out a seventy foot window in 1618. Catholic accounts credited angels for their survival, Protestant accounts credited a large dung heap in the castle moat. The incident helped ignite the Thirty Years War, one of the deadliest conflicts in European history.",
+        "source": "Encyclopaedia Britannica, Defenestrations of Prague"
+      },
+      {
+        "no": "CF-002",
+        "tag": "Science",
+        "q": "Male platypuses carry venomous spurs on their hind legs. What do these actually do to a person who gets spurred?",
+        "options": [
+          "Cause pain so severe standard painkillers barely help",
+          "Turn the skin permanently blue",
+          "Cause instant paralysis",
+          "Deliver a mild electric shock"
+        ],
+        "correct": 0,
+        "revealTitle": "Case notes",
+        "revealText": "Male platypuses use venomous ankle spurs mainly to fight rival males during breeding season. The venom is not lethal to humans but produces agonizing, long-lasting pain that resists even morphine, with swelling that can persist for weeks or months.",
+        "source": "Australian Museum, Platypus venom"
+      },
+      {
+        "no": "CF-003",
+        "tag": "Art",
+        "q": "Contrary to the popular myth, how did Michelangelo actually paint the Sistine Chapel ceiling?",
+        "options": [
+          "Lying flat on his back the whole time",
+          "Standing upright on custom scaffolding, leaning back",
+          "Suspended by ropes from the rafters",
+          "Using angled mirrors while seated on the floor"
+        ],
+        "correct": 1,
+        "revealTitle": "Case notes",
+        "revealText": "Michelangelo built his own scaffolding system that let him stand and bend backward to reach the ceiling, not lie down as legend claims. He still suffered badly, with paint dripping into his eyes and a neck strain so severe he said he had to hold letters above his head to read them.",
+        "source": "Metropolitan Museum of Art, Heilbrunn Timeline essay on Michelangelo"
+      },
+      {
+        "no": "CF-004",
+        "tag": "Science",
+        "q": "Axolotls are famous among biologists for regenerating which of the following without scarring?",
+        "options": [
+          "Only their tail fin",
+          "Limbs, spinal cord, and parts of the heart and brain",
+          "Only skin pigmentation",
+          "Their entire skeleton once a year"
+        ],
+        "correct": 1,
+        "revealTitle": "Case notes",
+        "revealText": "Axolotls can regrow amputated limbs, repair damaged spinal cord, and even rebuild parts of the heart and brain, all without forming scar tissue. Researchers study them closely in hopes of applying the same regenerative tricks to human medicine.",
+        "source": "Smithsonian Magazine, The Axolotl Paradox"
+      }
+    ],
+    "bytes": 4361029
   }
 ]
