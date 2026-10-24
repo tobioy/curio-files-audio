@@ -1478,5 +1478,79 @@
       }
     ],
     "bytes": 4361029
+  },
+  {
+    "date": "2026-10-24",
+    "label": "Saturday, October 24",
+    "facts_used": [
+      "emperor_norton_san_francisco_1859",
+      "ancient_egyptian_honey_preservation",
+      "dali_check_sketches",
+      "beethoven_hair_lead_poisoning"
+    ],
+    "script": "Some things just refuse to disappear. They get buried, bottled, scribbled on a napkin, or boiled off a dead man's hair, and centuries later they're still telling on us. Take San Francisco in 1859. A failed rice speculator named Joshua Norton lost everything trying to corner the market, went a little sideways in the head afterward, and instead of slinking off in shame, he marched to the offices of the San Francisco Bulletin and announced he was now Emperor of the United States. Not mayor. Not senator. Emperor. And here's the part that should not have worked, the newspapers printed his decrees anyway, year after year, dissolving Congress, banning the word Frisco under penalty of fine, ordering a bridge built across the bay decades before anyone else thought to. The city fed him, dressed him in a feathered hat, let him inspect sidewalks like a tiny self appointed king. When he dropped dead on a street corner in 1880, thirty thousand people showed up for the funeral of a man with no actual kingdom. A delusion, kept alive by collective agreement, outlived the man who invented it.\n\nMeanwhile, under the sand in Egypt, something far older was proving even harder to kill. Archaeologists cracking open sealed jars near royal tombs, including ones close to Tutankhamun's burial chamber, kept finding honey. Not fossilized honey, not honey shaped stone, actual honey, syrupy and golden and, when tested, still perfectly fit to eat after three thousand years underground. Bees pull this off by making honey almost uninhabitable for anything else, low moisture, high acidity, a dose of hydrogen peroxide baked right in. Nothing can grow in it, nothing can rot it, it just sits there in the dark being correct forever. Pharaohs crumble. Honey does not.\n\nSalvador Dali understood something about permanence too, just from the opposite direction, he weaponized how badly people want to keep things. Dali would finish a long dinner, call for the check, and instead of simply signing it, he'd scribble a quick melting clock or a spindly elephant leg across the paper before handing it over. The restaurant owner, holding what was now technically a signed Dali original, would almost never cash the check. Why trade a piece of Dali's actual hand for the face value of a steak dinner. Dali knew exactly what he was doing, he ate like royalty across Europe for decades on nothing but ink and reputation, turning the act of paying into the art itself.\n\nAnd then there's Beethoven, who left something behind he never meant to, strands of his own hair, snipped by visitors and admirers, passed hand to hand for two centuries until a lab finally got its hands on authenticated locks in 2024. The chemists expected to find clues about his deafness. What they found was lead, enormous amounts of it, about sixty four times higher than safe levels, almost certainly soaked up over a lifetime of wine stored and sweetened in lead lined vessels, a very normal, very poisonous habit at the time. It likely explains the stomach agony that plagued him his whole life, and may have contributed to the hearing loss that turned the greatest composer of his era slowly, cruelly deaf. His music outlived him on purpose. His hair told on him by accident.\n\nA pretend emperor kept alive by paper and crowds, a jar of honey that never got the memo about time, a painter who turned garbage into inheritance with four quick pen strokes, and a dead composer's hair spilling secrets he never chose to share. None of them meant to leave the same kind of mark, but they all left one anyway, stubborn, specific, and strangely edible by history. New file Monday, Wednesday, Saturday.",
+    "cases": [
+      {
+        "no": "CF-001",
+        "tag": "History",
+        "q": "In 1859, a bankrupt businessman in San Francisco declared himself what, and got newspapers to print his orders for over twenty years?",
+        "options": [
+          "Emperor of the United States",
+          "Governor of California",
+          "King of the Gold Rush",
+          "Mayor by self appointment"
+        ],
+        "correct": 0,
+        "revealTitle": "Case notes",
+        "revealText": "Joshua Norton, ruined by a failed rice speculation scheme, proclaimed himself Emperor Norton I in 1859, and San Francisco papers printed his decrees for two decades. When he died in 1880, around thirty thousand people turned out for his funeral.",
+        "source": "San Francisco Chronicle archives, William Drury, Emperor Norton, Mad Monarch of America"
+      },
+      {
+        "no": "CF-002",
+        "tag": "Science",
+        "q": "Archaeologists have found jars of what food in ancient Egyptian tombs, thousands of years old and still perfectly edible?",
+        "options": [
+          "Bread",
+          "Honey",
+          "Cheese",
+          "Wine"
+        ],
+        "correct": 1,
+        "revealTitle": "Case notes",
+        "revealText": "Honey found sealed in Egyptian tombs near sites like Tutankhamun's has tested as still edible after roughly three thousand years. Its low moisture, high acidity, and bee produced hydrogen peroxide make it nearly impossible for bacteria to survive inside it.",
+        "source": "Smithsonian Magazine"
+      },
+      {
+        "no": "CF-003",
+        "tag": "Art",
+        "q": "Salvador Dali had a clever trick for paying restaurant bills that often saved him the cost of the meal entirely. What was it?",
+        "options": [
+          "He paid in melted clock replicas",
+          "He sketched on the check before signing it",
+          "He sent an assistant to settle bills later",
+          "He painted a mural on the restaurant wall instead"
+        ],
+        "correct": 1,
+        "revealTitle": "Case notes",
+        "revealText": "Dali would doodle a quick sketch on restaurant checks before signing, betting that owners would frame the now valuable original rather than cash it. The trick worked often enough that he effectively ate for free across Europe for years.",
+        "source": "The Guardian, Ian Gibson, The Shameful Life of Salvador Dali"
+      },
+      {
+        "no": "CF-004",
+        "tag": "History and Science",
+        "q": "A 2024 study analyzing authenticated locks of Beethoven's hair found dangerously high levels of what toxic metal?",
+        "options": [
+          "Mercury",
+          "Arsenic",
+          "Lead",
+          "Cadmium"
+        ],
+        "correct": 2,
+        "revealTitle": "Case notes",
+        "revealText": "Researchers testing Beethoven's hair found lead levels about sixty four times above safe limits, likely from wine stored in lead lined containers, a common practice at the time. Scientists believe chronic lead exposure may explain his lifelong stomach pain and could have worsened his hearing loss.",
+        "source": "Clinical Chemistry journal, 2024 study"
+      }
+    ],
+    "bytes": 4476385
   }
 ]
