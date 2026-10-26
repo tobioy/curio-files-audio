@@ -1552,5 +1552,79 @@
       }
     ],
     "bytes": 4476385
+  },
+  {
+    "date": "2026-10-26",
+    "label": "Monday, October 26",
+    "facts_used": [
+      "great_fire_london_1666_hubert",
+      "pistol_shrimp_sonoluminescence",
+      "klimt_kiss_gold_leaf",
+      "tanganyika_laughter_epidemic_1962"
+    ],
+    "script": "Start small. That is the lesson today, and also the warning. Because the four smallest things in this episode, a spark, a snap, a smear of gold leaf, a single giggle, all turned into something nobody could stop once it got going.\n\nLondon, September 1666. A baker named Thomas Farriner goes to bed without fully dousing his oven on Pudding Lane. By morning a third of the city is ash. London needed someone to blame, and panic does not care about evidence, so when a confused, mentally ill French watchmaker named Robert Hubert wandered into custody and confessed to starting the blaze, the city took the confession and ran with it, straight to the gallows. There was just one small problem. Hubert had not even arrived in England until two days after the fire began. He could not have lit it. He was hanged anyway, because a terrified city needed a face for its disaster more than it needed the truth. The fire moved on logic of its own, dry timber, tight streets, wind, and the only thing London could control afterward was who to punish for it.\n\nNow shrink down, all the way down, to a shrimp with one oversized claw. The pistol shrimp cannot out-swim predators and it is not venomous, so it does something stranger. It snaps that claw shut so fast it fires a jet of water that outruns the water around it, carving out a bubble of pure vacuum. When that bubble collapses, for a fraction of an instant, the temperature inside brushes up against roughly 4,700 degrees Celsius, not far off the surface of the sun, and it even lets off a tiny flash of light. Researchers at the University of Twente measured it and basically had to double check their own equipment. A creature smaller than your thumb is quietly running a miniature star inside its fist every time it hunts.\n\nGold works the same way, if you know how to fold it thin enough. Gustav Klimt grew up around gold his whole life, his father and brother were both professional gold engravers in Vienna, and Klimt trained right alongside them before he ever touched a paintbrush seriously. So when he started layering actual gold leaf directly onto canvas during what's now called his Golden Phase, he was not improvising, he was using a trade he'd had hammered into him since childhood. The Kiss, finished in 1908 and now hanging in the Belvedere in Vienna, is basically a love letter rendered in literal metal, two people dissolving into a field of gold that catches real light the way oil paint never could.\n\nAnd then there is the laugh that would not stop. In January 1962, at a girls' mission school in Tanganyika, now Tanzania, three students started laughing and could not stop. Within days it had spread to dozens of classmates, then hundreds, uncontrollable laughing fits mixed with crying and fainting, forcing the school to shut its doors. Sent home, the girls carried it with them, and the laughter rippled out into neighboring villages and schools, flaring up again for months before it finally burned itself out, up to half a year after it started with three girls in one room. Doctors eventually chalked it up to mass psychogenic illness, stress wearing a costume of hysteria, spreading the way a cough spreads, except the symptom was joy nobody actually felt.\n\nFour sparks, four very different outcomes. One burned a city and hanged an innocent man for it. One turns a shrimp's fist into a tiny sun. One turns metal into a feeling you can hang on a wall. One turns a nervous system into something as contagious as a cold. None of them asked permission before they spread.\n\nNew file Monday, Wednesday, Saturday.",
+    "cases": [
+      {
+        "no": "CF-001",
+        "tag": "History",
+        "q": "Who was executed for starting the Great Fire of London in 1666, despite not even being in the country when it started?",
+        "options": [
+          "Thomas Farriner the baker",
+          "Robert Hubert, a French watchmaker",
+          "Samuel Pepys the diarist",
+          "King Charles II's royal chef"
+        ],
+        "correct": 1,
+        "revealTitle": "Case notes",
+        "revealText": "Robert Hubert, a mentally unstable French watchmaker, falsely confessed to starting the fire and was hanged for it, even though he had not arrived in London until two days after the blaze began. The actual fire started in Thomas Farriner's bakery on Pudding Lane.",
+        "source": "Museum of London, Great Fire of London records"
+      },
+      {
+        "no": "CF-002",
+        "tag": "Science",
+        "q": "When a pistol shrimp snaps its claw, it collapses a bubble hot enough to briefly rival what?",
+        "options": [
+          "Boiling water",
+          "A lit match",
+          "The surface of the sun",
+          "Molten lava"
+        ],
+        "correct": 2,
+        "revealTitle": "Case notes",
+        "revealText": "The shrimp's claw fires a water jet fast enough to create a collapsing cavitation bubble that briefly hits temperatures near 4,700 degrees Celsius, close to the sun's surface, releasing a tiny flash of light called sonoluminescence. It is one of the loudest and hottest things any animal produces with its own body.",
+        "source": "Detlef Lohse, University of Twente, published in Science, 2001"
+      },
+      {
+        "no": "CF-003",
+        "tag": "Art",
+        "q": "Gustav Klimt covered The Kiss in real gold leaf, a technique he learned from whom?",
+        "options": [
+          "His father, a gold engraver",
+          "A Byzantine monk in Ravenna",
+          "His art school professor",
+          "A jeweler he hired as an assistant"
+        ],
+        "correct": 0,
+        "revealTitle": "Case notes",
+        "revealText": "Klimt's father and brother were both professional gold engravers in Vienna, and Klimt trained alongside them before turning that trade into painting. The Kiss, finished in 1908 and now in Vienna's Belvedere Museum, uses genuine gold leaf, not paint, for its shimmer.",
+        "source": "Belvedere Museum, Vienna"
+      },
+      {
+        "no": "CF-004",
+        "tag": "History and Science",
+        "q": "The 1962 Tanganyika laughter epidemic, which spread uncontrollable laughing through a girls' school and nearby villages, lasted how long overall?",
+        "options": [
+          "A few hours",
+          "About two weeks",
+          "Up to six months",
+          "Three years"
+        ],
+        "correct": 2,
+        "revealTitle": "Case notes",
+        "revealText": "Starting with three girls at a mission school in Tanganyika, now Tanzania, uncontrollable laughing and crying spread to hundreds of students and surrounding villages, forcing school closures. The outbreak flared in waves for up to six months before fading, and researchers later classified it as mass psychogenic illness.",
+        "source": "Christian Hempelmann, analysis of the 1962-63 Tanganyika laughter epidemic"
+      }
+    ],
+    "bytes": 4264480
   }
 ]
