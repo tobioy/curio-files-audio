@@ -1626,5 +1626,79 @@
       }
     ],
     "bytes": 4264480
+  },
+  {
+    "date": "2026-10-28",
+    "label": "Wednesday, October 28",
+    "facts_used": [
+      "tulip_mania_1637",
+      "carrington_event_1859_telegraph",
+      "tardigrade_space_vacuum_survival",
+      "van_gogh_ear_self_mutilation_1888"
+    ],
+    "script": "There is a point past which a system cannot hold, and this episode is about four things that found it. In the winter of 1636, Dutch merchants started trading paper contracts for flowers that would not bloom for months. Not flowers themselves, promises of flowers. A striped bulb called Semper Augustus became the most valuable object in the Netherlands, more expensive than the house you would need to store it in, and nobody involved had ever planted one. Then in February 1637, at a routine bulb auction in Haarlem, the bidders simply did not show up. No crash, no crisis, just an absence, a market evaporating between one sale and the next because the whole thing had been built on nothing but agreement. The Dutch had invented the speculative bubble, and the flower just happened to be in the room.\n\nTwo centuries later, a different kind of overload hit from above. On the first of September 1859, an amateur astronomer named Richard Carrington was sketching sunspots through a telescope in Surrey when he saw a blinding white flare erupt off the sun's surface, the first solar flare ever observed by a human being. Seventeen hours later the storm hit Earth, and telegraph operators from Boston to Bombay found their wires alive on their own. Some systems caught fire. Some operators, in a moment of pure improvisation, unplugged their batteries entirely and kept transmitting using only the current the sky itself was feeding into the copper. Aurora lit up skies as far south as the Caribbean. The planet had briefly become one enormous accidental circuit.\n\nSurvival has its own threshold, and in 2007 the European Space Agency decided to test it on something the size of a punctuation mark. Tardigrades, those stubby eight legged water bears that live in moss and gutters, were loaded onto a Russian FOTON-M3 rocket, shot into low Earth orbit, and exposed directly to the vacuum of space, no suit, no capsule, full solar ultraviolet radiation included. Most life forms would not survive one of those conditions, let alone both. A meaningful number of the tardigrades came back, rehydrated, and simply resumed walking, having apparently decided that space was mildly inconvenient rather than lethal. It remains one of the only confirmed cases of an animal surviving the unfiltered vacuum of the cosmos.\n\nAnd then there is the threshold inside a single overworked mind. In Arles, in December of 1888, after a tense and claustrophobic stretch of weeks cohabiting with Paul Gauguin, Vincent van Gogh picked up a razor and cut off part of his own left ear. He wrapped it in paper and walked it across town to a brothel, where he handed it to a young woman named Rachel and asked her to keep it safe. Researcher Bernadette Murphy spent years tracking down the woman's real identity through hospital ledgers and parish records, turning a two century old rumor into a documented fact with a name attached. Van Gogh was found unconscious the next morning and painted two self portraits with the bandage still visible, as if determined to leave evidence of exactly what the edge of endurance looked like.\n\nA flower bulb worth a house, a sky that overloaded a continent's wires, a creature that shrugged off outer space, and a man who could not absorb one more night in that house in Arles. None of them planned to become the textbook example of a limit. They just happened to be standing at the exact spot where the pressure finally had somewhere to go. New file Monday, Wednesday, Saturday.",
+    "cases": [
+      {
+        "no": "CF-001",
+        "tag": "History",
+        "q": "In 1637, the Dutch economy was gripped by speculative mania over which object, with single bulbs reportedly worth more than a canal house?",
+        "options": [
+          "Tulip bulbs",
+          "Porcelain vases",
+          "Spice jars",
+          "Windmill blades"
+        ],
+        "correct": 0,
+        "revealTitle": "Case notes",
+        "revealText": "At the peak of Tulip Mania a single Semper Augustus bulb could sell for more than an Amsterdam canal house. The bubble popped almost overnight in February 1637 when buyers simply stopped showing up to auctions.",
+        "source": "Mike Dash, Tulipomania (1999)"
+      },
+      {
+        "no": "CF-002",
+        "tag": "Science and History",
+        "q": "During the 1859 Carrington Event, some telegraph operators discovered they could send messages by doing what?",
+        "options": [
+          "Disconnecting their batteries and running off the storm's induced current",
+          "Charging pocket watches off the wires",
+          "Powering early streetlights",
+          "Printing instant photographs from the current"
+        ],
+        "correct": 0,
+        "revealTitle": "Case notes",
+        "revealText": "The 1859 solar storm induced so much current in telegraph lines that operators unplugged their batteries entirely and kept transmitting on atmospheric electricity alone, while some systems sparked and caught fire.",
+        "source": "NASA Science, Carrington Event records"
+      },
+      {
+        "no": "CF-003",
+        "tag": "Science",
+        "q": "In a 2007 European Space Agency experiment, tardigrades survived direct exposure to which combined conditions in orbit?",
+        "options": [
+          "Vacuum of space and solar UV radiation",
+          "Zero gravity and total darkness",
+          "Extreme cold and radio waves",
+          "Saltwater and freezing"
+        ],
+        "correct": 0,
+        "revealTitle": "Case notes",
+        "revealText": "Launched aboard the FOTON-M3 rocket, tardigrades were exposed unprotected to the vacuum of space and full solar UV radiation. Many rehydrated back on Earth and resumed normal activity, a first for any known animal.",
+        "source": "European Space Agency, TARDIS experiment, Current Biology (Jonsson et al., 2008)"
+      },
+      {
+        "no": "CF-004",
+        "tag": "Art",
+        "q": "In December 1888, Vincent van Gogh sliced off part of his ear and delivered it to whom?",
+        "options": [
+          "A brothel worker named Rachel",
+          "His brother Theo",
+          "A local barber",
+          "Paul Gauguin"
+        ],
+        "correct": 0,
+        "revealTitle": "Case notes",
+        "revealText": "Van Gogh wrapped the severed piece of his ear in paper and carried it to a brothel, asking a woman later identified as Rachel to keep it safe. Researcher Bernadette Murphy confirmed her real identity through archival records decades later.",
+        "source": "Bernadette Murphy, Van Gogh's Ear: The True Story (2016)"
+      }
+    ],
+    "bytes": 4240238
   }
 ]
