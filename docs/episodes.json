@@ -1700,5 +1700,79 @@
       }
     ],
     "bytes": 4240238
+  },
+  {
+    "date": "2026-11-02",
+    "label": "Monday, November 2",
+    "facts_used": [
+      "emu_war_1932",
+      "tongue_eating_louse_cymothoa_exigua",
+      "rokeby_venus_slashing_1914",
+      "mimic_octopus_thaumoctopus_mimicus"
+    ],
+    "script": "Picture a battlefield in Western Australia, 1932, where the enemy has feathers, hollow bones, and absolutely no understanding that it is supposed to lose. The Australian military rolled out Lewis guns against a wheat belt infestation of twenty thousand emus, and the emus responded by doing what emus do best, which is run in unpredictable zigzags at forty kilometers an hour while soldiers wasted ammunition on empty paddocks. Major G.P.W. Meredith, the man in charge, later admitted the birds had the better tactics. Nobody tells you in school that a country can lose a war to a bird, but Australia did, and the emus went right back to eating the crops like nothing happened.\n\nThere is a similar kind of quiet, absolute takeover happening in warmer water, on a much smaller scale, inside the mouth of a fish. The tongue eating louse slips in through the gills, clamps onto the base of the tongue, and drains the blood supply until the original tongue shrivels and falls away. Then it does something almost polite, it stays, and becomes the tongue. The fish keeps eating, keeps swimming, mostly unaware that the thing wagging in its mouth is a crustacean wearing its old job like a secondhand coat. It is parasitism with a severance package, the host is inconvenienced but functional, which might be the most successful invasion strategy on the planet, better than guns, better than treaties, just quietly becoming the thing you replaced.\n\nSomeone else understood the power of becoming something else entirely for survival, four hundred years earlier and underwater off the coast of Indonesia, long before anyone was watching. The mimic octopus, soft bodied and boneless, can flatten itself into the shape of a venomous flatfish, bunch its arms into the stripes of a sea snake, or splay itself wide like a lionfish bristling with spines it does not actually have. It is not wearing a costume, it is performing a threat assessment and then becoming the correct answer in real time. Biologist Mark Norman documented this in the late nineties, and it reads less like biology and more like a spy running through disguises in an alley, except the alley is a sandy seafloor and the disguise is made of muscle and pigment.\n\nNow put a woman in a London gallery in 1914, carrying a meat cleaver under her coat. Mary Richardson walked up to Velazquez's Rokeby Venus, the reclining nude every gentleman in the building liked to admire quietly, and took seven swings at the canvas. She said afterward she could not stand the sight of men gazing at the most beautiful woman in mythological history while Emmeline Pankhurst, the most beautiful character in modern history as she put it, was being destroyed in prison day by day. It was an act of vandalism and it was also an argument, made in public, made loudly, impossible to ignore, restored later but never quite erased from the record.\n\nWhat connects a losing war against birds, a parasite becoming a tongue, an octopus becoming a snake, and a woman swinging a cleaver at three hundred years of polite staring, is the same quiet lesson, that the thing underestimated in the room is usually the one doing the deciding. The emus did not read the memo that said they should lose. The louse did not ask permission to stay. The octopus does not wait to be threatened, it just becomes the threat first. And Richardson decided that if nobody would listen to words, the canvas would have to speak for her instead. History keeps handing out these quiet reversals, if you know where to look, and almost none of them show up in the official report. New file Monday, Wednesday, Saturday.",
+    "cases": [
+      {
+        "no": "CF-001",
+        "tag": "History",
+        "q": "In 1932, the Australian military declared war on what feathery foe in Western Australia, armed with Lewis machine guns?",
+        "options": [
+          "Emus",
+          "Kangaroos",
+          "Cassowaries",
+          "Wild turkeys"
+        ],
+        "correct": 0,
+        "revealTitle": "Case notes",
+        "revealText": "Soldiers armed with Lewis guns went after thousands of crop raiding emus in the Great Emu War of 1932. The birds scattered, dodged, and outran the operation, ammunition ran low, and the whole thing was quietly called off while the emus kept eating the wheat.",
+        "source": "National Museum of Australia records"
+      },
+      {
+        "no": "CF-002",
+        "tag": "Science",
+        "q": "Which parasite enters a fish through its gills, drains blood from the tongue until it withers, then attaches itself and functions as the fish's new tongue?",
+        "options": [
+          "Cymothoa exigua",
+          "Guinea worm",
+          "Loa loa",
+          "Botfly larva"
+        ],
+        "correct": 0,
+        "revealTitle": "Case notes",
+        "revealText": "Cymothoa exigua, the tongue eating louse, cuts off blood supply to a fish's real tongue until it shrivels away, then replaces it and lives there permanently. The fish keeps feeding normally, now with a crustacean doing the chewing shift.",
+        "source": "Journal of Natural History, Brusca and Gilligan research"
+      },
+      {
+        "no": "CF-003",
+        "tag": "Art",
+        "q": "In 1914, suffragette Mary Richardson attacked which painting in London's National Gallery with a meat cleaver to protest Emmeline Pankhurst's imprisonment?",
+        "options": [
+          "Diego Velazquez's Rokeby Venus",
+          "Titian's Venus of Urbino",
+          "Botticelli's Birth of Venus",
+          "Goya's Naked Maja"
+        ],
+        "correct": 0,
+        "revealTitle": "Case notes",
+        "revealText": "Richardson slashed the Rokeby Venus seven times, saying she could not stand men admiring painted beauty while a living woman was being destroyed in prison. The canvas was restored and still hangs in the National Gallery, scars barely visible today.",
+        "source": "National Gallery London archives"
+      },
+      {
+        "no": "CF-004",
+        "tag": "Science",
+        "q": "Discovered off Indonesia in the late 1990s, which octopus species can flatten, twist, and color itself to impersonate a sea snake, lionfish, or flatfish depending on the nearby threat?",
+        "options": [
+          "Thaumoctopus mimicus, the mimic octopus",
+          "The blue ringed octopus",
+          "The dumbo octopus",
+          "The coconut octopus"
+        ],
+        "correct": 0,
+        "revealTitle": "Case notes",
+        "revealText": "The mimic octopus studies the predator nearby and contorts its soft body to copy that animal's shape and movement, banded like a sea snake one minute and flattened like a sole the next. It was formally documented by biologist Mark Norman in the late 1990s.",
+        "source": "Memoirs of Museum Victoria, Norman et al."
+      }
+    ],
+    "bytes": 4414110
   }
 ]
