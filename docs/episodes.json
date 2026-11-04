@@ -1774,5 +1774,79 @@
       }
     ],
     "bytes": 4414110
+  },
+  {
+    "date": "2026-11-04",
+    "label": "Wednesday, November 4",
+    "facts_used": [
+      "dancing_plague_strasbourg_1518",
+      "mantis_shrimp_cavitation_punch",
+      "american_gothic_grant_wood_models",
+      "mary_celeste_ghost_ship_1872"
+    ],
+    "script": "Somewhere between what happened and what we can prove happened, there is a very crowded filing cabinet, and today's four cases all live in it. Start in Strasbourg, July 1518. A woman named Frau Troffea steps into the street and starts dancing. Not party dancing. Compulsive, joyless, can't-stop dancing. Within days neighbors join her, not because it looks fun, it looks like torture, but because whatever is happening seems to spread on contact. Within a month nearly four hundred people are dancing through the summer heat, feet bleeding, hearts giving out, some reportedly dancing themselves to death in the town square while physicians stand around taking notes instead of helping, because the working medical theory of the day is that the only cure for too much dancing is more dancing. City ledgers, church records, and doctors' letters all confirm the outbreak was real. What caused it is still argued over, mass stress, a shared delusion, moldy rye bread doing something chemical to people's brains. Nobody left a confession.\n\nNow drop into the ocean, where something just as violent is happening in a fraction of a second. The peacock mantis shrimp throws a punch with a club-shaped arm that accelerates faster than a bullet leaving a .22 rifle. It happens so fast the water itself can't keep up, and a pocket of vacuum opens and slams shut, a cavitation bubble collapsing with enough force to flash briefly as hot as the surface of the sun and release a crack of sound and light before vanishing. Researcher Sheila Patek's lab caught it on high speed camera and found something almost unfair, the shrimp's prey gets hit twice, once by the claw and once by the bubble's shockwave, even if the first punch somehow misses. Nothing about this looks like it should be possible from an animal the size of a thumb.\n\nBack on land, in 1930, a painter named Grant Wood recruits two people to pose outside a white farmhouse in Eldon, Iowa. One is his own sister, Nan. The other is his dentist, Dr Byron McKeeby. Wood ages them with costume and expression until they look like a severe, pitchfork-wielding farm couple straight out of a sermon. The painting becomes American Gothic, one of the most parodied images in American art, and Nan spends the rest of her life insisting to reporters that she was not actually a dour spinster, she was a 30-year-old woman playing dress-up for her little brother's art project. The house still stands. The dentist never complained.\n\nAnd then there's the ship. In December 1872, sailors spot the merchant vessel Mary Celeste drifting unmanned near the Azores, sails still set, cargo intact, food and water untouched below deck. What's missing is everyone. Captain Benjamin Briggs, his wife, their young daughter, and a crew of seven, all gone, along with the one lifeboat, suggesting they left in a hurry and on purpose, for a reason nobody has ever nailed down. No bodies. No note. No official answer, even a century and a half later.\n\nFour very different puzzles, and the common thread isn't an answer, it's the gap where an answer should be. A plague with no clear cause, a punch too fast to watch, a painting mistaken for a snapshot, a ship abandoned for reasons lost at sea. Sometimes the file closes. Sometimes it just gets reopened by whoever asks the next good question. New file Monday, Wednesday, Saturday.",
+    "cases": [
+      {
+        "no": "CF-001",
+        "tag": "History",
+        "q": "In July 1518, what strange epidemic broke out in Strasbourg, leaving people dancing nonstop until some collapsed or died?",
+        "options": [
+          "The Dancing Plague",
+          "The Laughing Sickness",
+          "The Jumping Frenzy",
+          "The Trembling Fever"
+        ],
+        "correct": 0,
+        "revealTitle": "Case notes",
+        "revealText": "In July 1518, a woman named Frau Troffea began dancing in the streets of Strasbourg and could not stop. Within a month up to 400 people had joined her, dancing through the summer heat with some reportedly dying from exhaustion, strokes, or heart attacks. Physicians at the time prescribed more dancing as the cure, and city and church records confirm the outbreak really happened, though its cause is still debated.",
+        "source": "Smithsonian Magazine, A Strange Case of Dancing Mania"
+      },
+      {
+        "no": "CF-002",
+        "tag": "Science",
+        "q": "The peacock mantis shrimp punches its prey so fast it creates what underwater light and heat phenomenon?",
+        "options": [
+          "Bioluminescence",
+          "Collapsing cavitation bubbles that flash with light and heat",
+          "Electric arcs",
+          "Static sparks"
+        ],
+        "correct": 1,
+        "revealTitle": "Case notes",
+        "revealText": "The mantis shrimp's club-shaped appendage accelerates faster than a bullet fired from a .22 rifle, striking so quickly it boils the surrounding water and creates a cavitation bubble that collapses with a flash of light and heat near the temperature of the sun's surface. Researcher Sheila Patek's high speed camera studies showed prey can get hit twice, once by the claw and once by the bubble's shockwave. It remains one of the fastest strikes in the animal kingdom.",
+        "source": "Patek Lab, Duke University, Journal of Experimental Biology"
+      },
+      {
+        "no": "CF-003",
+        "tag": "Art",
+        "q": "True or false, for American Gothic artist Grant Wood used his own sister and his dentist as the models for the stern farmer couple.",
+        "options": [
+          "True",
+          "False, they were professional actors",
+          "False, they were his parents",
+          "False, they were random Iowa farmers"
+        ],
+        "correct": 0,
+        "revealTitle": "Case notes",
+        "revealText": "Grant Wood painted American Gothic in 1930 using his sister Nan Wood Graham and his dentist Dr Byron McKeeby as models, aging their appearance to look decades older. Nan spent years telling reporters she was not actually the dowdy spinster the painting made her look like. The house behind them in Eldon, Iowa still stands as a National Historic landmark.",
+        "source": "Art Institute of Chicago, collection records on American Gothic"
+      },
+      {
+        "no": "CF-004",
+        "tag": "History",
+        "q": "In 1872 the ship Mary Celeste was found adrift near the Azores, fully stocked and seaworthy, but missing what?",
+        "options": [
+          "Its sails",
+          "Its captain, family, and crew, all vanished without a trace",
+          "Its cargo",
+          "Nothing, everyone was still aboard"
+        ],
+        "correct": 1,
+        "revealTitle": "Case notes",
+        "revealText": "The Mary Celeste was found drifting with food, water, and valuables untouched, but Captain Benjamin Briggs, his wife, their daughter, and a crew of seven were gone and never found. The ship's single lifeboat was also missing, suggesting a hurried, voluntary departure rather than piracy. The case remains officially unsolved to this day.",
+        "source": "Smithsonian Magazine, The True Story of the Mary Celeste"
+      }
+    ],
+    "bytes": 4134495
   }
 ]
