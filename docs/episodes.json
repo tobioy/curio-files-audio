@@ -1848,5 +1848,79 @@
       }
     ],
     "bytes": 4134495
+  },
+  {
+    "date": "2026-11-09",
+    "label": "Monday, November 9",
+    "facts_used": [
+      "operation_mincemeat_1943",
+      "immortal_jellyfish_turritopsis_dohrnii",
+      "van_eyck_arnolfini_portrait_mirror",
+      "bombardier_beetle_chemical_explosion"
+    ],
+    "script": "There is a very specific kind of genius that involves lying so well that reality bends to fit the lie, and today's file is full of it. Start with a dead man who won a war without a pulse. In 1943 British intelligence needed Hitler to believe the Allies were landing in Greece, not Sicily, so they got a corpse, dressed him as a Royal Marine major, chained a briefcase of fake invasion plans to his wrist, and dropped him off the coast of Spain to wash up looking like a drowned courier. Nazi agents in Spain photographed the documents and passed them up the chain. Hitler, trusting a body he never met, shifted real troops away from Sicily. The actual invasion landed easier because of a man who was never alive to lie in the first place. Call it Operation Mincemeat, the most successful liar in the war was already dead.\n\nMeanwhile, something in the ocean figured out how to just opt out of dying altogether. Turritopsis dohrnii is a jellyfish smaller than your pinky nail, and when it gets old, injured, or simply stressed about life, its cells do something almost nobody else's cells do. They stop being adult cells and start being baby cells again, folding the whole animal back down into its juvenile polyp stage, like a grown man deciding to become a toddler and actually succeeding. Scientists call it transdifferentiation. It is not invincibility, a hungry fish can still end its story, but left alone it can theoretically loop this trick forever, aging backward instead of forward, quietly undoing the one rule every other living thing has to obey.\n\nNow put a mirror in a room in Bruges in 1434 and watch a painter pull the same kind of trick with light instead of biology. Jan van Eyck painted a wealthy couple standing stiffly for their portrait, and behind them, almost as an afterthought, hung a small convex mirror. Look closely into that warped little glass and you can see the whole room reflected backward, including two extra figures standing in the doorway where the viewer should be. Van Eyck then wrote, in tiny Latin script directly above the mirror, Johannes de eyck fuit hic, Jan van Eyck was here, dated right there in 1434. He turned a wedding portrait into a notarized document, a signature witnessed by his own painted reflection, proof that he saw what he saw, centuries before anyone needed a receipt that badly.\n\nAnd if all that cleverness feels a little too elegant, here is the bombardier beetle to drag things back into the gross column, where this show lives. When a predator grabs one, the beetle does not run, it brews. Two chemicals sit quietly in separate internal chambers until the moment of attack, when they get mixed with enzymes and detonate in a tiny internal explosion, hot enough to reach boiling point, around one hundred degrees Celsius, blasted out the rear end in rapid pulses you can actually hear as little pops. A beetle smaller than a fingernail is, biologically speaking, field artillery.\n\nFour very different tricks, a dead spy, a jellyfish that refuses the finish line, a painter leaving a witness statement in reflected light, and a beetle running a chemistry set in its own bottom, but they all share the same punchline. Rules exist mostly for things that haven't figured out the loophole yet. New file Monday, Wednesday, Saturday.",
+    "cases": [
+      {
+        "no": "CF-001",
+        "tag": "History",
+        "q": "In 1943, British intelligence dressed a corpse as a Royal Marines officer, chained fake invasion documents to his wrist, and let him wash ashore in Spain to fool Hitler. What was this deception called?",
+        "options": [
+          "Operation Mincemeat",
+          "Operation Fortitude",
+          "Operation Bodyguard",
+          "Operation Overlord"
+        ],
+        "correct": 0,
+        "revealTitle": "Case notes",
+        "revealText": "The corpse, nicknamed Major William Martin, carried briefcase documents pointing toward invasions of Greece and Sardinia instead of Sicily. Hitler believed it and shifted real troops away from Sicily, helping the actual Allied landing succeed with fewer losses.",
+        "source": "Ben Macintyre, Operation Mincemeat (2010), based on UK National Archives files"
+      },
+      {
+        "no": "CF-002",
+        "tag": "Science",
+        "q": "Which tiny jellyfish species can revert its adult cells back into a juvenile polyp stage, essentially resetting its biological clock?",
+        "options": [
+          "Moon jellyfish",
+          "Turritopsis dohrnii",
+          "Box jellyfish",
+          "Portuguese man o' war"
+        ],
+        "correct": 1,
+        "revealTitle": "Case notes",
+        "revealText": "When stressed, injured, or starving, Turritopsis dohrnii cells transdifferentiate, transforming back into their earlier polyp form and starting the life cycle over. It can still be killed by predators, but it doesn't age to death on its own.",
+        "source": "Nature, Piraino et al., Reversing the life cycle (1996)"
+      },
+      {
+        "no": "CF-003",
+        "tag": "Art",
+        "q": "In Jan van Eyck's 1434 Arnolfini Portrait, what tiny inscription sits directly above the convex mirror on the back wall?",
+        "options": [
+          "Jan van Eyck was here, in Latin",
+          "The couple's wedding date only",
+          "A prayer to Saint Luke",
+          "No text, only the artist's monogram"
+        ],
+        "correct": 0,
+        "revealTitle": "Case notes",
+        "revealText": "Van Eyck wrote Johannes de eyck fuit hic 1434, Jan van Eyck was here 1434, turning the painting into a kind of witnessed legal document. The mirror itself reflects the reversed room along with two unidentified figures standing where the viewer would be.",
+        "source": "National Gallery, London, curatorial notes on The Arnolfini Portrait"
+      },
+      {
+        "no": "CF-004",
+        "tag": "Science",
+        "q": "When attacked, the bombardier beetle mixes chemicals in its abdomen to fire a defensive spray. How hot does this internal reaction get?",
+        "options": [
+          "Room temperature",
+          "About 100 degrees Celsius, boiling point",
+          "About 50 degrees Celsius",
+          "It stays cold"
+        ],
+        "correct": 1,
+        "revealTitle": "Case notes",
+        "revealText": "The beetle stores hydroquinones and hydrogen peroxide in separate chambers, then combines them with enzymes on demand, triggering a reaction that reaches roughly boiling point and fires out in rapid, audible pulses.",
+        "source": "PNAS, Eisner and Aneshansley, Spray aiming in the bombardier beetle (1999)"
+      }
+    ],
+    "bytes": 4065532
   }
 ]
