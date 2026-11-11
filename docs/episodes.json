@@ -1922,5 +1922,79 @@
       }
     ],
     "bytes": 4065532
+  },
+  {
+    "date": "2026-11-11",
+    "label": "Wednesday, November 11",
+    "facts_used": [
+      "cadaver_synod_897",
+      "sea_cucumber_evisceration_defense",
+      "da_vinci_last_supper_decay",
+      "great_stink_london_1858"
+    ],
+    "script": "There is a particular kind of catastrophe that happens slowly, in public, while everyone pretends not to notice until they absolutely cannot pretend anymore. That is the mood of this file. Decay, mess, and the stubborn people who had to clean it up.\n\nStart in Rome, January 897, in a basilica that smells like candle wax and bad decisions. Pope Formosus has been dead for nine months. He is, by any reasonable standard, finished with public life. His successor, Pope Stephen VI, disagrees. Stephen has the corpse dug up, dressed in full papal vestments, and propped on a throne in front of a council of bishops. A nervous deacon stands behind the chair to answer questions on the corpse's behalf, because corpses are famously bad at testifying. The verdict is guilty. Formosus's blessing fingers are hacked off, his robes stripped, and the body is pitched into the Tiber. Historians now call this the Cadaver Synod, which may be the single greatest two word summary of a bad career move in church history.\n\nMove from a corpse on trial to a creature that treats its own insides as a weapon. The sea cucumber looks like the least dramatic animal on the ocean floor, a soft lumpy sausage that does nothing all day but filter sand. Provoke it and it reveals its one real talent. It contracts hard, ruptures internally, and fires a tangle of sticky tubules, sometimes its entire digestive tract, straight out of its own rear end toward whatever is bothering it. The attacker gets a mouthful of glue and guts while the sea cucumber, now missing most of its insides, slinks off to quietly regrow them over the following weeks. It is, somehow, both the grossest and most efficient eviction notice in the animal kingdom.\n\nNow to Milan, where a different kind of body is falling apart, and this one is painted. Leonardo da Vinci, working on The Last Supper in the 1490s, decides the traditional fresco method is too fast and too limiting. True fresco means painting into wet plaster before it sets, which forces an artist to work quickly and commit to every brushstroke. Leonardo wants to blend, layer, and second guess himself like he does on canvas, so he invents his own technique, a tempera and oil mixture applied to plaster that has already dried. It gives him gorgeous color and endless time. It also gives him a mural that starts physically peeling off the refectory wall within his own lifetime, as moisture from the damp dining hall seeps in behind paint that was never designed to bond the way true fresco does. One of the most famous images in Western art began dying the moment it was finished, and restorers have been fighting a losing, centuries long holding action ever since.\n\nAnd then, London, the summer of 1858, where the problem is not paint or plaster but the Thames itself. Decades of raw sewage have been quietly cooking in the river, and a brutal heatwave finally turns it into something closer to a weapon than a waterway. The stench drifts straight into the Houses of Parliament. MPs soak the curtains in chloride of lime, try working with handkerchiefs over their faces, and finally admit that a city cannot run a government downwind of its own filth. The Great Stink does what decades of public health reports could not, it forces funding for Joseph Bazalgette's new sewer network, a feat of Victorian engineering that still carries London's waste away today.\n\nA corpse on a throne, a gut used as ammunition, a masterpiece rotting in real time, a capital city gagging on itself. Every one of these had to get disgusting, undeniable, and completely impossible to ignore before anyone fixed it. New file Monday, Wednesday, Saturday.",
+    "cases": [
+      {
+        "no": "CF-001",
+        "tag": "History",
+        "q": "In 897 AD, which pope dug up his predecessor's corpse, dressed it in papal robes, and put it on trial?",
+        "options": [
+          "Pope Stephen VI",
+          "Pope Formosus",
+          "Pope John XII",
+          "Pope Sergius III"
+        ],
+        "correct": 0,
+        "revealTitle": "Case notes",
+        "revealText": "Stephen VI exhumed Formosus's nine month old corpse, propped it on a throne with a deacon speaking for it, found it guilty, hacked off its blessing fingers, and dumped it in the Tiber. The episode is remembered as the Cadaver Synod.",
+        "source": "Encyclopaedia Britannica, Cadaver Synod"
+      },
+      {
+        "no": "CF-002",
+        "tag": "Science",
+        "q": "Which sea creature defends itself by shooting its own internal organs out of its body at attackers?",
+        "options": [
+          "Sea cucumber",
+          "Starfish",
+          "Sea urchin",
+          "Nudibranch"
+        ],
+        "correct": 0,
+        "revealTitle": "Case notes",
+        "revealText": "When threatened, some sea cucumbers contract violently and expel sticky tubules or even their entire digestive tract through the anus to tangle up predators, then quietly regrow the lost organs over weeks.",
+        "source": "Smithsonian Ocean, Sea Cucumbers"
+      },
+      {
+        "no": "CF-003",
+        "tag": "Art",
+        "q": "Which famous mural started visibly flaking within decades of being painted because the artist used an experimental technique instead of true fresco?",
+        "options": [
+          "The Last Supper",
+          "Sistine Chapel ceiling",
+          "The School of Athens",
+          "The Last Judgment"
+        ],
+        "correct": 0,
+        "revealTitle": "Case notes",
+        "revealText": "Leonardo painted The Last Supper onto dry plaster with an oil and tempera mix instead of true buon fresco, chasing richer color and slower working time. Moisture seeped in and the paint began peeling off the wall within his own lifetime.",
+        "source": "Smithsonian Magazine, The Troubled History of The Last Supper"
+      },
+      {
+        "no": "CF-004",
+        "tag": "History",
+        "q": "In the summer of 1858, what forced British Parliament to drape its curtains in chloride of lime and consider abandoning the building?",
+        "options": [
+          "The stench of the Thames",
+          "A cholera outbreak in Westminster",
+          "A coal smog",
+          "A gas explosion"
+        ],
+        "correct": 0,
+        "revealTitle": "Case notes",
+        "revealText": "A brutal heatwave baked decades of raw sewage in the Thames into a smell so overpowering MPs fled committee rooms. The Great Stink finally forced funding for Joseph Bazalgette's new London sewer network.",
+        "source": "UK Parliament, The Great Stink"
+      }
+    ],
+    "bytes": 4498537
   }
 ]
