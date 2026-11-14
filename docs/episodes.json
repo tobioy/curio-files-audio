@@ -1996,5 +1996,79 @@
       }
     ],
     "bytes": 4498537
+  },
+  {
+    "date": "2026-11-14",
+    "label": "Saturday, November 14",
+    "facts_used": [
+      "mount_tambora_1815_year_without_summer",
+      "horned_lizard_blood_squirting_eyes",
+      "mona_lisa_theft_1911_peruggia",
+      "antikythera_mechanism_ancient_computer"
+    ],
+    "script": "In April of 1815, a mountain in Indonesia called Tambora opened its throat and did not stop. It was the loudest bang in recorded history, heard a thousand miles away, and it threw so much ash and sulfur into the sky that the stratosphere itself got cloudy. The sun dimmed. Crops failed on three continents. By the following summer, New England got snow in June, European harvests rotted in the fields, and a gloomy, cooped up house party on the shores of Lake Geneva got so bored and so spooked by the endless grey that Mary Shelley started inventing a monster stitched together from spare parts, while her neighbor Lord Byron wrote a poem that just repeated the word darkness over and over, because that was the whole vibe. One mountain, one bad year, two of the most enduring nightmares in English literature.\n\nMeanwhile, half a world and several thousand years away from anybody caring, the Texas horned lizard was already perfecting a much smaller, much weirder trick. It does not run from a coyote. It stands there, lets the pressure build in little sinuses behind its eyes, and then fires a jet of its own blood several feet through the air, straight at the attacker's face. The blood is loaded with a compound that apparently tastes like absolute garbage to a canine palate, so the coyote backs off confused and insulted, while hawks, who don't seem to mind the flavor, remain unbothered and still a threat. It is a weapon built entirely out of the body's own plumbing, held in reserve, invisible until the exact second it is needed.\n\nThat idea, something quiet and ordinary suddenly revealing a hidden capacity, shows up again in 1901, when sponge divers off the Greek island of Antikythera pulled a shipwreck's cargo up from the seafloor, including a corroded, forgettable lump of bronze about the size of a shoebox. For decades it sat in a museum drawer looking like scrap. Then X-rays, and later CT scans, found more than thirty interlocking gears packed inside, cut with a precision nobody expected from 100 BC. The thing could track the sun, the moon, eclipses, even the four year cycle of the ancient Olympic Games, all through a hand crank. Nothing built with that kind of mechanical sophistication shows up again in the historical record for over a thousand years. It had been sitting there the whole time, corroded, silent, ordinary, with a universe inside it.\n\nAnd then there's the painting that did the opposite trick, vanishing instead of appearing. In August of 1911, a Louvre handyman named Vincenzo Peruggia hid overnight in a supply closet, and in the morning simply lifted the Mona Lisa off the wall, tucked her under his coat, and walked out the front door. For over two years the painting was just gone, Picasso got hauled in for questioning, newspapers ran wild theories, and the whole episode turned a respected but unremarkable Renaissance portrait into a global celebrity by the sheer drama of her absence. She came back in 1913, found in Peruggia's Florence apartment, no worse for the trip, infinitely more famous for it.\n\nFour very different disappearances, a mountain's smoke blotting out a summer, a lizard holding its weapon in reserve, a machine hiding its gears inside rust, a painting hiding inside a coat. In every case, the thing that mattered was never really gone. It was just waiting for someone to notice. New file Monday, Wednesday, Saturday.",
+    "cases": [
+      {
+        "no": "CF-001",
+        "tag": "History",
+        "q": "In 1816, much of the Northern Hemisphere endured the so called Year Without a Summer, with snow in June and widespread crop failures. What caused it?",
+        "options": [
+          "A total solar eclipse lasting weeks",
+          "The eruption of Mount Tambora in Indonesia the year before",
+          "A sudden shift in Earth's magnetic field",
+          "A failed harvest due to locust swarms"
+        ],
+        "correct": 1,
+        "revealTitle": "Case notes",
+        "revealText": "Mount Tambora's 1815 eruption, the largest in recorded history, pumped so much ash into the stratosphere it dimmed sunlight worldwide and caused snow in summer as far as New England. Stuck indoors in the gloom near Lake Geneva, Mary Shelley dreamed up Frankenstein and Lord Byron wrote his poem Darkness.",
+        "source": "Smithsonian Magazine"
+      },
+      {
+        "no": "CF-002",
+        "tag": "Science",
+        "q": "When threatened by a coyote, the Texas horned lizard defends itself by doing what?",
+        "options": [
+          "Inflating its throat like a balloon",
+          "Shooting blood from its own eyes",
+          "Releasing a cloud of ink",
+          "Detaching its tail"
+        ],
+        "correct": 1,
+        "revealTitle": "Case notes",
+        "revealText": "The Texas horned lizard restricts blood flow until pressure builds near its eyes, then fires a stream of blood up to several feet at predators like coyotes and dogs. The blood contains a compound that tastes foul to canines, though birds of prey seem unbothered.",
+        "source": "Smithsonian's National Zoo"
+      },
+      {
+        "no": "CF-003",
+        "tag": "Art",
+        "q": "The Mona Lisa became arguably the most famous painting on Earth largely because of what 1911 event?",
+        "options": [
+          "It was slashed by a visitor",
+          "It was stolen from the Louvre and missing for two years",
+          "It was accidentally painted over by a restorer",
+          "It was auctioned to a mystery buyer"
+        ],
+        "correct": 1,
+        "revealTitle": "Case notes",
+        "revealText": "On August 21, 1911, Louvre handyman Vincenzo Peruggia hid in a closet overnight, then walked out the next morning with the Mona Lisa under his coat. The painting stayed missing for over two years, Picasso was briefly questioned, and the global manhunt turned a modestly admired portrait into the world's most famous painting.",
+        "source": "Louvre Museum"
+      },
+      {
+        "no": "CF-004",
+        "tag": "History and Science",
+        "q": "Pulled from a Greek shipwreck in 1901, the Antikythera mechanism turned out to be what?",
+        "options": [
+          "An ancient navigational compass",
+          "A 2000 year old mechanical device for predicting astronomical events",
+          "A ceremonial gear shaped jewelry box",
+          "An early coin minting machine"
+        ],
+        "correct": 1,
+        "revealTitle": "Case notes",
+        "revealText": "Corroded into an unrecognizable lump of bronze for decades, the Antikythera mechanism was revealed by X-ray and CT scanning to contain over thirty interlocking gears built around 100 BC, able to predict eclipses and track the calendar of the ancient Olympic Games. Nothing of comparable complexity appears in the historical record again for over a thousand years.",
+        "source": "Nature, Freeth et al."
+      }
+    ],
+    "bytes": 4187994
   }
 ]
