@@ -2070,5 +2070,79 @@
       }
     ],
     "bytes": 4187994
+  },
+  {
+    "date": "2026-11-16",
+    "label": "Monday, November 16",
+    "facts_used": [
+      "pig_war_1859_san_juan",
+      "hagfish_slime_defense",
+      "electric_eel_leaping_shock",
+      "goya_black_paintings_quinta_del_sordo"
+    ],
+    "script": "There is a particular kind of disaster that starts small and stupid and almost becomes something enormous, and the San Juan Islands in 1859 are the textbook case. An American farmer named Lyman Cutlar caught a large black pig eating his potatoes, not for the first time, and shot it dead. The pig belonged to the Hudson's Bay Company, the British trading giant that more or less ran the Pacific Northwest, and within weeks there were American soldiers digging trenches, British warships anchored offshore, and a combined force of over two thousand men and dozens of cannons facing off over a disputed scrap of land, all triggered by a dead hog. Nobody fired on a person. The generals on both sides quietly agreed that shooting each other over a pig would look fairly ridiculous in the history books, so they settled into an uneasy, almost comic standoff for over a decade, until Kaiser Wilhelm the First of Germany, of all people, was called in as a neutral arbitrator in 1872 and drew the border in America's favor. The only blood spilled in the entire Pig War belonged to the pig.\n\nRestraint, it turns out, is not the only way to survive a crisis. Some creatures go the opposite direction and simply overwhelm the problem. A hagfish, that ancient, jawless, eel-shaped bottom dweller, has no claws and no bite worth mentioning, so when a shark clamps onto it, the hagfish releases a thread protein that hits seawater and expands almost instantly into a cloud of slime, turning the shark's own gills into a clogged, gasping mess. Biologist Douglas Fudge has spent years milking hagfish in the lab to measure exactly how a single cup of concentrated slime can become several gallons of nearly solid gel in under a second, and the shark, choking, simply lets go and leaves. It is not a fight so much as a flood.\n\nThe electric eel has its own version of overkill, and it is somehow even more theatrical. Vanderbilt biologist Kenneth Catania noticed that when an electric eel is cornered, it does not just discharge underwater where the shock dissipates into the whole pond. It launches part of its body up and out, pressing its chin directly against the threat, whether that threat is a half submerged alligator head or, in Catania's actual experiment, his own arm holding a fake alligator, and delivers the full voltage straight into flesh with none of the charge wasted on open water. The eel is doing precise battlefield math in real time, aiming its own body like a weapon rather than just hoping the shock lands somewhere useful.\n\nAnd then there is the quieter kind of overwhelming, the kind that happens entirely inside one man's head. In his later years, deaf, aging, and reportedly haunted by illness and the political horrors he had lived through in Spain, Francisco Goya moved into a house outside Madrid called the Quinta del Sordo and began painting directly onto its plaster walls, not for buyers, not for the Crown, not for anyone. What came out were the Black Paintings, images of witches, cannibal gods devouring their children, drowning dogs, pilgrims with hollow faces, painted in total privacy with no record that Goya ever intended another living person to see them. They were only discovered, detached from the walls, and moved to canvas decades after his death, and today they hang in the Prado as the rawest record we have of what one mind does when it stops performing for an audience entirely.\n\nA shot pig, a cloud of slime, a well aimed jolt, a wall of nightmares nobody was meant to see. Four different creatures, human and otherwise, each deciding in their own way how much reaction a threat actually deserves. New file Monday, Wednesday, Saturday.",
+    "cases": [
+      {
+        "no": "CF-001",
+        "tag": "History",
+        "q": "The 1859 Pig War between the US and Britain over the San Juan Islands resulted in how many human casualties?",
+        "options": [
+          "Zero",
+          "Twelve",
+          "One",
+          "Forty"
+        ],
+        "correct": 0,
+        "revealTitle": "Case notes",
+        "revealText": "An American farmer shot a British pig that kept eating his potatoes, triggering a military standoff with thousands of troops and warships. Both sides avoided firing on each other, and the dispute was finally settled peacefully in 1872 by Kaiser Wilhelm I of Germany. The only casualty of the entire Pig War was the pig.",
+        "source": "Smithsonian Magazine, The Pig War"
+      },
+      {
+        "no": "CF-002",
+        "tag": "Science",
+        "q": "When attacked by a predator, how does a hagfish typically escape?",
+        "options": [
+          "It bites off a limb",
+          "It releases slime that clogs the predator's gills",
+          "It changes color instantly",
+          "It plays dead for hours"
+        ],
+        "correct": 1,
+        "revealTitle": "Case notes",
+        "revealText": "Hagfish release a protein thread that expands almost instantly in seawater into a huge volume of gel-like slime. The slime clogs a predator's gills, forcing it to release the hagfish and flee. Biologist Douglas Fudge has documented how little slime is needed to produce gallons of the stuff in under a second.",
+        "source": "Journal of Experimental Biology, Fudge lab research on hagfish slime"
+      },
+      {
+        "no": "CF-003",
+        "tag": "Science",
+        "q": "Why do electric eels sometimes leap partly out of the water to attack a threat?",
+        "options": [
+          "To breathe air directly",
+          "To scare predators with size alone",
+          "To deliver a concentrated shock directly into the target instead of letting it disperse in water",
+          "To cool down their electric organs"
+        ],
+        "correct": 2,
+        "revealTitle": "Case notes",
+        "revealText": "Vanderbilt biologist Kenneth Catania showed electric eels press their chin against a threat and leap when cornered, aiming the discharge directly into flesh rather than losing voltage to open water. He documented this with experiments using a fake alligator head wired to measure shock intensity. The behavior turns the eel's electricity into a far more effective weapon than a simple underwater zap.",
+        "source": "Proceedings of the National Academy of Sciences, Catania 2016 electric eel study"
+      },
+      {
+        "no": "CF-004",
+        "tag": "Art",
+        "q": "Where did Francisco Goya originally create his famous Black Paintings?",
+        "options": [
+          "On commissioned church ceilings",
+          "Directly onto the plaster walls of his own house",
+          "On large public murals in Madrid",
+          "On the walls of the Spanish royal palace"
+        ],
+        "correct": 1,
+        "revealTitle": "Case notes",
+        "revealText": "In his later years, deaf and reportedly tormented, Goya painted the Black Paintings straight onto the interior walls of his house, the Quinta del Sordo, with no evidence he intended them for public display. They were removed from the walls and transferred to canvas decades after his death. They now hang in the Museo del Prado.",
+        "source": "Museo del Prado, official collection history of the Black Paintings"
+      }
+    ],
+    "bytes": 4613058
   }
 ]
