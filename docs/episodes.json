@@ -2144,5 +2144,79 @@
       }
     ],
     "bytes": 4613058
+  },
+  {
+    "date": "2026-11-21",
+    "label": "Saturday, November 21",
+    "facts_used": [
+      "great_molasses_flood_boston_1919",
+      "zombie_ant_fungus_ophiocordyceps",
+      "scream_munch_theft_1994",
+      "tunguska_event_1908"
+    ],
+    "script": "Some disasters creep. Some disasters pop a rivet at nine in the morning and kill you before lunch. Boston learned the second kind on a freakishly warm January day in 1919, when a five story steel tank near the harbor, stuffed with more than two million gallons of molasses, started shrieking like a ship going down. Rivets fired off into the air like bullets. Then the whole tank peeled open and a wave of molasses twenty five feet high came roaring down Commercial Street at something like thirty five miles an hour, which sounds slow until you remember it is also sticky enough to pin a horse to a wall. Twenty one people drowned in syrup. Cleanup took months, and old Bostonians swore for decades that on hot days you could still smell it in the cobblestones. Nobody saw it coming because nobody thinks of a sugar tank as a bomb.\n\nNature runs its own version of the sneak attack, just smaller and far more personal. Deep in tropical forests, a fungus called Ophiocordyceps unilateralis has figured out how to steal a carpenter ant's nervous system like a hand slipping into a glove. The spores invade, the fungus spreads through the ant's body while somehow leaving its brain just functional enough to follow very specific, very doomed instructions. Climb the stem. Bite down hard on a leaf vein with a death grip so strong the jaw muscles lock even after the ant dies. Then wait, while a stalk of fungus erupts out of the ant's skull and rains spores onto the ant highway below. It is horror movie stuff, documented and filmed by actual scientists, and it works because the ant never gets a vote.\n\nHumans get fooled by quiet objects too, just with less fungus involved. In February 1994, on the same night Norway was busy opening the Winter Olympics in Lillehammer, thieves used a ladder to reach a window of the National Gallery in Oslo, smashed it, and in well under a minute lifted Edvard Munch's The Scream right off the wall. They left behind a postcard thanking the museum for its, let's say, generous approach to security. The painting turned up a few months later, recovered by police in a sting, basically unharmed, having survived its brief career as the world's most recognizable contraband.\n\nAnd then there is the morning the sky itself picked a fight. On June 30, 1908, over the Siberian wilderness near the Tunguska River, something exploded with the force of a thousand Hiroshimas without ever touching the ground. A comet or small asteroid, scientists still argue over which, came in low and fast and detonated in the air, flattening roughly eighty million trees across more than eight hundred square miles, all of them knocked down in a neat radial pattern pointing away from one empty patch of sky. People hundreds of miles off were thrown from their chairs. Because the blast hit a remote stretch of forest instead of a city, almost nobody died, which is the only reason this counts as a fun fact and not a funeral.\n\nTake the tank, the ant, the ladder, and the sky, and you get the same lesson dressed up four different ways. The dangerous thing is rarely the thing standing in front of you making noise. It is the quiet tank, the quiet spore, the quiet window, the quiet sky, holding its breath right up until it doesn't. New file Monday, Wednesday, Saturday.",
+    "cases": [
+      {
+        "no": "CF-001",
+        "tag": "History",
+        "q": "In 1919, what caused Boston's deadly Great Molasses Flood, which killed 21 people?",
+        "options": [
+          "A dam on the Charles River broke",
+          "A massive steel storage tank of molasses burst",
+          "A train full of molasses derailed",
+          "A sugar refinery exploded"
+        ],
+        "correct": 1,
+        "revealTitle": "Case notes",
+        "revealText": "A five story tank holding over two million gallons of molasses ruptured on an unusually warm January day, sending a wave up to 25 feet high through the streets at around 35 miles per hour. It killed 21 people and injured 150, and locals claimed you could still smell molasses on hot days decades later.",
+        "source": "Smithsonian Magazine, The Great Molasses Flood of 1919"
+      },
+      {
+        "no": "CF-002",
+        "tag": "Science",
+        "q": "What does the fungus Ophiocordyceps unilateralis do to carpenter ants before it kills them?",
+        "options": [
+          "Makes them hibernate underground",
+          "Forces them to climb vegetation and bite down in a death grip",
+          "Makes them swim into water",
+          "Causes them to attack their own colony"
+        ],
+        "correct": 1,
+        "revealTitle": "Case notes",
+        "revealText": "The fungus hijacks an infected ant's behavior, driving it to climb a stem and clamp its jaws onto a leaf vein in a grip so strong it holds even after death. A fungal stalk then bursts from the ant's head and showers spores onto the ants below.",
+        "source": "National Geographic, reporting on research by entomologist David Hughes"
+      },
+      {
+        "no": "CF-003",
+        "tag": "Art, History",
+        "q": "Edvard Munch's The Scream was stolen in 1994 from which museum, on the opening night of the Winter Olympics?",
+        "options": [
+          "The Louvre",
+          "The National Gallery, Oslo",
+          "The Munch Museum",
+          "The Prado"
+        ],
+        "correct": 1,
+        "revealTitle": "Case notes",
+        "revealText": "Thieves used a ladder to reach a window, smashed it, and grabbed the painting in under a minute while Norway's attention was on the Lillehammer Olympics. They left a mocking note thanking the gallery for its poor security, and the painting was recovered undamaged months later.",
+        "source": "BBC News archive coverage of the 1994 theft"
+      },
+      {
+        "no": "CF-004",
+        "tag": "History, Science",
+        "q": "What flattened about 80 million trees over 830 square miles of Siberia in 1908?",
+        "options": [
+          "A volcanic eruption",
+          "An earthquake",
+          "An airburst from a comet or asteroid",
+          "An underground gas explosion"
+        ],
+        "correct": 2,
+        "revealTitle": "Case notes",
+        "revealText": "The Tunguska event was caused by a comet or small asteroid exploding in the atmosphere with the force of roughly a thousand Hiroshima bombs, never actually hitting the ground. Because it struck remote forest instead of a populated area, there were no confirmed deaths despite the massive destruction.",
+        "source": "NASA, Tunguska Event overview"
+      }
+    ],
+    "bytes": 4074309
   }
 ]
