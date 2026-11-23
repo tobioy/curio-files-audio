@@ -2218,5 +2218,79 @@
       }
     ],
     "bytes": 4074309
+  },
+  {
+    "date": "2026-11-23",
+    "label": "Monday, November 23",
+    "facts_used": [
+      "defenestration_of_prague_1618",
+      "axolotl_limb_regeneration",
+      "banksy_girl_with_balloon_shredding_2018",
+      "exploding_whale_oregon_1970"
+    ],
+    "script": "Prague, 1618. Two Catholic officials get picked up by angry Protestant nobles and tossed clean out of a third floor window of Prague Castle, somewhere around twenty one meters up. By the rules of physics they should be paste on the castle moat floor. Instead they stand up, dust themselves off, and walk away, allegedly cushioned by a very large, very fragrant pile of manure sitting right where they landed. Catholics at the time insisted angels caught them midair. Protestants insisted it was just well timed horse dung. Either way, the fall itself didn't start the Thirty Years War, but it lit the fuse, and three decades of continental bloodshed followed a bounce off a dung heap.\n\nFlash forward to a Mexican lake system and a salamander that treats dismemberment like a Tuesday. The axolotl can lose a leg, a tail, part of its jaw, even a chunk of its own heart, and simply grow it back, scar free, good as new. No human does this. Most animals that regenerate anything do it badly, with scar tissue and compromised function. The axolotl's cells seem to forget they're supposed to specialize permanently, and reset to builder mode, stitching the wound into a copy of whatever was lost. Scientists have spent decades trying to figure out how it does this, partly because watching a torn limb reboot itself from scratch is deeply useful if you'd like humans to do the same someday.\n\nLondon, well actually a London auction house, October 2018. Banksy's stenciled image of a girl releasing a red balloon goes under the hammer at Sotheby's, hits 1.04 million pounds, and the second the gavel falls, a hidden shredder built into the custom frame kicks on and starts eating the canvas from the bottom up. The room gasps, the art world short circuits, half the painting ends up in ribbons hanging out of the frame like a paper shredder having a stroke. Banksy had rigged it years earlier without telling Sotheby's. The sliced up piece got a new name, Love is in the Bin, and when it came back to auction a few years later it sold for over three times the original price, because apparently self destructing is a sound investment strategy if you're already famous for not caring about money.\n\nAnd then there's Florence, Oregon, November 1970, where a dead sperm whale washed up on the beach and nobody had a plan for eight tons of rotting blubber. The Oregon highway division decided the solution was dynamite. Half a ton of it, packed under the carcass, on the theory that the whale would be blown into small, scavenger friendly pieces. Instead it exploded upward in enormous slabs of whale meat that rained down on spectators and flattened a car parked a quarter mile away. A local news reporter named Paul Linnman narrated the whole thing deadpan, and that footage sat quietly for years until the internet discovered it and made it immortal.\n\nSo that's the throughline today. A fall that should kill you, a wound that should scar you, a painting that should be worthless in ribbons, a whale that should just quietly rot. Every single one got destroyed on schedule and came back as something stranger and more alive than before, dung heap diplomacy, regrown hearts, a shredded masterpiece worth more sliced than whole, and a whale carcass that achieved more fame exploded than it ever would have buried. Destruction, it turns out, is just a messy kind of rebirth.\n\nNew file Monday, Wednesday, Saturday.",
+    "cases": [
+      {
+        "no": "CF-001",
+        "tag": "History",
+        "q": "In 1618, Protestant nobles threw two Catholic officials out of a castle window in Prague, an event that helped spark what major conflict?",
+        "options": [
+          "Thirty Years War",
+          "Hundred Years War",
+          "War of Spanish Succession",
+          "Seven Years War"
+        ],
+        "correct": 0,
+        "revealTitle": "Case notes",
+        "revealText": "The two officials survived the third story plunge thanks to a well placed dung heap below the window, though contemporaries credited either angels or horse manure depending on which side they were on. The incident didn't single handedly cause the war but became its symbolic spark, with three decades of religious conflict following within months.",
+        "source": "Peter H. Wilson, Europe's Tragedy: A New History of the Thirty Years War"
+      },
+      {
+        "no": "CF-002",
+        "tag": "Science",
+        "q": "Besides limbs and tails, axolotls can regrow parts of which vital organ without scarring?",
+        "options": [
+          "Heart",
+          "Lungs",
+          "Kidneys",
+          "Stomach"
+        ],
+        "correct": 0,
+        "revealTitle": "Case notes",
+        "revealText": "Axolotls can regenerate damaged sections of their own heart, rebuilding working muscle tissue instead of forming scar tissue the way humans do. Researchers study this scar free healing hoping to someday unlock similar regrowth in people.",
+        "source": "Nature, Molecular insights into limb and organ regeneration in axolotls"
+      },
+      {
+        "no": "CF-003",
+        "tag": "Art",
+        "q": "In 2018, a Banksy painting shredded itself seconds after selling for over a million pounds at which auction house?",
+        "options": [
+          "Sotheby's",
+          "Christie's",
+          "Bonhams",
+          "Phillips"
+        ],
+        "correct": 0,
+        "revealTitle": "Case notes",
+        "revealText": "Banksy had secretly built a shredder into the painting's frame years before the sale, triggering it the instant the gavel fell at Sotheby's. The partially shredded work was renamed Love is in the Bin and later resold for more than triple its original price.",
+        "source": "BBC News, Banksy painting self destructs after sale"
+      },
+      {
+        "no": "CF-004",
+        "tag": "History and Science",
+        "q": "In 1970, officials in Florence, Oregon tried to dispose of a dead whale carcass using what method that sent blubber flying onto spectators and cars?",
+        "options": [
+          "Dynamite",
+          "Bulldozer burial",
+          "Controlled fire",
+          "Industrial acid"
+        ],
+        "correct": 0,
+        "revealTitle": "Case notes",
+        "revealText": "Oregon highway officials packed half a ton of dynamite under a beached sperm whale hoping it would vaporize into bite sized pieces for scavengers. Instead it exploded upward, raining blubber onto spectators and crushing a car a quarter mile away, all caught on camera by reporter Paul Linnman.",
+        "source": "KATU News archive footage, Paul Linnman report, 1970"
+      }
+    ],
+    "bytes": 4159990
   }
 ]
