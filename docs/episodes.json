@@ -2292,5 +2292,79 @@
       }
     ],
     "bytes": 4159990
+  },
+  {
+    "date": "2026-11-25",
+    "label": "Wednesday, November 25",
+    "facts_used": [
+      "war_of_jenkins_ear_1739",
+      "platypus_hoax_scissors_1799",
+      "rembrandt_night_watch_trimmed_1715",
+      "egyptian_mummification_brain_hook"
+    ],
+    "script": "Humans have a long, strange relationship with sharp objects and the problems they think sharp objects can solve. Sometimes it's a knife. Sometimes it's scissors. Sometimes it's a bronze hook shoved up a dead man's nose. The tool changes, the impulse never does, cut the thing, fix the thing.\n\nTake Captain Robert Jenkins. In 1731 his ship got boarded near Cuba by Spanish coast guards who suspected smuggling, and in the scuffle, by his account, they sliced off his ear. Jenkins did not let this go quietly. He nursed his grudge for seven years, and in 1738 he stood in front of the British House of Commons and told them exactly what Spain had taken from him. Parliament, already itching for a fight over trade rights in the Caribbean, decided this was the outrage they'd been waiting for. In 1739 Britain declared war on Spain and historians, with the dry cruelty of people naming things after the fact, called it the War of Jenkins' Ear. One missing ear, one international conflict. Proportionality was never the Georgian strong suit.\n\nSixty years later, a very different ear related problem showed up on a desk in London. Naturalist George Shaw opened a crate from Australia and found something that looked like an elaborate practical joke, a flat leathery bill stuck onto a furry, clawed body that otherwise resembled a mole. Shaw had seen fake mermaids made from stitched monkey and fish parts before, a popular taxidermy scam at the time, and he assumed someone had pulled the same trick with a platypus. So he picked up a pair of scissors and started snipping at the seams, searching for thread. There was no thread. The bill was real, attached the way nature intended, and Shaw's cut marks are still visible on that original specimen in the Natural History Museum today, a permanent record of a scientist refusing to believe his own eyes.\n\nAround the same stretch of history, Amsterdam had a sizing problem of its own. Rembrandt's enormous militia painting, the one we now call The Night Watch, had been made for one wall and needed to move to another, inside the new town hall, wedged between two doorways that were not generous enough to hold it. Nobody waited for Rembrandt's opinion, he'd been dead for decades by then anyway. Workers simply took a blade to all four edges and sliced the canvas down to fit the gap, shaving off a strip from the top, more from the sides, and in the process erasing two entire figures who'd been standing on the left. We only know they existed because a smaller copy, painted earlier by Gerrit Lundens, survived showing the full composition. A masterpiece, trimmed like a bad haircut, to suit a hallway.\n\nAnd then there's the oldest cut of all. Egyptian embalmers preparing a body for the afterlife had very specific priorities. The heart stayed exactly where it was, because they believed that was where thought and memory lived. The brain, by contrast, they considered essentially furniture, so they broke through the thin bone at the back of the nose with a hook and pulled it out in pieces, no ceremony required. Herodotus wrote this down. Modern CT scans of actual mummies confirm the hook marks match his description almost perfectly.\n\nAn ear becomes a war. A bill becomes evidence of fraud. A painting becomes a doorway's victim. A brain becomes garbage. Four very different centuries, four very different reasons to grab a blade, and every single time, somebody convinced themselves the cut was obviously the right call. New file Monday, Wednesday, Saturday.",
+    "cases": [
+      {
+        "no": "CF-001",
+        "tag": "History",
+        "q": "In 1731, Spanish coast guards near Cuba allegedly sliced off part of a British captain's body. Seven years later he described it to Parliament, helping spark a war named after the body part. What was it?",
+        "options": [
+          "An ear",
+          "A finger",
+          "An eye",
+          "A toe"
+        ],
+        "correct": 0,
+        "revealTitle": "Case notes",
+        "revealText": "Captain Robert Jenkins claimed Spanish coast guards cut off his ear in 1731 while boarding his ship off Cuba. Seven years later he brought his grievance before the House of Commons, and Britain declared war on Spain in 1739. The conflict is still known today as the War of Jenkins' Ear.",
+        "source": "Encyclopaedia Britannica, National Maritime Museum Greenwich"
+      },
+      {
+        "no": "CF-002",
+        "tag": "Science",
+        "q": "When naturalist George Shaw received Britain's first platypus specimen in 1799, convinced it was a hoax, what did he do to it?",
+        "options": [
+          "Took scissors to the pelt hunting for stitches",
+          "Soaked it in vinegar to dissolve the fake parts",
+          "Sent it back unopened",
+          "Burned a patch of fur to test the smell"
+        ],
+        "correct": 0,
+        "revealTitle": "Case notes",
+        "revealText": "Shaw assumed someone had stitched a duck's bill onto a mole like body, a known taxidermy trick at the time, and he cut at the seams searching for thread. There was none, the bill was genuine, and his scissor marks are still visible on the original specimen in London today.",
+        "source": "Natural History Museum, London, archival records"
+      },
+      {
+        "no": "CF-003",
+        "tag": "Art",
+        "q": "In 1715, when Rembrandt's giant painting The Night Watch didn't fit its new spot in Amsterdam's town hall, what did workers do?",
+        "options": [
+          "Cut strips off all four sides to fit it between two doors",
+          "Folded the canvas in half",
+          "Painted over the extra edges",
+          "Rolled it up permanently"
+        ],
+        "correct": 0,
+        "revealTitle": "Case notes",
+        "revealText": "Workers trimmed strips from every edge of the canvas, including a full strip off the left side that removed two figures entirely. We only know what was lost because a smaller 17th century copy by Gerrit Lundens survives, showing the original full composition.",
+        "source": "Rijksmuseum, Amsterdam"
+      },
+      {
+        "no": "CF-004",
+        "tag": "History and Science",
+        "q": "Ancient Egyptian embalmers typically removed the brain before mummification by doing what?",
+        "options": [
+          "Hooking it out through the nose in pieces",
+          "Cracking open the skull",
+          "Leaving it inside the body always",
+          "Draining it through the ear"
+        ],
+        "correct": 0,
+        "revealTitle": "Case notes",
+        "revealText": "Embalmers broke through thin bone at the back of the nasal cavity with a bronze hook and pulled the brain out piece by piece, considering it unimportant. The heart, believed to hold the mind, was left in place. CT scans of real mummies confirm hook damage matching Herodotus's ancient account.",
+        "source": "Smithsonian National Museum of Natural History"
+      }
+    ],
+    "bytes": 4309202
   }
 ]
